@@ -3,7 +3,7 @@ robots: noindex, nofollow
 ---
 
 # Todd Peters
-[toddttp@kalama.com](mailto:toddttp@kalama.com) | [linkedin.com/in/toddpeters/mba](https://linkedin.com/in/toddpeters/mba) | (858) 752-4071
+[linkedin.com/in/toddpeters/mba](https://linkedin.com/in/toddpeters/mba)
 
 ---
 
