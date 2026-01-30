@@ -2,9 +2,11 @@
 robots: noindex, nofollow
 ---
 
-# Todd Peters - Resumes
+# Todd Peters
 
 This site hosts tailored resumes for specific job opportunities.
+
+[LinkedIn Profile](https://linkedin.com/in/toddpeters/mba)
 
 **Available resumes:**
 - [Coursera - Staff Product Manager, Search](coursera)
