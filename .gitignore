@@ -1,0 +1,7 @@
+# Block everything by default
+*
+
+# Allow only docs/ folder (public GitHub Pages content)
+!.gitignore
+!docs/
+!docs/**
