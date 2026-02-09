@@ -1,132 +1,154 @@
-# Todd Peters
-[linkedin.com/in/toddpeters/mba](https://linkedin.com/in/toddpeters/mba)
+# TODD PETERS
+**Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
 
 ---
 
-### EXECUTIVE SUMMARY
+## SENIOR PRODUCT MANAGER
+**AI/ML-Driven B2B SaaS Platforms | Delivered $14M Revenue in 90 Days | 14+ Years Enterprise Product Leadership**
 
-Staff Product Manager with 13+ years building ML-driven search and discovery experiences at enterprise scale. Recently delivered conversational AI product using Retrieval-Augmented Generation (RAG) providing intuitive navigation and grounded responses. Expert in search relevance optimization, re-ranking, query understanding, and rapid experimentation across global platforms serving millions of users.
-
-**Core Expertise:** AI-Driven Search & Discovery | RAG & Conversational AI | Query Understanding & Relevance | Re-Ranking | ML/IR Integration | A/B Testing & Offline Evaluation | Revenue Growth | Cross-Functional Leadership
-
----
-
-### KEY ACHIEVEMENTS
-
-- **Conversational Search Innovation:** Conceived and launched AvantorAI, conversational AI agent (first in scientific eCommerce) guiding customer navigation, product discovery, and contextual assistance throughout their journey; recognized by CEO in Q2 earnings call
-- **$14M Revenue Delivery:** Generated incremental annual revenue within 90 days through enhanced search product launch, ROI modeling, executive approval, cross-functional team formation, and data-driven optimization
-- **Search Relevance Leadership:** Drove CTR +7.5%, Top-5 click activity +15%, search usage +13% (2023) through ML-driven relevance optimization, semantic understanding, and ranking improvements at scale
-- **0-to-1 Product Launches:** Delivered multiple products from ideation to launch: conversational AI, chemical structure search modernization (20K landing pages, SEO growth), visual category browse experience
-- **Rapid Experimentation:** Validated product hypotheses through A/B and multivariate testing, partnering with data science teams to analyze results and inform data-driven product decisions
+Product leader with proven expertise driving AI/ML platforms for global enterprise clients. Delivered measurable ROI through technical innovation, executive influence, and cross-functional leadership. Translated complex technology into business outcomes for senior stakeholders. Led $3B revenue channel with 95% decision autonomy. Architected AI products using OpenAI agentic frameworks, RAG, and search optimization. Technical MBA who codes.
 
 ---
 
-### PROFESSIONAL EXPERIENCE
+## KEY ACHIEVEMENTS
 
-### Sr. Product Manager, Site Search and AI | Insight Global / Avantor | June 2024 - January 2026
+- **$14M Annual Incremental Revenue**: Delivered in 90 days through AI-powered search optimization at Avantor; built business case, partnered with ML vendor, validated 2% CTR lift with statistical significance, presented ROI to VP/Operations
 
-**Owned conversational search and AI-driven discovery for scientific eCommerce platform**, delivering revenue outcomes and customer experience transformation:
+- **AI Product Innovation**: Architected AvantorAI/Navigator conversational assistant using OpenAI agentic framework and RAG; rescued failing initiative with paradigm-shifting architecture; launched multilingual product (English/French) recognized by CEO in Q2 2025 earnings call
 
-- Delivered $14M annual incremental revenue in 90 days by identifying gap, securing CIO approval through ROI modeling, forming cross-functional team, and launching enhanced search product with measurable conversion lift
-- **Conceived and launched AvantorAI using Retrieval-Augmented Generation (RAG)**: Solr-based information retrieval + LLM assessment with relevancy trimming; implemented grounding citations (product detail page links) to reduce hallucinations; recognized in company-wide Town Hall and CEO Q2 earnings call
-- Drove 2% CTR increase through offline evaluation analyzing best seller positioning in top-K results across 2000 high-volume queries; tuned SOLR field weights based on Recall@K analysis in partnership with technical vendor
-- Modernized site search result page and category page, improving user experience and discovery
-- Redesigned autocomplete to modern industry-leading design based on ML; overhauled synonym database to improve query understanding
-- Established analytics framework, KPIs, and measurement systems to track discovery, engagement, and revenue outcomes
-- Translated complex ML/IR capabilities into executive-level language for C-suite alignment
+- **Enterprise Platform Leadership**: Sole PM for $3B+ revenue channel (thermofisher.com, fishersci.com) managing 10M+ complex scientific products across 15 global domains; directed 30-person cross-functional team; operated with 95% decision authority
+
+- **Search Optimization Excellence**: Drove CTR +7.5%, Top-5 click activity +15%, search usage +13% (2023) through ML-driven relevance optimization, ranking improvements, and semantic understanding at scale
+
+- **Platform Migration Success**: Led Endeca to Lucidworks Fusion migration protecting $3B revenue; designed pre-production A/B testing strategy, partnered with Enterprise Architect, established SLA
 
 ---
 
-### THERMO FISHER SCIENTIFIC | March 2011 - June 2024 (13+ Years)
+## PROFESSIONAL EXPERIENCE
 
-### Sr. Product Manager, Search and Selection | 2021 - 2024 (3 years)
+### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
+**Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-**Set strategic vision for enterprise-wide search and discovery** supporting $3B+ revenue channel, operating with broad ownership over product roadmap, technology decisions, and stakeholder alignment:
+Led AI-powered platform transformation for global life sciences eCommerce company. Reported to VP of Search; secured multi-phase funding ($627K total) through CIO-level business case development.
 
-- Defined multi-year product strategy and quarterly priorities for search and discovery experiences using WSJF (Weighted Shortest Job First) and Business Value prioritization frameworks
-- Led platform-level capabilities supporting multiple use cases: global eCommerce search, product discovery, search ranking, and merchandising optimization across diverse business units
-- Directed cross-functional teams of 30 members across UX design, content operations, engineering, analytics, and data science
-- Served as enterprise-wide key opinion leader (KOL) for search strategy, influencing product decisions and guiding best practices across organization
+**AI Product Architecture & Revenue Delivery**
+- Architected AvantorAI/Navigator conversational AI using OpenAI agentic framework (function calling); defined agent functions for search, CMS, category pages, orders, account with state management
+- Rescued failing AI initiative by conceiving "jailbreak" architecture: enable virtual assistant to execute any site URL and read API responses without site rebuild
+- Secured unanimous approval from Search VP and AI VP; led requirements definition and iterative design through production deployment
+- Launched in Canada/US with multilingual support (English/French); recognized by CEO Michael Stubblefield in Q2 2025 earnings call; product remains in production today
+- Generated $14M annual incremental revenue through SOLR field weight tuning (90-day cycle); identified untuned weights via CIO audit
+- Built business case: 1% CTR improvement = $7M incremental revenue; secured Phase 1 funding ($150K) then Phase 2 ($477K, 18-person team)
+- Validated 2% CTR lift with statistical significance testing; presented ROI results to VP and Operations leadership
 
-**Delivered measurable business outcomes through ML/IR-driven relevance and rapid experimentation:**
-- 2023 results: CTR +7.5%, Top-5 click activity +15%, search usage +13% through re-ranking optimization based on clicks, conversions, and engagement signals; reduced customer complaints to <10/month despite millions of queries
-- Implemented query understanding pipeline: managed synonym database using Lucidworks Fusion synonym generator, deployed spell correction and autocomplete across global platforms
-- Deployed faceted navigation with auto-faceting and dynamic attribute filtering; managed multilingual search with language-specific analyzers and cross-language synonym lists for recall improvement across 15 domains
-- Validated improvements through click distribution analysis during platform migrations and pre/post statistical significance testing with analytics teams
-- Delivered 20,000+ SEO landing pages through taxonomy improvements and semantic search enhancements
+**Analytics, ML/AI, & Optimization**
+- Established GA4 analytics from scratch; implemented human-only signal collection (search box entry vs SRP loads)
+- Designed ML-based autocomplete: GA4 frequency, log boosting, decay factor, rolling window, thresholds, ghost term filtering
+- Evaluated search using NDCG, Precision@K, Recall@K, MRR at multiple depths; made tradeoff decisions using non-inferiority testing
+- Implemented RAG (Retrieval-Augmented Generation): SOLR IR + LLM assessment with relevancy trimming, grounding citations, hallucination mitigation
 
-**Built organizational capability and high-performing teams:**
-- Mentored Product Managers, Business Analysts, and Product Owners, developing autonomy and strategic thinking
-- Conducted annual in-person stakeholder meetings to gather requirements, communicate roadmaps, and align cross-functional partners
-- Managed up to $2M annual budgets, securing executive approval for platform investments through business case development
-
----
-
-### Product Manager, Search and Selection | 2014 - 2021 (6 years, 10 months)
-
-**Owned end-to-end search product lifecycle** for global eCommerce platforms (thermofisher.com, fishersci.com, 15 EU domains), delivering platform-level innovations and marketplace-scale discovery experiences:
-
-- Orchestrated enterprise search platform replacement from Endeca to Lucidworks Fusion: led vendor evaluation, partnered with Enterprise Architects on selection, established performance SLAs, and mitigated migration risk through pre-production A/B testing to protect revenue
-- Built and launched 0-to-1 visual category browse experience with optimized discovery paths and rich product imagery, establishing new industry standard for scientific eCommerce navigation
-- Delivered chemical structure search modernization (0-to-1): established vendor partnership, replaced legacy tool, launched 20,000 CAS ID landing pages driving significant SEO traffic growth and organic discovery
-- Improved search relevance for global, multilingual audience through IR/ML optimization, query understanding, and ranking improvements
-- Managed platform supporting millions of high-intent search queries for 10M+ complex products across consumer-facing and marketplace-style experiences
-- Led internal training programs for Product Managers, instilling data-driven decision-making and strategic product thinking
-- Served as hiring manager, recruiting and developing Search Content Specialist contributing to platform operations
-- Managed annual platform budgets, prioritizing investments using ROI analysis and business value frameworks
+**Platform Modernization & Stakeholder Management**
+- Modernized SRP and category page UI/UX; overhauled synonym database; launched product comparison capability; integrated eMolecules chemical structure search via punch-out
+- Led UAT sessions with regional business unit leaders across global markets
+- Developed $170M 3-year revenue impact roadmap; secured CIO approval using project gates and WSJF prioritization
+- Navigated 3-month MSA approval solo: learned procurement, built legal/sourcing relationships, persisted through broken systems
 
 ---
 
-### Associate Product Manager, Site Search and Selection | 2013 - 2014 (5 months)
+### THERMOFISHER SCIENTIFIC | Carlsbad, CA (Remote)
+**Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
-- Contributed to search platform evolution and product roadmap development
-- Supported cross-functional coordination for global search operations
+Led enterprise-wide digital platform strategy for $3B+ revenue channel (thermofisher.com, fishersci.com, fishersci.co.uk, fishersci.ca). Sole Product Manager with 95% decision authority managing 10M+ complex scientific products across 15 global domains.
 
----
+**Enterprise Strategy & Cross-Functional Leadership**
+- Defined multi-year strategy and quarterly priorities using WSJF and Business Value frameworks; served as enterprise-wide KOL for search strategy
+- Directed 30 team members across 6 functions: concurrently managed/prioritized 5 on/offshore Agile SCRUM dev teams and directed 4 supplemental teams (UX, Content, Analytics, A/B testing)
+- Managed $1-2M annual budgets; secured executive approval for major platform upgrades using ROI analysis
+- Presented roadmaps and gathered requirements at annual in-person business unit meetings
+- Served as hiring manager with 3 direct reports; mentored PMs, BAs, SOs, POs to develop autonomy and strategic thinking
 
-### Web Content Specialist, Site Search | 2011 - 2013 (2 years, 4 months)
-
-- Supported search operations and content management for enterprise eCommerce platform
-- Led successful integration of FAST search technology into Endeca platform ahead of corporate acquisition
-- Improved product discoverability through structured taxonomy and interface optimization
-
----
-
-### EARLIER CAREER
-
-**Safe Life Corp.** | Associate Director of Product Management | 2.5 yrs  
-**Roche Diagnostics** | Accounts Manager, Outside Sales | 1 yr, 10 mo  
-**Motorola Life Sciences / GE Health** | Research Associate (Chemist/Biochemist) | 4 yrs, 2 mo  
-Product management, sales, molecular biology research; received MBA corporate sponsorship, stock awards, Bravo Award
+**Business Outcomes & Platform Optimization**
+- Delivered 2023 performance: CTR +7.5%, Top-5 clicks +15%, search usage +13%, customer complaints <10/month despite millions of queries
+- Delivered 20,000+ SEO landing pages through taxonomy improvements and Site Search enhancements (chemical structure search modernization)
+- Conducted CX/UX audits using proprietary quality framework; partnered with A/B testing team for data-driven iteration
+- Implemented query understanding pipeline: managed synonym database using Lucidworks Fusion synonym generator, deployed spell correction and autocomplete
 
 ---
 
-### EDUCATION & CERTIFICATIONS
+**Product Manager, Search and Selection** | 2014 - 2021
 
-**M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003  
-**B.S., Biochemistry/Chemistry** | Portland State University | 1998  
-**Certifications:** Pragmatic Marketing III | Certified Agile SCRUM Master | Certified SAFe  
-**Continuous Learning:** ML/AI (Stanford, MIT) | 110+ corporate trainings: Generative AI, LLMs, Analytics | Search platforms
-
----
-
-### TECHNICAL PROFICIENCIES
-
-**Search & AI/ML:** RAG (Retrieval-Augmented Generation) | Enterprise Search (Lucidworks Fusion, Endeca, FAST) | Query Understanding | Re-Ranking | Faceted Navigation | Multilingual Search | Conversational AI & LLMs  
-**Experimentation & Analytics:** A/B Testing | NDCG, Recall@K, Precision@K | Statistical Significance Testing | Google Analytics | Tableau | Click Distribution Analysis  
-**Product & Strategy:** Product Roadmapping | WSJF Prioritization | Agile/SAFe | 0-to-1 Development | Business Case Development | ROI Modeling  
-**Leadership:** Cross-Functional Teams (30+ members) | Executive Alignment | Vendor Management | Global Product Management | Mentorship
+**Platform Migration & Vendor Management**
+- Orchestrated platform replacement Endeca to Lucidworks Fusion (SOLR-based): led vendor evaluation, partnered with Enterprise Architect, established SLA, designed pre-production A/B testing to protect $3B revenue
+- Expanded platform scope from thermofisher.com to fishersci.com (US, CA, 15 EU domains)
+- Deployed faceted navigation with auto-faceting and dynamic attribute filtering; managed multilingual search with language-specific analyzers
+- Established vendor partnership for chemical structure search modernization; delivered visual category browse experience
+- Managed annual budgets using ROI analysis; led PM training programs developing strategic thinking in team members
 
 ---
 
-### HONORS & AWARDS
-
-**Thermo Fisher Scientific:** 25 performance awards (4X Stock Incentive, 9X Discretionary Award, 12X Merit recipient) | Company's highest employee rating (CE) in 2020 | First 100% remote approval in division
-
-**Motorola:** Full corporate MBA sponsorship | 3X Stock Option Incentive Award | Bravo Award | "Consistently Exceeds Expectations" merit rating
+**Earlier ThermoFisher Roles**: Web Content Specialist (2011-2013), Business Analyst-Contract (2010-2011)
+- Led FAST search integration into Endeca; created global synonym management process
+- Built FAST interface emulator for relevancy tuning reducing tuning time from weeks to 30 minutes
+- Established Search Relevancy Quality Score System for ongoing measurement
 
 ---
 
-### BOTTOM LINE
+### SAFE LIFE CORPORATION | Poway, CA
+**Associate Director of Product Management & Business Development** | May 2007 - Dec 2008, Oct 2009 - May 2010
 
-Proven ability to set strategic vision for AI-driven search and discovery experiences that deliver measurable engagement and revenue outcomes at scale. 13+ years building consumer-facing search products for millions of users, with demonstrated expertise in ML/IR-driven search optimization, rapid experimentation, and cross-functional leadership. Recent $14M revenue delivery and conversational AI product launch demonstrate capacity to drive innovation and business impact in fast-paced, customer-obsessed environments.
+- Led business development targeting companies with >$1B revenue; called on CEOs directly to sell technology and business strategy
+- Closed contracts valued >$1M (exclusive/non-exclusive licensing, OEM supply contracts); total BD pipeline value >$1.2M
+- Designed corporate-wide MS Dynamics CRM system; increased sales productivity through automated analyses and forecasts
+- Acted as scientific liaison translating technical concepts for upper management and business audiences
+
+---
+
+### ROCHE DIAGNOSTICS | San Diego, CA
+**"A" Accounts Manager, Outside Sales** | Feb 2005 - Nov 2006
+
+- Managed large pharmaceutical/biotech accounts (Pfizer, Johnson & Johnson, Takeda, BD, VAMED, UCSD) with full operational autonomy (company car, expense budget, shared assistant)
+- Communicated complex technical/scientific concepts to professional and non-scientific audiences
+- Organized and delivered sales seminars and scientific presentations to diverse stakeholder groups
+
+---
+
+### MOTOROLA LIFE SCIENCES / AMERSHAM BIOSCIENCES | Tempe, AZ
+**Research Associate (Chemist/Biochemist) I/II** | Mar 1999 - Apr 2003
+
+- Single-handedly designed, programmed, and implemented division-wide Product Development Database (VBA, SQL, ODBC)
+- Recognition: Motorola Bravo Award (exclusive, with monetary component and stock options) for outstanding performance
+- Impact: Estimated $250K+ cost savings over 5 years; database implemented across all locations (Chicago, Tempe, multiple states)
+- Conducted molecular biology research: cloning, protein expression/purification, assay development, Western blots, ELISA
+
+---
+
+## TECHNICAL PROFICIENCIES
+
+- **AI/ML & Search Platforms**: OpenAI agentic framework (function calling), RAG (Retrieval-Augmented Generation), conversational AI, prompt engineering | SAP SOLR, Lucidworks Fusion (SOLR-based), Endeca, FAST | Ranking optimization: NDCG, Precision@K, Recall@K, MRR, field weight tuning, re-ranking with behavioral signals | ML-based autocomplete design, semantic retrieval, synonym management
+
+- **Analytics & Experimentation**: Google Analytics (GA4), Adobe Analytics, Omniture | A/B testing frameworks, statistical significance testing, pre/post analysis, click distribution analysis | Offline evaluation frameworks, non-inferiority testing, tradeoff decision modeling
+
+- **Product & Strategy**: Product roadmapping, WSJF prioritization, Agile/SAFe methodologies, 0-to-1 product development, business case development, ROI modeling, gap analysis, cost/benefit analysis | Stakeholder management, vendor partnerships, executive alignment
+
+- **Programming & Development** (self-taught 31 years): VBA (Excel, Outlook MAPI, Access), Python, SQL, JavaScript, HTML/CSS, C/C++, C#, REGEX | AI-assisted development (GitHub Copilot power user)
+
+- **Databases & Tools**: MS Dynamics CRM, MS Access, SQL, Oracle, SAP | ODBC connections, data modeling, normalized entity relationships | Jira, Confluence, MS Project, MS Visio (UML), Photoshop
+
+---
+
+## EDUCATION & CERTIFICATIONS
+
+**M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003
+
+**B.S., Biochemistry/Chemistry** | Portland State University | 1998
+
+**Certifications**: Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+
+**Continuous Learning**: 110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford, MIT courses)
+
+---
+
+## HONORS & AWARDS
+
+**ThermoFisher Scientific**: 25 performance awards (4× Stock Incentive Award, 9× Discretionary Award, 12× Merit Award) | Company's highest employee rating (CE) in 2020 | First 100% remote work approval in division (8-9 years ago)
+
+**Motorola Life Sciences**: Full corporate MBA sponsorship (Arizona State University) | 3× Stock Option Incentive Award | Bravo Award (exclusive, monetary) | "Consistently Exceeds Expectations" performance rating
