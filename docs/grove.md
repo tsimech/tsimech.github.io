@@ -163,7 +163,7 @@ Led enterprise-wide digital product strategy for $3B+ revenue ecommerce channel 
 
 ## EDUCATION & CERTIFICATIONS
 
-**MBA** | Paul Merage School of Business, UC Irvine  
+**MBA** | Arizona State University, W.P. Carey School of Business  
 **BS, Chemistry & Biochemistry** (Double Major, Cum Laude) | Northern Arizona University  
 **Technical Product Management Certificate** | Sequoia School (Sequoia Capital-backed program)
 
