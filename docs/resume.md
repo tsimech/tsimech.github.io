@@ -123,32 +123,59 @@ Led enterprise-wide digital platform strategy for $3B+ revenue channel (thermofi
 
 ## TECHNICAL PROFICIENCIES
 
-- **AI/ML & Search Platforms**: OpenAI agentic framework (function calling), RAG (Retrieval-Augmented Generation), conversational AI, prompt engineering | SAP SOLR, Lucidworks Fusion (SOLR-based), Endeca, FAST | Ranking optimization: NDCG, Precision@K, Recall@K, MRR, field weight tuning, re-ranking with behavioral signals | ML-based autocomplete design, semantic retrieval, synonym management
+**AI/ML & Search Platforms**
+- OpenAI agentic framework (function calling), RAG (Retrieval-Augmented Generation), conversational AI, prompt engineering
+- SAP SOLR, Lucidworks Fusion (SOLR-based), Endeca, FAST
+- Ranking optimization: NDCG, Precision@K, Recall@K, MRR, field weight tuning, re-ranking with behavioral signals
+- ML-based autocomplete design, semantic retrieval, synonym management
 
-- **Analytics & Experimentation**: Google Analytics (GA4), Adobe Analytics, Omniture | A/B testing frameworks, statistical significance testing, pre/post analysis, click distribution analysis | Offline evaluation frameworks, non-inferiority testing, tradeoff decision modeling
+**Analytics & Experimentation**
+- Google Analytics (GA4), Adobe Analytics, Omniture
+- A/B testing frameworks, statistical significance testing, pre/post analysis, click distribution analysis
+- Offline evaluation frameworks, non-inferiority testing, tradeoff decision modeling
 
-- **Product & Strategy**: Product roadmapping, WSJF prioritization, Agile/SAFe methodologies, 0-to-1 product development, business case development, ROI modeling, gap analysis, cost/benefit analysis | Stakeholder management, vendor partnerships, executive alignment
+**Product & Strategy**
+- Product roadmapping, WSJF prioritization, Agile/SAFe methodologies, 0-to-1 product development, business case development, ROI modeling, gap analysis, cost/benefit analysis
+- Stakeholder management, vendor partnerships, executive alignment
 
-- **Programming & Development** (self-taught 31 years): VBA (Excel, Outlook MAPI, Access), Python, SQL, JavaScript, HTML/CSS, C/C++, C#, REGEX | AI-assisted development (GitHub Copilot power user)
+**Programming & Development** (self-taught 31 years)
+- VBA (Excel, Outlook MAPI, Access), Python, SQL, JavaScript, HTML/CSS, C/C++, C#, REGEX
+- AI-assisted development (GitHub Copilot power user)
 
-- **Databases & Tools**: MS Dynamics CRM, MS Access, SQL, Oracle, SAP | ODBC connections, data modeling, normalized entity relationships | Jira, Confluence, MS Project, MS Visio (UML), Photoshop
+**Databases & Tools**
+- MS Dynamics CRM, MS Access, SQL, Oracle, SAP
+- ODBC connections, data modeling, normalized entity relationships
+- Jira, Confluence, MS Project, MS Visio (UML), Photoshop
 
 ---
 
 ## EDUCATION & CERTIFICATIONS
 
-**M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003
+**M.B.A.**  
+Arizona State University, W.P. Carey School of Business | 2003
 
-**B.S., Biochemistry/Chemistry** | Portland State University | 1998
+**B.S., Biochemistry/Chemistry**  
+Portland State University | 1998
 
-**Certifications**: Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+**Certifications**
+- Certified Agile SCRUM Master
+- Certified SAFe
+- Pragmatic Marketing Level III
 
-**Continuous Learning**: 110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford, MIT courses)
+**Continuous Learning**  
+110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford, MIT courses)
 
 ---
 
 ## HONORS & AWARDS
 
-**ThermoFisher Scientific**: 25 performance awards (4× Stock Incentive Award, 9× Discretionary Award, 12× Merit Award) | Company's highest employee rating (CE) in 2020 | First 100% remote work approval in division (8-9 years ago)
+**ThermoFisher Scientific**
+- 25 performance awards (4× Stock Incentive Award, 9× Discretionary Award, 12× Merit Award)
+- Company's highest employee rating (CE) in 2020
+- First 100% remote work approval in division (8-9 years ago)
 
-**Motorola Life Sciences**: Full corporate MBA sponsorship (Arizona State University) | 3× Stock Option Incentive Award | Bravo Award (exclusive, monetary) | "Consistently Exceeds Expectations" performance rating
+**Motorola Life Sciences**
+- Full corporate MBA sponsorship (Arizona State University)
+- 3× Stock Option Incentive Award
+- Bravo Award (exclusive, monetary)
+- "Consistently Exceeds Expectations" performance rating
