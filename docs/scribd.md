@@ -16,9 +16,7 @@ robots: noindex, nofollow
   <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
 </div>
 
-**Director of Product, Search & Discovery**  
-Scribd Inc.  
-Remote
+**Scribd Inc.: Director of Product, Search & Discovery**
 
 Dear Hiring Team,
 
