@@ -6,8 +6,6 @@ robots: noindex, nofollow
 
 # Todd Peters
 [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)
-
----
 ---
 
 **Senior Director of Product & Ecommerce**  
