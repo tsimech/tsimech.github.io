@@ -147,10 +147,17 @@ Led enterprise-wide digital product strategy for $3B+ revenue ecommerce channel 
 
 ---
 
-### MOTOROLA, INC. | Tempe, AZ
-**Senior Research Chemist** | 2001 - 2006
+### ROCHE DIAGNOSTICS | San Diego, CA
+**"A" Accounts Manager, Outside Sales** | 2005 - 2006
 
-- Invented automated analysis tools (estimated $250K+ savings over 5 years); received exclusive Bravo Award and 3 Stock Option Incentive Awards
+- Managed large pharmaceutical and biotech accounts (Pfizer, Johnson & Johnson, Takeda, BD, VAMED, UCSD); communicated complex technical concepts to scientific and non-scientific audiences
+
+---
+
+### MOTOROLA LIFE SCIENCES / AMERSHAM BIOSCIENCES | Tempe, AZ
+**Research Associate (Chemist/Biochemist)** | 1999 - 2003
+
+- Invented automated analysis tools (estimated $250K+ savings over 5 years); received exclusive Bravo Award and 3 Stock Option Incentive Awards; acquired by Amersham at 33% pay increase
 
 ---
 
