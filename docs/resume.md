@@ -50,7 +50,7 @@ Led AI-powered platform transformation for global life sciences eCommerce compan
 - Modernized SRP and category page UI/UX; overhauled synonym database; launched product comparison capability; integrated eMolecules chemical structure search via punch-out
 - Led UAT sessions with regional business unit leaders across global markets
 - Developed $170M 3-year revenue impact roadmap; secured CIO approval using project gates and WSJF prioritization
-- Navigated 3-month MSA approval solo: learned procurement, built legal/sourcing relationships, persisted through broken systems
+- Navigated 3-month MSA approval solo: learned procurement, built legal/sourcing relationships, persisted through complex approval processes
 
 ---
 
