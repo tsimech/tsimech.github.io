@@ -1,25 +1,20 @@
 ---
 robots: noindex, nofollow
 ---
-
 <style>
 @media print {
-  /* Force page break after cover letter (first HR separator) */
-  hr:first-of-type {
-    page-break-after: always;
-    break-after: page;
-  }
-  /* Hide print button when printing */
-  button {
-    display: none;
-  }
+  hr:first-of-type { page-break-after: always; break-after: page; }
+  button { display: none; }
 }
 </style>
 
-<button onclick="window.print()" style="float: right; margin-top: 10px; padding: 10px 20px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 14px;">Print</button>
-
-# Todd Peters
-[linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
+  <div>
+    <strong style="font-size: 1.5em;">Todd Peters</strong><br>
+    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+  </div>
+  <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+</div>
 
 **Director of Product, Search & Discovery**  
 Scribd Inc.  
