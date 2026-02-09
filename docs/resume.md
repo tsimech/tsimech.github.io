@@ -92,7 +92,7 @@ Led enterprise-wide digital platform strategy for $3B+ revenue channel (thermofi
 
 ---
 
-### SAFE LIFE CORPORATION | Poway, CA
+### SAFE LIFE CORPORATION | Del Mar, CA
 **Associate Director of Product Management & Business Development** | May 2007 - Dec 2008, Oct 2009 - May 2010
 
 - Led business development targeting companies with >$1B revenue; called on CEOs directly to sell technology and business strategy
