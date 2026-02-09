@@ -4,14 +4,8 @@ robots: noindex, nofollow
 
 # Todd Peters
 
-This site hosts tailored resumes for specific job opportunities.
-
-[LinkedIn Profile](https://linkedin.com/in/toddpeters/mba)
-
-**Available resumes:**
-- [Coursera - Staff Product Manager, Search](coursera)
-- [Grove Collaborative - Senior Director of Product & Ecommerce](grove)
+[LinkedIn Profile](https://linkedin.com/in/toddpeters/mba) | [Resume](resume)
 
 ---
 
-*These pages are not indexed by search engines and are shared only via direct links.*
+*Individual application materials are shared via direct links only.*
