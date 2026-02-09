@@ -164,8 +164,11 @@ Led enterprise-wide digital product strategy for $3B+ revenue ecommerce channel 
 ## EDUCATION & CERTIFICATIONS
 
 **MBA** | Arizona State University, W.P. Carey School of Business  
-**BS, Chemistry & Biochemistry** (Double Major, Cum Laude) | Northern Arizona University  
-**Technical Product Management Certificate** | Sequoia School (Sequoia Capital-backed program)
+**BS, Biochemistry/Chemistry** | Portland State University  
+**Certifications:**
+- Certified Agile SCRUM Master
+- Certified SAFe
+- Pragmatic Marketing Level III
 
 ---
 
