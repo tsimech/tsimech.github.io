@@ -54,7 +54,7 @@ Led AI-powered platform transformation for global life sciences eCommerce compan
 
 ---
 
-### THERMOFISHER SCIENTIFIC | Carlsbad, CA (Remote)
+### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
 Led enterprise-wide digital platform strategy for $3B+ revenue channel (thermofisher.com, fishersci.com, fishersci.co.uk, fishersci.ca). Sole Product Manager with 95% decision authority managing 10M+ complex scientific products across 15 global domains.
@@ -169,7 +169,7 @@ Portland State University | 1998
 
 ## HONORS & AWARDS
 
-**ThermoFisher Scientific**
+**Thermo Fisher Scientific**
 - 25 performance awards (4× Stock Incentive Award, 9× Discretionary Award, 12× Merit Award)
 - Company's highest employee rating (CE) in 2020
 - First 100% remote work approval in division (8-9 years ago)
