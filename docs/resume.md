@@ -29,7 +29,7 @@ Product leader with proven expertise driving AI/ML platforms for global enterpri
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-Led AI-powered platform transformation for global life sciences eCommerce company. Reported to VP of Search; secured multi-phase funding ($627K total) through CIO-level business case development.
+Led AI-powered platform transformation for global life sciences eCommerce company. Reported to VP of Search; secured multi-phase funding through CIO-level business case development.
 
 **AI Product Architecture & Revenue Delivery**
 - Architected AvantorAI/Navigator conversational AI using OpenAI agentic framework (function calling); defined agent functions for search, CMS, category pages, orders, account with state management
@@ -37,7 +37,7 @@ Led AI-powered platform transformation for global life sciences eCommerce compan
 - Secured unanimous approval from Search VP and AI VP; led requirements definition and iterative design through production deployment
 - Launched in Canada/US with multilingual support (English/French); recognized by CEO Michael Stubblefield in Q2 2025 earnings call; product remains in production today
 - Generated $14M annual incremental revenue through SOLR field weight tuning (90-day cycle); identified untuned weights via CIO audit
-- Built business case: 1% CTR improvement = $7M incremental revenue; secured Phase 1 funding ($150K) then Phase 2 ($477K, 18-person team)
+- Built business case: 1% CTR improvement = $7M incremental revenue; secured Phase 1 then Phase 2 funding (18-person team)
 - Validated 2% CTR lift with statistical significance testing; presented ROI results to VP and Operations leadership
 
 **Analytics, ML/AI, & Optimization**
