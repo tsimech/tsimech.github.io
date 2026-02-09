@@ -10,6 +10,7 @@ This site hosts tailored resumes for specific job opportunities.
 
 **Available resumes:**
 - [Coursera - Staff Product Manager, Search](coursera)
+- [Grove Collaborative - Senior Director of Product & Ecommerce](grove)
 
 ---
 
