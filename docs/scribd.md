@@ -6,7 +6,6 @@ robots: noindex, nofollow
 
 # Todd Peters
 [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)
----
 
 **Director of Product, Search & Discovery**  
 Scribd Inc.  
