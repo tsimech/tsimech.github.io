@@ -1,11 +1,20 @@
 ---
-title: "Instacart Principal Product Manager, Agentic Commerce"
+robots: noindex, nofollow
 ---
+<style>
+@media print {
+  hr:first-of-type { page-break-after: always; break-after: page; }
+  button { display: none; }
+}
+</style>
 
-# Todd Peters
-**Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
-
----
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
+  <div>
+    <strong style="font-size: 1.5em;">Todd Peters</strong><br>
+    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+  </div>
+  <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+</div>
 
 **Instacart: Principal Product Manager, Agentic Commerce**
 
