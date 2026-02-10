@@ -17,11 +17,9 @@ I bring exactly what this role demands: shipped LLM products in production, cons
 
 What excites me most about Cart Assistant is the dual-customer challenge: building an agent that consumers love while meeting retail partner constraints. At Avantor, I navigated this exact tension—the virtual assistant had to respect enterprise brand guidelines, business rules, and product hierarchies while delivering delightful conversational UX. I secured unanimous approval from both the Search VP and AI VP for a paradigm-shifting architecture by demonstrating how technical innovation could serve both stakeholder needs. This is the kind of alignment Cart Assistant requires across Instacart's consumer and retail partnerships.
 
-My technical depth in agentic systems maps directly to Cart Assistant's architecture needs. I designed AvantorAI using OpenAI's agentic framework with function calling, enabling the agent to execute site URLs, read API responses, manage conversation state, and orchestrate multi-step product discovery flows. I partnered with ML vendors to evaluate search quality using NDCG, MRR, and Precision@K across 2000+ high-volume queries, making tradeoff decisions using statistical rigor. I speak both languages: I can debate RAG chunking strategies with ML engineers and frame agent capabilities in terms of GTV impact for retail partners.
+Here's what most companies miss about agentic systems: conversational AI is only as good as the information retrieval layer underneath it. Cart Assistant needs both excellent conversational UX and accurate product search and most organizations separate these functions between different teams, losing the integration advantage. At Avantor, I led both Site Search and AI simultaneously, which is precisely why I could rescue the failing initiative: I understood how the agent's function calling depended on search relevance, how RAG retrieval quality affected conversation accuracy, and how to optimize the entire stack end-to-end. I designed AvantorAI using OpenAI's agentic framework while simultaneously improving the underlying search quality, ensuring the agent retrieved the right products through intelligent function orchestration. This dual expertise means I can ensure Cart Assistant delivers both delightful conversational experiences and accurate grocery product discovery—not just one or the other.
 
-I understand how to balance breakthrough innovation with measurable business results. At Avantor, I broke down a complex $170M 3-year vision into achievable quarterly milestones that demonstrated continuous value, while simultaneously delivering $14M in annual incremental revenue in 90 days through tactical optimizations. At ThermoFisher, I orchestrated an enterprise platform migration protecting a $3B revenue stream while shipping incremental UX improvements every quarter. I know how to evolve Cart Assistant from MVP to scaled product through rapid experimentation, clear OKRs, and data-driven prioritization.
-
-Instacart's mission to help people share love through food resonates deeply with me. I've spent my career obsessing over discovery experiences—helping researchers find the right reagent among millions of products, enabling customers to ask natural questions instead of navigating complex taxonomies. Cart Assistant takes this to the next level: helping people plan what to eat, discover new products, and shop in more engaging ways. The grocery category adds unique complexity (perishability, substitutions, dietary preferences, meal planning) that makes the agent problem even more interesting than traditional ecommerce.
+Instacart's mission to help people share love through food resonates deeply with me. I've spent my career obsessing over discovery experiences that help researchers find the right reagent among millions of products, enabling customers to ask natural questions instead of navigating complex taxonomies. Cart Assistant takes this to the next level: helping people plan what to eat, discover new products, and shop in more engaging ways. The grocery category adds unique complexity (perishability, substitutions, dietary preferences, meal planning) that makes the agent problem even more interesting than traditional ecommerce.
 
 I bring 14 years of product leadership building discovery systems at scale, shipped LLM-powered agentic commerce products, proven 0-to-1 launches, and the technical fluency to partner on cutting-edge ML systems. I'm ready to help make Cart Assistant a product that both consumers and retailers love, driving top-line impact for Instacart and your retail partners.
 
@@ -39,9 +37,9 @@ Todd Peters
 ---
 
 ## AGENTIC COMMERCE PRODUCT LEADER
-**Shipped LLM-Powered Agentic Product | $3B+ Consumer Channel | 0-to-1 AI Product Launch**
+**Shipped LLM-Powered Agentic Product | Dual Search + AI Expertise | $3B+ Consumer Channel**
 
-Principal Product Manager who builds next-generation agentic commerce systems at scale. Shipped LLM-powered conversational agent (AvantorAI) using OpenAI agentic framework, recognized by CEO in earnings call and serving users in production today. Led product strategy for $3B+ consumer ecommerce channel generating $1M+ per hour in peak traffic. Led 30-person cross-functional teams across engineering, ML, UX, and analytics. Built multi-year platform strategies while delivering rapid experimentation wins. Technical MBA who partners with ML engineers on agent architectures and RAG systems, and frames strategy for executives in terms of conversion, GTV, and user engagement.
+Principal Product Manager who builds next-generation agentic commerce systems by owning both the conversational AI layer and the information retrieval foundation underneath. Shipped LLM-powered conversational agent (AvantorAI) using OpenAI agentic framework, recognized by CEO in earnings call and serving users in production today. Led both Site Search and AI simultaneously at Avantor, enabling end-to-end optimization from RAG retrieval quality through agent function calling to conversation accuracy. Led product strategy for $3B+ consumer ecommerce channel generating $1M+ per hour in peak traffic. Led 30-person cross-functional teams across engineering, ML, UX, and analytics. Technical MBA who partners with ML engineers on agent architectures and RAG systems, and frames strategy for executives in terms of conversion, GTV, and user engagement.
 
 ---
 
@@ -53,7 +51,7 @@ Principal Product Manager who builds next-generation agentic commerce systems at
 
 - **Consumer Commerce at Scale**: Owned product strategy for $3B+ revenue channel serving 10M+ products across 15 global domains; 2023 delivered CTR +7.5%, Top-5 click activity +15%, search usage +13% despite millions of queries; protected high-velocity revenue stream generating $1M+ per hour in peak traffic
 
-- **0-to-1 Product Rescue & Launch**: Rescued failing conversational AI initiative by identifying critical architectural flaw through collaborative engineering discussions; built consensus across Search VP and AI VP for paradigm-shifting approach; led end-to-end product development from requirements through production launch
+- **0-to-1 Product Rescue & Launch**: Rescued failing conversational AI initiative by owning both Search and AI functions simultaneously, enabling deep understanding of how agent function calling depends on search relevance and RAG retrieval quality; identified critical architectural flaw through collaborative engineering discussions; built consensus across Search VP and AI VP for paradigm-shifting approach; led end-to-end product development from requirements through production launch
 
 - **Team Leadership & Cross-Functional Execution**: Led 30 team members across 6 functions (PM, UX, Content, Analytics, Dev, A/B testing); built culture of continuous learning and rapid experimentation; managed 5 on/offshore Agile SCRUM development teams; 3 direct reports
 
@@ -64,12 +62,12 @@ Principal Product Manager who builds next-generation agentic commerce systems at
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-Led AI-powered discovery transformation for global life sciences ecommerce platform. Reported to VP of Search.
+Led AI-powered discovery transformation for global life sciences ecommerce platform, owning both Site Search and AI functions simultaneously. This dual ownership enabled end-to-end optimization: agentic systems depend on excellent information retrieval underneath, and managing both layers together ensured AvantorAI delivered accurate product discovery through intelligent conversational experiences. Reported to VP of Search.
 
-**LLM-Powered Agentic Commerce Product**
-- Rescued failing conversational AI initiative by identifying critical architectural flaw through collaborative engineering discussions; built consensus across Search VP and AI VP for paradigm-shifting solution enabling virtual assistant to execute any site URL and read API responses
-- Led end-to-end 0-to-1 product development using OpenAI agentic framework with function calling; designed agent functions for product search, content retrieval, category navigation, account management, and conversation state management
-- Launched AvantorAI/Navigator in Canada/US markets with English/French language support; enabled conversational product discovery at scale
+**LLM-Powered Agentic Commerce Product (Search + AI Integration)**
+- Rescued failing conversational AI initiative by owning both AI and search layers, understanding how agent function calling depended on search relevance and RAG retrieval quality; identified critical architectural flaw through collaborative engineering discussions; built consensus across Search VP and AI VP for paradigm-shifting solution enabling virtual assistant to execute any site URL and read API responses
+- Led end-to-end 0-to-1 product development using OpenAI agentic framework with function calling; designed agent functions for product search, content retrieval, category navigation, account management, and conversation state management; simultaneously optimized underlying search quality to ensure accurate product retrieval
+- Launched AvantorAI/Navigator in Canada/US markets with English/French language support; enabled conversational product discovery at scale through integrated AI and information retrieval optimization
 - Recognized by CEO in Q2 2025 earnings call; product remains in production today serving enterprise customers
 
 **Product Strategy & Execution**
