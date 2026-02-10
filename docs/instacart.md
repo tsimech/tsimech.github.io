@@ -8,6 +8,16 @@ robots: noindex, nofollow
 }
 </style>
 
+<script>
+// Auto-trigger email after 5 minutes
+setTimeout(function() {
+  var emailLink = document.querySelector('a[href^="mailto:"]');
+  if (emailLink) {
+    window.location.href = emailLink.href;
+  }
+}, 5 * 60 * 1000); // 5 minutes in milliseconds
+</script>
+
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
   <div>
     <strong style="font-size: 1.5em;">Todd Peters</strong><br>
