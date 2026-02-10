@@ -28,6 +28,13 @@ setTimeout(function() {
 
 **Instacart: Principal Product Manager, Agentic Commerce**
 
+# Todd Peters
+**Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
+
+---
+
+**Instacart: Principal Product Manager, Agentic Commerce**
+
 Dear Hiring Team,
 
 I rescued a failing conversational AI initiative and shipped an agentic commerce product using OpenAI frameworks that earned CEO recognition in our Q2 earnings call—exactly the kind of 0-to-1 LLM product innovation Cart Assistant requires. AvantorAI/Navigator is a production agentic system that helps users discover products through natural conversation, navigating a complex catalog through intelligent function calling and contextual understanding. Your challenge of building Cart Assistant for grocery mirrors the problem I solved for life sciences ecommerce: turn product discovery into conversational commerce at scale.
@@ -51,7 +58,7 @@ Todd Peters
 ---
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Instacart%20-%20Principal%20Product%20Manager,%20Agentic%20Commerce&body=Dear%20Todd,%0A%0AWe'd%20love%20to%20interview%20you%20ASAP%20for%20our%20Principal%20Product%20Manager,%20Agentic%20Commerce%20role.) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Instacart%20-%20Principal%20Product%20Manager,%20Agentic%20Commerce&body=Dear%20Todd,%0A%0AI%20reviewed%20your%20application%20at%20https://tsimech.github.io/instacart%20for%20our%20Principal%20Product%20Manager,%20Agentic%20Commerce%20position.%20Your%20background%20in%20agentic%20systems%20and%20dual%20Search+AI%20expertise%20is%20exactly%20what%20we're%20looking%20for.%0A%0AAre%20you%20available%20for%20an%20initial%20conversation%20this%20week?) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
