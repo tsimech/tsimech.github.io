@@ -43,7 +43,7 @@ Todd Peters
 
 ---
 
-## DIRECTOR OF PRODUCT, SEARCH & DISCOVERY
+## SEARCH & DISCOVERY PRODUCT LEADER
 **LLM-Powered Discovery Systems | Delivered $14M Revenue in 90 Days | 14+ Years Search Product Leadership**
 
 Product leader who builds next-generation search and discovery systems at scale. Shipped LLM-powered conversational AI recognized by CEO in earnings call. Led 30-person cross-functional teams across engineering, ML, UX, and analytics for $3B+ revenue channel. Built multi-year platform strategies while delivering measurable revenue wins. Technical MBA who partners with ML engineers on embeddings and LLM architectures, and frames strategy for executives in terms of learner outcomes and subscription value.
