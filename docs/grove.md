@@ -36,9 +36,9 @@ Thank you for your consideration.
 
 Todd Peters
 
----
-
 <br><br><br><br><br>
+
+---
 
 # TODD PETERS
 **Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
