@@ -41,7 +41,7 @@ Todd Peters
 ---
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Senior%20Director%20of%20Product%20%26%20Ecommerce&body=Dear%20Todd,%0A%0AWe'd%20love%20to%20interview%20you%20ASAP%20for%20our%20Senior%20Director%20of%20Product%20%26%20Ecommerce%20role.) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
