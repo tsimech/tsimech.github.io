@@ -48,9 +48,9 @@ Todd Peters
 ---
 
 ## SEARCH & DISCOVERY PRODUCT LEADER
-**$1M/Hour Revenue Channel Leadership | Shipped LLM Product | Latest Optimization: $14M in 90 Days**
+**Search Product Leader for $3B+ Digital Channel | Shipped LLM Product | $14M Incremental in 90 Days**
 
-Product leader who builds next-generation search and discovery systems at scale. Shipped LLM-powered conversational AI recognized by CEO in earnings call. Led 30-person cross-functional teams across engineering, ML, UX, and analytics for $3B+ revenue channel. Built multi-year platform strategies while delivering measurable revenue wins. Technical MBA who partners with ML engineers on embeddings and LLM architectures, and frames strategy for executives in terms of learner outcomes and subscription value.
+Product leader who builds next-generation search and discovery systems at scale. Led search and navigation for $3B+ revenue channel generating $1M+ per hour in peak traffic. Shipped LLM-powered conversational AI recognized by CEO in earnings call. Led 30-person cross-functional teams across engineering, ML, UX, and analytics. Built multi-year platform strategies while delivering measurable revenue wins. Technical MBA who partners with ML engineers on embeddings and LLM architectures, and frames strategy for executives in terms of learner outcomes and subscription value.
 
 ---
 
