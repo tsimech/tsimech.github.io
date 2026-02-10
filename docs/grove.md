@@ -41,7 +41,7 @@ Todd Peters
 ---
 
 # TODD PETERS
-**Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
