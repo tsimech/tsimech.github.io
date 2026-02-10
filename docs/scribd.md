@@ -173,6 +173,6 @@ Invented automated analysis tools (estimated $250K+ savings over 5 years); recei
 
 **Search & Discovery Platforms**: SOLR, Lucidworks Fusion, Endeca, SAP Commerce, Elasticsearch, Chemical Structure Search  
 **AI & Machine Learning**: OpenAI (agentic frameworks, function calling), RAG (Retrieval-Augmented Generation), ML-driven autocomplete, semantic embeddings, relevance tuning  
-**Analytics & Experimentation**: Google Analytics 4, Statistical Significance Testing (Welch's t-test), NDCG, MRR, Precision@K, Offline Evaluation, A/B Testing  
+**Analytics & Experimentation**: Google Analytics 4, Statistical Hypothesis Testing, NDCG, MRR, Precision@K, Offline Evaluation, A/B Testing  
 **Product Management**: WSJF Prioritization, Roadmapping, Cross-Functional Leadership, Agile/SCRUM, Vendor Management, Business Case Development  
 **Programming & Tools**: Python, SQL, AI-assisted development (GitHub Copilot power user)
