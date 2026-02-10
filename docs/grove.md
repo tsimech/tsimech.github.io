@@ -8,6 +8,16 @@ robots: noindex, nofollow
 }
 </style>
 
+<script>
+// Auto-trigger email after 5 minutes
+setTimeout(function() {
+  var emailLink = document.querySelector('a[href^="mailto:"]');
+  if (emailLink) {
+    window.location.href = emailLink.href;
+  }
+}, 5 * 60 * 1000); // 5 minutes in milliseconds
+</script>
+
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
   <div>
     <strong style="font-size: 1.5em;">Todd Peters</strong><br>
@@ -41,7 +51,7 @@ Todd Peters
 ---
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Senior%20Director%20of%20Product%20%26%20Ecommerce&body=Dear%20Todd,%0A%0AWe'd%20love%20to%20interview%20you%20ASAP%20for%20our%20Senior%20Director%20of%20Product%20%26%20Ecommerce%20role.) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Grove%20Collaborative%20-%20Senior%20Director%20of%20Product%20%26%20Ecommerce&body=Dear%20Todd,%0A%0AI%20reviewed%20your%20application%20at%20https://tsimech.github.io/grove%20for%20our%20Senior%20Director%20of%20Product%20%26%20Ecommerce%20position.%20Your%20background%20in%20ecommerce%20conversion%20optimization%20and%20values-driven%20leadership%20is%20exactly%20what%20we're%20looking%20for.%0A%0AAre%20you%20available%20for%20an%20initial%20conversation%20this%20week?) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
