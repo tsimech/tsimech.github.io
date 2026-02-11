@@ -28,13 +28,6 @@ setTimeout(function() {
 
 **Instacart: Principal Product Manager, Agentic Commerce**
 
-# Todd Peters
-**Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
-
----
-
-**Instacart: Principal Product Manager, Agentic Commerce**
-
 Dear Hiring Team,
 
 I rescued a failing conversational AI initiative and shipped an agentic commerce product using OpenAI frameworks that earned CEO recognition in our Q2 earnings call—exactly the kind of 0-to-1 LLM product innovation Cart Assistant requires. AvantorAI/Navigator is a production agentic system that helps users discover products through natural conversation, navigating a complex catalog through intelligent function calling and contextual understanding. Your challenge of building Cart Assistant for grocery mirrors the problem I solved for life sciences ecommerce: turn product discovery into conversational commerce at scale.
