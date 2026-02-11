@@ -233,9 +233,19 @@ Led technical marketing and product support for semiconductor division.
 
 ## EDUCATION & CERTIFICATIONS
 
-**MBA, Marketing & Strategy** | W. P. Carey School of Business, Arizona State University | 2008  
-**BS, Electrical Engineering** | Ira A. Fulton School of Engineering, Arizona State University | 2004  
-**Certifications**: Pragmatic Institute (Product Management), IBM Design Thinking, Executive Leadership Training
+**M.B.A.**  
+Arizona State University, W.P. Carey School of Business | 2003
+
+**B.S., Biochemistry/Chemistry**  
+Portland State University | 1998
+
+**Certifications**
+- Certified Agile SCRUM Master
+- Certified SAFe
+- Pragmatic Marketing Level III
+
+**Continuous Learning**  
+110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford, MIT courses)
 
 ---
 
