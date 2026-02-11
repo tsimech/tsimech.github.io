@@ -1,30 +1,7 @@
----
-robots: noindex, nofollow
----
-<style>
-@media print {
-  hr:first-of-type { page-break-after: always; break-after: page; }
-  button { display: none; }
-}
-</style>
+# Todd Peters
+**Castle Pines, CO | (858) 752-4071 | toddttp@kalama.com | linkedin.com/in/toddpetersmba**
 
-<script>
-// Auto-trigger email after 5 minutes
-setTimeout(function() {
-  var emailLink = document.querySelector('a[href^="mailto:"]');
-  if (emailLink) {
-    window.location.href = emailLink.href;
-  }
-}, 5 * 60 * 1000); // 5 minutes in milliseconds
-</script>
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
-  <div>
-    <strong style="font-size: 1.5em;">Todd Peters</strong><br>
-    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
-  </div>
-  <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
-</div>
+---
 
 **Amgen: Digital Product Manager, Knowledge Management (via Aequor Technologies)**
 
@@ -119,8 +96,8 @@ Led enterprise search and AI transformation for global life sciences company ser
 
 ---
 
-### THERMO FISHER SCIENTIFIC | Pittsburgh, PA (Remote)
-**Sr. Product Manager, Search and Selection** | March 2021 - June 2024
+### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
+**Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
 Led site search and product discovery strategy for $3B+ pharma R&D eCommerce channel. Directed 30-person cross-functional teams across UX, content operations, development, analytics, data science, and engineering.
 
@@ -133,7 +110,7 @@ Led site search and product discovery strategy for $3B+ pharma R&D eCommerce cha
 - Presented roadmaps and gathered requirements at annual in-person business unit meetings
 - Mentored PMs, BAs, SOs, POs to develop autonomy and strategic thinking
 
-**Business Outcomes & Knowledge Discovery Optimization**
+**Business Outcomes & Product Discovery Optimization**
 - 2023 results: CTR +7.5%, Top-5 click activity +15%, search usage +13%, customer complaints <10/month (millions of queries)
 - Delivered 20,000+ SEO landing pages through taxonomy improvements and Site Search enhancements
 - Conducted CX/UX audits using proprietary quality framework; established enterprise standards for knowledge access
@@ -205,29 +182,23 @@ Technical analysis and requirements definition for site search platforms.
 
 ---
 
-### SAFE LIFE CORPORATION | Tucson, AZ
-**Product Manager** | April 2009 - March 2010
+### SAFE LIFE CORPORATION | Del Mar, CA
+**Associate Director of Product Management & Business Development** | May 2007 - Dec 2008, Oct 2009 - May 2010
 
-Led product lifecycle management for medical device company's SaaS platform.
-
-**Product Management & Technology Partnerships**
-- Defined product requirements and user stories for SaaS platform serving healthcare clients
-- Closed >$1M in OEM licensing contracts (exclusive/non-exclusive) through partnership development
-- Managed product roadmap and feature prioritization
-- Partnered with engineering and sales to deliver customer-driven product enhancements
+- Led business development targeting companies with >$1B revenue; called on CEOs directly to sell technology and business strategy
+- Closed contracts valued >$1M (exclusive/non-exclusive licensing, OEM supply contracts); total BD pipeline value >$1.2M
+- Designed corporate-wide MS Dynamics CRM system; increased sales productivity through automated analyses and forecasts
+- Acted as scientific liaison translating technical concepts for upper management and business audiences
 
 ---
 
-### MOTOROLA | Tempe, AZ
-**Senior Technical Marketing Engineer** | May 2004 - August 2008
+### MOTOROLA LIFE SCIENCES / AMERSHAM BIOSCIENCES | Tempe, AZ
+**Research Associate (Chemist/Biochemist) I/II** | Mar 1999 - Apr 2003
 
-Led technical marketing and product support for semiconductor division.
-
-**Technical Product Support & Automation**
-- Built database automation tools reducing manual processes from hours to minutes
-- Estimated $250K+ cost savings through process automation over 5-year period
-- Supported product launches and customer technical requirements
-- Received 3 Stock Option Incentive Awards + 1 Bravo Award (exclusive monetary recognition)
+- Single-handedly designed, programmed, and implemented division-wide Product Development Database (VBA, SQL, ODBC)
+- Recognition: Motorola Bravo Award (exclusive, with monetary component and stock options) for outstanding performance
+- Impact: Estimated $250K+ cost savings over 5 years; database implemented across all locations (Chicago, Tempe, multiple states)
+- Conducted molecular biology research: cloning, protein expression/purification, assay development, Western blots, ELISA
 
 ---
 
