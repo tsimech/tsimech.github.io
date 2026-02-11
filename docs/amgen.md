@@ -34,7 +34,7 @@ I built enterprise search and knowledge management systems for pharma R&D at Ava
 
 Here's what makes me different: I bring the rare combination of enterprise search expertise, SharePoint platform knowledge, and proven AI integration—all in a pharma R&D context. Most candidates have one or two of these; I have all three. I shipped AvantorAI/Navigator using OpenAI agentic frameworks and RAG, rescuing a failing AI initiative through innovative architecture. I built taxonomies, metadata schemas, and information architecture for 10M+ complex scientific products in regulated environments. I'm not a project manager—I'm a product owner who ships.
 
-I bring exactly what this role demands: 14 years building knowledge discovery systems at scale, hands-on SharePoint expertise, AI integration in production, and deep pharma R&D context. I've led 30-person cross-functional teams, secured VP and CIO approvals through compelling business cases, and generated $14M revenue through knowledge system optimization. I own product roadmaps from vision through delivery, partner effectively with technology teams, and apply human-centered design principles to turn business needs into intuitive, scalable knowledge solutions.
+I bring exactly what this role demands: 14 years building product discovery systems at scale, hands-on SharePoint expertise, AI integration in production, and deep pharma R&D context. I've led 30-person cross-functional teams, secured VP and CIO approvals through compelling business cases, and generated $14M revenue through knowledge system optimization. I own product roadmaps from vision through delivery, partner effectively with technology teams, and apply human-centered design principles to turn business needs into intuitive, scalable knowledge solutions.
 
 Thank you for your consideration.
 
@@ -60,7 +60,7 @@ Senior Digital Product Manager who built enterprise search and knowledge managem
 
 ## KEY ACHIEVEMENTS
 
-- **Pharma R&D Enterprise Search Leadership**: Led Site Search & Discovery for $3B+ life sciences eCommerce channel (Avantor, ThermoFisher) serving pharma R&D customers; built knowledge discovery systems for 10M+ complex scientific products across 15 global domains
+- **Pharma R&D Enterprise Search Leadership**: Led Site Search & Discovery for $3B+ life sciences eCommerce channel (Avantor, ThermoFisher) serving pharma R&D customers; built product discovery systems for 10M+ complex scientific products across 15 global domains
 
 - **AI-Powered Knowledge System in Production**: Shipped AvantorAI/Navigator conversational agent using OpenAI agentic framework and RAG; rescued failing AI initiative through innovative architecture; recognized by CEO in Q2 2025 earnings call; product serving users in production today
 
@@ -79,11 +79,11 @@ Senior Digital Product Manager who built enterprise search and knowledge managem
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-Led enterprise search and AI transformation for global life sciences company serving pharma R&D customers. Owned product strategy, roadmap, and delivery for knowledge discovery platforms supporting millions of researchers.
+Led enterprise search and AI transformation for global life sciences company serving pharma R&D customers. Owned product strategy, roadmap, and delivery for product discovery platforms supporting millions of researchers.
 
 **Enterprise Search & Knowledge Management**
 - Led Site Search & Discovery product for global life sciences eCommerce platform serving pharma R&D organizations
-- Built knowledge discovery systems helping researchers find scientific information across 10M+ complex products
+- Built product discovery systems helping researchers find scientific information across 10M+ complex products
 - Conducted comprehensive CIO audit identifying critical gaps in untuned SAP/SOLR search platform
 - Developed 3-year, $170M revenue impact roadmap; secured CIO approval using project gates and business value framework
 - Generated $14M annual incremental revenue through SOLR field weight tuning (90-day delivery cycle)
@@ -102,7 +102,7 @@ Led enterprise search and AI transformation for global life sciences company ser
 - Implemented RAG (Retrieval-Augmented Generation): SOLR information retrieval + LLM assessment with grounding citations and hallucination mitigation
 
 **Knowledge Architecture, Taxonomies & Metadata**
-- Overhauled synonym database: updated SOLR schema, cleaned full dataset, reloaded to production for improved knowledge discovery
+- Overhauled synonym database: updated SOLR schema, cleaned full dataset, reloaded to production for improved product discovery
 - Designed ML-based autocomplete: GA4 frequency analysis, log boosting, decay factor, rolling window, thresholds, ghost term filtering
 - Modernized search experience UI/UX: result count, sort controls, search term retention, alignment, header optimization
 - Integrated eMolecules chemical structure search via punch-out for specialized scientific knowledge access
@@ -111,7 +111,7 @@ Led enterprise search and AI transformation for global life sciences company ser
 
 **Analytics, Metrics & User Research**
 - Established GA4 analytics from scratch; implemented human-only signal collection (search box entry vs page loads)
-- Deployed core metrics: entry logging, first click, distribution, no results tracking, term capture for knowledge discovery optimization
+- Deployed core metrics: entry logging, first click, distribution, no results tracking, term capture for product discovery optimization
 - Used GA4 data for $/click attributed revenue in ROI modeling and business case development
 - Led UAT sessions with regional business unit leaders across global markets
 - Partnered with stakeholders to translate business requirements into actionable product features
@@ -122,11 +122,11 @@ Led enterprise search and AI transformation for global life sciences company ser
 ### THERMO FISHER SCIENTIFIC | Pittsburgh, PA (Remote)
 **Sr. Product Manager, Search and Selection** | March 2021 - June 2024
 
-Led enterprise-wide knowledge discovery strategy for $3B+ pharma R&D eCommerce channel. Directed 30-person cross-functional teams across UX, content operations, development, analytics, data science, and engineering.
+Led site search and product discovery strategy for $3B+ pharma R&D eCommerce channel. Directed 30-person cross-functional teams across UX, content operations, development, analytics, data science, and engineering.
 
-**Enterprise Knowledge Platform Leadership**
+**Site Search & Knowledge Platform Leadership**
 - Led enterprise-wide digital platform strategy for thermofisher.com, fishersci.com (US, CA, UK, 15 EU domains)
-- Defined multi-year strategy and quarterly priorities using WSJF and Business Value frameworks for knowledge discovery roadmap
+- Defined multi-year strategy and quarterly priorities using WSJF and Business Value frameworks for product discovery roadmap
 - Directed up to 30 team members across 6 functions; concurrently managed 5 on/offshore Agile SCRUM dev teams
 - Managed $1-2M annual budgets; secured executive approval for major platform upgrades through ROI analysis
 - Served as enterprise-wide KOL (Key Opinion Leader); guided search strategy through consultation across global business units
@@ -137,7 +137,7 @@ Led enterprise-wide knowledge discovery strategy for $3B+ pharma R&D eCommerce c
 - 2023 results: CTR +7.5%, Top-5 click activity +15%, search usage +13%, customer complaints <10/month (millions of queries)
 - Delivered 20,000+ SEO landing pages through taxonomy improvements and Site Search enhancements
 - Conducted CX/UX audits using proprietary quality framework; established enterprise standards for knowledge access
-- Partnered with A/B testing team for data-driven iteration on knowledge discovery features
+- Partnered with A/B testing team for data-driven iteration on product discovery features
 - Translated complex technical capabilities into executive-level language for VP and C-suite stakeholders
 
 **Platform & Technology Partnerships**
@@ -155,7 +155,7 @@ Sole Product Manager for thermofisher.com; expanded responsibility to fishersci.
 - Orchestrated platform replacement Endeca → Lucidworks Fusion: vendor evaluation, Enterprise Architect partnership, SLA establishment, pre-production A/B testing protecting $3B revenue
 - Delivered chemical structure search modernization: 20,000 CAS ID landing pages, SEO traffic growth, specialized scientific knowledge access
 - Established vendor partnership for structure search upgrade; managed requirements and delivery
-- Built visual category browse experience: optimized traversal, rich imagery, improved knowledge discovery for scientific products
+- Built visual category browse experience: optimized traversal, rich imagery, improved product discovery for scientific products
 
 **Agile Transformation & Process Architecture**
 - Instrumental in ThermoFisher transition from non-Agile to Agile SCRUM to SAFe at enterprise scale
@@ -168,7 +168,7 @@ Sole Product Manager for thermofisher.com; expanded responsibility to fishersci.
 - Simplified search/navigation for 10M+ complex genomics and life sciences products
 - Managed annual budgets using ROI analysis for knowledge platform investments
 - Created industry reference implementation for site search (fishersci.com)
-- Recognized by independent experts as industry standard for life sciences ecommerce search and knowledge discovery
+- Recognized by independent experts as industry standard for life sciences ecommerce search and product discovery
 
 ---
 
@@ -180,7 +180,7 @@ Supported Search Operations and Content Management for life sciences eCommerce p
 - Led successful FAST search integration into Endeca ahead of corporate acquisition
 - Improved knowledge accessibility for scientists globally through structured refinement and interface optimization
 - Created global synonym management process and tools for scientific terminology
-- Created/managed monthly search metrics dashboards for knowledge discovery performance tracking
+- Created/managed monthly search metrics dashboards for product discovery performance tracking
 - Led search enhancements through IT development and testing, including Omniture tracking implementation
 - Enhanced data quality through semi-automated software tools for content governance
 
@@ -188,7 +188,7 @@ Supported Search Operations and Content Management for life sciences eCommerce p
 
 **Business Analyst, Site Search (Contract)** | August 2010 - October 2011
 
-Technical analysis and requirements definition for enterprise search platforms.
+Technical analysis and requirements definition for site search platforms.
 
 **Requirements & Knowledge Architecture**
 - Simplified search/navigation for 10M+ complex genomics products (Project Magellan)
@@ -198,7 +198,7 @@ Technical analysis and requirements definition for enterprise search platforms.
 - Established Search Relevancy Quality Score System (semi-quantitative methodology)
 - Set up ODBC connections to ACDW database for Type-Ahead statistics and UI decisions
 - Researched Industrial Genomic Term Syntax Conventions; proposed Search Interpreter concept
-- Created executive presentations on Search Relevancy and knowledge discovery optimization
+- Created executive presentations on Search Relevancy and product discovery optimization
 - Coordinated Omniture logging implementation with parsing/dashboards (result row number, null-results tracking)
 - Captured/parsed 5M Verity null-result records for knowledge gap analysis
 - Gene name length statistics for Type-ahead/UI/database considerations
