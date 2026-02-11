@@ -40,7 +40,7 @@ Thank you for your consideration.
 
 Todd Peters
 
-**https://tsimech.github.io/instacart**
+Please visit my documents online for the best experience: **[https://tsimech.github.io/instacart](https://tsimech.github.io/instacart)**
 
 <br><br><br><br><br>
 
