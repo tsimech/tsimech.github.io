@@ -31,7 +31,7 @@ setTimeout(function() {
 Dear Hiring Team,
 
 Building AI Agents and composable platforms for help experiences is the exact work
-I spent the last two years doing in production. I architected AvantorAI/Navigator
+I've been doing in production. I architected AvantorAI/Navigator
 0-to-1: agentic conversational AI (OpenAI function calling, RAG with grounding,
 stateful sessions across search, orders, and account management), serving global
 eCommerce customers in English and French. CEO Michael Stubblefield cited it in
