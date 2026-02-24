@@ -30,31 +30,33 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-Building AI Agents and composable platforms for help experiences is the exact work
-I've been doing in production. I architected AvantorAI/Navigator
-0-to-1: agentic conversational AI (OpenAI function calling, RAG with grounding,
-stateful sessions across search, orders, and account management), serving global
-eCommerce customers in English and French. CEO Michael Stubblefield cited it in
-the Q2 2025 earnings call. The system is composable by design - the same foundation
-eBay needs to scale personalized help across buyer and seller touchpoints.
+I built the product you are describing. AvantorAI/Navigator is an agentic
+conversational AI I rescued from a failing initiative and architected: OpenAI function calling, RAG with
+grounding, stateful sessions across search, orders, CMS, and account management,
+serving global eCommerce customers in English and French. CEO Michael Stubblefield
+cited it in the Q2 2025 earnings call. It started as a failing initiative with no
+clear architecture; I conceived the design, navigated ambiguity through iterative
+development, and shipped it to multilingual production. It remains live today.
 
-Two proof points that complement the AI work:
+The system is composable by design: modular agent functions that extend to any
+customer touchpoint. That is the same foundation eBay needs to scale personalized
+help across buyer and seller experiences.
 
-- $14M annual incremental revenue validated in 90 days: a 2% CTR lift confirmed
-  via Welch's t-test on a 3-week pre/post experiment. Data and experimentation
-  drive every product decision I make.
-- 11+ years as sole Product Manager for a $3B+ digital channel: 10M+ products,
-  global markets, multilingual, and customer-signal-driven prioritization
-  (NDCG, CSAT) at scale.
-- Built a custom ChatGPT pipeline to automate monthly CSAT analysis - sentiment
-  trends surfaced and presented to Operations leadership. Customer support signal
-  as a product input is familiar ground.
+Three things that matter for this role:
 
-eBay's scale - hundreds of millions of listings, distinct buyer and seller needs -
-is where composable AI delivers its greatest impact. I'd like to discuss how my
-0-to-1 agentic AI experience maps to your roadmap.
+- **Data-driven experimentation:** Delivered $14M incremental revenue through SOLR
+  field weight tuning, validated via Welch's t-test (3-week pre/post, statistical
+  significance). Every product decision I make starts with measurement.
+- **Customer signal as product input:** Built a custom ChatGPT pipeline for
+  automated monthly CSAT sentiment analysis and surfaced customer trends to
+  Operations leadership. Support signal informing product direction is how I work.
+- **Technical fluency that ships:** I code (Python, SQL, 31 years self-taught),
+  architect RAG pipelines, design evaluation frameworks (NDCG, Precision@K, MRR),
+  and collaborate directly with engineers on implementation tradeoffs.
 
-Thank you for your consideration.
+With hundreds of millions of listings and distinct buyer/seller needs, eBay's
+scale is where composable AI delivers its greatest leverage, and where my 14+
+years of eCommerce product experience at $3B+ scale becomes directly relevant.
 
 Todd Peters
 
@@ -68,15 +70,15 @@ Todd Peters
 ---
 
 ## SENIOR PRODUCT MANAGER - AI PRODUCTS & eCOMMERCE
-**AI Agents & Composable AI | 0→1 Production AI | $3B+ eCommerce Scale | 14+ Years**
+**AI Agents & Composable AI | Rescue-to-Production AI | $3B+ eCommerce Scale | 14+ Years**
 
-Product leader who designs and ships production AI for global eCommerce. Architected AvantorAI/Navigator, an agentic conversational AI (OpenAI function calling, RAG, state management) built 0-to-1 from a failing initiative to CEO-recognized multilingual production. Delivered $14M incremental revenue in 90 days through SOLR field weight tuning validated by statistical significance testing. Sole Product Manager for a $3B+ digital channel (10M+ products, global markets) for 11+ years. Technical MBA who codes.
+Product leader who designs and ships production AI for global eCommerce. Architected AvantorAI/Navigator, an agentic conversational AI (OpenAI function calling, RAG, state management) rescued from a failing initiative to CEO-recognized multilingual production. Delivered $14M incremental revenue in 90 days through SOLR field weight tuning validated by statistical significance testing. Sole Product Manager for a $3B+ digital channel (10M+ products, global markets) for 11+ years. Technical MBA who codes.
 
 ---
 
 ## KEY ACHIEVEMENTS
 
-- **CEO-Recognized AI Launch:** Built AvantorAI/Navigator 0-to-1, an agentic conversational AI (OpenAI function calling, RAG) from a failing initiative to multilingual production (Canada/US); recognized by CEO Michael Stubblefield in Q2 2025 earnings call and company-wide Town Hall
+- **CEO-Recognized AI Launch:** Rescued AvantorAI/Navigator from a failing initiative; re-architected as agentic conversational AI (OpenAI function calling, RAG) and launched to multilingual production (Canada/US); recognized by CEO Michael Stubblefield in Q2 2025 earnings call and company-wide Town Hall
 - **$14M Revenue in 90 Days:** Delivered incremental annual revenue through SOLR field weight tuning over 90-day optimization cycle; validated 2% CTR lift with statistical significance (Welch's t-test, 3-week pre/post analysis)
 - **$627K Funding Secured:** Won CIO approval for multi-phase AI roadmap ($150K Phase 1; $477K Phase 2, 18-person team) by demonstrating $170M 3-year revenue impact
 - **$3B+ Channel:** Sole Product Manager for thermofisher.com and fishersci.com, 10M+ complex scientific products, global markets, multilingual, for 11+ years with 95% decision autonomy
@@ -91,7 +93,7 @@ Product leader who designs and ships production AI for global eCommerce. Archite
 
 Led AI product strategy and search optimization for global life sciences eCommerce company. Reported to VP of Search; served concurrently as Sr. Product Manager, Business Analyst, and Product Owner with end-to-end lifecycle ownership.
 
-**Agentic AI Product - AvantorAI/Navigator (0-to-1)**
+**Agentic AI Product - AvantorAI/Navigator (Rescue to Production)**
 - Architected conversational AI using OpenAI agentic framework (function calling) with agent functions for search, CMS, category pages, orders, and account, with full state management across conversation turns
 - Rescued failing AI initiative by conceiving "jailbreak" architecture enabling virtual assistant to execute any site URL and read API responses; led requirements definition through iterative design to production deployment
 - Launched multilingual product (English/French) in Canada/US markets; recognized by CEO Michael Stubblefield in Q2 2025 earnings call and company-wide Town Hall; product remains in production
