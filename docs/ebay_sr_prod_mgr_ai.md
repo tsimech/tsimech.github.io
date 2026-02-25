@@ -30,33 +30,25 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-I built the product you are describing. AvantorAI/Navigator is an agentic
-conversational AI I rescued from a failing initiative and architected: OpenAI function calling, RAG with
-grounding, stateful sessions across search, orders, CMS, and account management,
-serving global eCommerce customers in English and French. CEO Michael Stubblefield
-cited it in the Q2 2025 earnings call. It started as a failing initiative with no
-clear architecture; I conceived the design, navigated ambiguity through iterative
-development, and shipped it to multilingual production. It remains live today.
+I built the product you are describing. AvantorAI/Navigator was not my product to
+fix. I was the search Product Manager. But I recognized the failing AI initiative,
+saw the overlap with my domain, and asked both VPs for permission to help. They
+agreed. I conceived the architecture, led requirements through production, and
+shipped to multilingual markets. CEO Michael Stubblefield cited it in the Q2 2025
+earnings call. Composable by design: modular agent functions across search, orders,
+CMS, and account management. The same architecture eBay needs.
 
-The system is composable by design: modular agent functions that extend to any
-customer touchpoint. That is the same foundation eBay needs to scale personalized
-help across buyer and seller experiences.
+Three reasons the resume is worth your time:
 
-Three things that matter for this role:
+- A Biochemistry degree and a scientist's discipline of experiment design behind every product
+  decision. The $14M came from building the evaluation framework first, not guessing.
+- 17+ years of customer signal as a primary product input, from pharma field sales
+  to millions of search queries to automated CSAT pipelines.
+- Technical depth rare in Product Management: I build what I spec. Site search at
+  $3B+ eCommerce scale is among the most complex digital products that exist, and
+  I owned it as sole Product Manager for 13 years.
 
-- **Data-driven experimentation:** Delivered $14M incremental revenue through SOLR
-  field weight tuning, validated via Welch's t-test (3-week pre/post, statistical
-  significance). Every product decision I make starts with measurement.
-- **Customer signal as product input:** Built a custom ChatGPT pipeline for
-  automated monthly CSAT sentiment analysis and surfaced customer trends to
-  Operations leadership. Support signal informing product direction is how I work.
-- **Technical fluency that ships:** I code (Python, SQL, 31 years self-taught),
-  architect RAG pipelines, design evaluation frameworks (NDCG, Precision@K, MRR),
-  and collaborate directly with engineers on implementation tradeoffs.
-
-With hundreds of millions of listings and distinct buyer/seller needs, eBay's
-scale is where composable AI delivers its greatest leverage, and where my 14+
-years of eCommerce product experience at $3B+ scale becomes directly relevant.
+I'd like to discuss how this maps to your AI roadmap.
 
 Todd Peters
 
@@ -72,16 +64,16 @@ Todd Peters
 ## SENIOR PRODUCT MANAGER - AI PRODUCTS & eCOMMERCE
 **AI Agents & Composable AI | Rescue-to-Production AI | $3B+ eCommerce Scale | 14+ Years**
 
-Product leader who designs and ships production AI for global eCommerce. Architected AvantorAI/Navigator, an agentic conversational AI (OpenAI function calling, RAG, state management) rescued from a failing initiative to CEO-recognized multilingual production. Delivered $14M incremental revenue in 90 days through SOLR field weight tuning validated by statistical significance testing. Sole Product Manager for a $3B+ digital channel (10M+ products, global markets) for 11+ years. Technical MBA who codes.
+Product leader who designs and ships production AI for global eCommerce. Architected AvantorAI/Navigator, an agentic conversational AI (OpenAI function calling, RAG, state management) rescued from a failing initiative to CEO-recognized multilingual production. Delivered $14M incremental revenue in 90 days through SOLR field weight tuning validated by statistical significance testing. Sole Product Manager for ThermoFisher's digital channel for 13 years, scaling to $3B+ across two global domains (10M+ products, global markets). Technical MBA who codes.
 
 ---
 
 ## KEY ACHIEVEMENTS
 
 - **CEO-Recognized AI Launch:** Rescued AvantorAI/Navigator from a failing initiative; re-architected as agentic conversational AI (OpenAI function calling, RAG) and launched to multilingual production (Canada/US); recognized by CEO Michael Stubblefield in Q2 2025 earnings call and company-wide Town Hall
-- **$14M Revenue in 90 Days:** Delivered incremental annual revenue through SOLR field weight tuning over 90-day optimization cycle; validated 2% CTR lift with statistical significance (Welch's t-test, 3-week pre/post analysis)
+- **$14M Revenue in 90 Days:** Delivered incremental annual revenue through SOLR field weight tuning over 90-day optimization cycle; validated 2% CTR lift with statistical significance (3-week pre/post)
 - **$627K Funding Secured:** Won CIO approval for multi-phase AI roadmap ($150K Phase 1; $477K Phase 2, 18-person team) by demonstrating $170M 3-year revenue impact
-- **$3B+ Channel:** Sole Product Manager for thermofisher.com and fishersci.com, 10M+ complex scientific products, global markets, multilingual, for 11+ years with 95% decision autonomy
+- **$3B+ Channel:** Sole Product Manager for ThermoFisher's digital channel for 13 years; scaled to $3B+ across thermofisher.com and fishersci.com, 10M+ complex scientific products, global markets, multilingual, with 95% decision autonomy
 - **Two Enterprise Platform Migrations:** Led FAST-to-Endeca and Endeca-to-Lucidworks Fusion replacements with pre-production A/B testing strategy protecting $3B+ in digital revenue
 
 ---
@@ -101,7 +93,7 @@ Led AI product strategy and search optimization for global life sciences eCommer
 
 **Revenue, Experimentation & Data-Driven Decisions**
 - Delivered $14M annual incremental revenue through SOLR field weight tuning validated over 90-day optimization cycle
-- Validated 2% CTR lift with Welch's t-test (3-week pre/post, statistical significance); presented results to VP and Operations leadership
+- Validated 2% CTR lift to statistical significance (3-week pre/post); presented results to VP and Operations leadership
 - Evaluated search quality using NDCG, Precision@K, Recall@K, MRR at multiple depths; made tradeoff decisions using non-inferiority testing
 - Secured $627K funding ($150K Phase 1; $477K Phase 2, 18-person team) via CIO-level business case demonstrating $170M 3-year revenue impact
 - Automated monthly CSAT analysis using custom ChatGPT for sentiment analysis and trend identification; presented customer insights to Operations leadership
@@ -151,9 +143,9 @@ Sole Product Manager for $3B+ digital revenue channel (thermofisher.com, fishers
 **Conversational AI & Agentic Frameworks:** OpenAI function calling, RAG (SOLR IR + LLM), state management, prompt engineering, hallucination mitigation, semantic retrieval, conversational interface design
 **Search Platforms:** SAP SOLR, Lucidworks Fusion, Endeca, FAST; platform migrations with pre-production A/B testing; Elasticsearch with dense vector embeddings (demo, HuggingFace models)
 **Ranking & Evaluation:** Field weight tuning, behavioral re-ranking (clicks, conversions), NDCG, Precision@K, Recall@K, MRR, non-inferiority testing
-**Experimentation & Analytics:** Welch's t-test, A/B testing, statistical significance, GA4 (implementation), Adobe Analytics, $/click revenue attribution
+**Experimentation & Analytics:** A/B testing, statistical significance testing, GA4 (implementation), Adobe Analytics, $/click revenue attribution
 **Product Frameworks:** 0-to-1 development, Agile/SAFe, WSJF, OKRs, business case/ROI modeling, Jira, Confluence
-**Programming:** Python, SQL, VBA, C/C++, HTML/CSS, JavaScript; GitHub Copilot power user; self-taught 31 years
+**Programming:** Python, SQL, VBA, C/C++, HTML/CSS, JavaScript; GitHub Copilot power user; lifelong self-taught programmer
 
 ---
 
