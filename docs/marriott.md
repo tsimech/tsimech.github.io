@@ -150,13 +150,6 @@ Progressed from BA contract through Web Content Specialist to Associate PM. Buil
 
 ---
 
-### MOTOROLA LIFE SCIENCES / AMERSHAM BIOSCIENCES | Tempe, AZ
-**Research Associate** | 1999 - 2003
-
-- Built award-winning division-wide Product Development Database (VBA, SQL, ODBC) adopted across 3 US sites; estimated $250K+ savings over 5 years; earned Motorola Bravo Award and MBA sponsorship
-
----
-
 ## TECHNICAL PROFICIENCIES
 
 **Analytics & Experimentation:** GA4, Adobe Analytics, Omniture, A/B testing, statistical significance testing, non-inferiority testing, NDCG, Precision@K, Recall@K, MRR, Offline evaluation frameworks  
