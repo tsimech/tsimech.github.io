@@ -159,13 +159,10 @@ Progressed from BA contract through Web Content Specialist to Associate PM. Buil
 
 ## TECHNICAL PROFICIENCIES
 
-**Analytics & Experimentation:** GA4, Adobe Analytics, Omniture | A/B testing, statistical significance testing, non-inferiority testing | NDCG, Precision@K, Recall@K, MRR | Offline evaluation frameworks | $/click revenue attribution
-
-**AI/ML & Data Products:** OpenAI agentic frameworks (function calling), RAG, LLMs | ML-based behavioral signal modeling | Sentiment analysis automation | Personalization algorithms
-
-**Platforms & Tools:** Lucidworks Fusion, SAP Commerce Cloud, SOLR, Endeca, FAST | Agile/SAFe, WSJF | Jira, Confluence, Git
-
-**Programming (Self-Taught, 31 Years):** Python, SQL, VBA, JavaScript, HTML/CSS | GitHub Copilot power user
+**Analytics & Experimentation:** GA4, Adobe Analytics, Omniture, A/B testing, statistical significance testing, non-inferiority testing, NDCG, Precision@K, Recall@K, MRR, Offline evaluation frameworks  
+**AI/ML & Data Products:** OpenAI agentic frameworks (function calling), RAG, LLMs, ML-based behavioral signal modeling, Sentiment analysis automation, Personalization algorithms  
+**Platforms & Tools:** Lucidworks Fusion, SAP Commerce Cloud, SOLR, Endeca, FAST, Agile/SAFe, WSJF, Jira, Confluence, Git  
+**Programming (Self-Taught, 31 Years):** Python, SQL, VBA, JavaScript, HTML/CSS, GitHub Copilot power user
 
 ---
 
