@@ -30,7 +30,7 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-Embedding analytics and experimentation into high-revenue digital platforms is the work I have done for 14 years. Marriott's commitment to building this capability at scale within its Enterprise Data, Analytics & AI organization is a compelling next step.
+When I found this role, two things stood out immediately. Marriott's focus on embedding experimentation and analytics across digital products at scale matches exactly how I am wired. The breadth of touchpoints is also new territory in the best way: booking engines, loyalty platforms, kiosks, in-property signage. I have spent 14 years optimizing screens. The idea of bringing the same measurement rigor to physical guest interactions is genuinely exciting to me.
 
 At Avantor, I established GA4 analytics from scratch, designed an offline evaluation framework across 2,000 high-volume queries, and delivered $14M in annual incremental revenue within 90 days through statistically validated experimentation. I validated a 2% CTR lift to statistical significance using a 3-week pre/post methodology, built the ROI model, and presented findings to VP and CIO leadership to secure multi-phase funding for a full data products buildout. At ThermoFisher, I owned digital data strategy for a $3B+ revenue channel for over a decade, directing dedicated Analytics and A/B testing teams as part of a 30-person cross-functional organization while managing $1-2M annual budgets with 95% decision authority.
 
