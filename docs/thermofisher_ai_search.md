@@ -145,7 +145,7 @@ AI search product leader who designed and built the on-site search experience fo
 
 **Conversational AI & RAG:** RAG (SOLR IR + LLM assessment), grounding citations, hallucination mitigation, OpenAI agentic framework (function calling), semantic retrieval, prompt engineering, agentic task orchestration  
 **Search Platforms & Development:** Lucidworks Fusion (SOLR), SAP SOLR, Endeca, FAST, SERP design, platform migrations, A/B testing, query understanding, synonym management, spell correction, ML-based autocomplete, faceted navigation, multilingual search  
-**Analytics & Performance Marketing:** GA4, Adobe Analytics, statistical significance testing, NDCG, Precision@K, Recall@K, MRR, revenue attribution modeling  
+**Analytics & Performance Marketing:** GA4, Adobe Analytics, Google Search Console, SEMrush, Otterly.ai, statistical significance testing, NDCG, Precision@K, Recall@K, MRR, revenue attribution modeling  
 **Product Management & Leadership:** WSJF, OKRs, Agile/SAFe, CIO-level business cases, cross-functional team leadership (30+ members, 5 Agile SCRUM teams), $1-2M budgets  
 **Technical Skills:** Python, SQL, VBA, HTML/CSS, JavaScript, GitHub Copilot, Jira, Confluence, Git, VS Code
 
