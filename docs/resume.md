@@ -3,7 +3,11 @@ robots: noindex, nofollow
 ---
 <style>
 @media print {
-  hr:first-of-type { page-break-after: always; break-after: page; }
+  html, body, .wrapper, section, article, main {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
   button { display: none; }
 }
 </style>
