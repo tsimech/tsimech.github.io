@@ -10,7 +10,7 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
-      background: #f6f8fa;
+      background: #f0faf9;
       color: #333;
       overflow-x: hidden;
     }
@@ -18,7 +18,7 @@
     #page-header {
       padding: 14px 24px;
       background: #fff;
-      border-bottom: 1px solid #e1e4e8;
+      border-bottom: 1px solid #c3e8e4;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -27,11 +27,11 @@
     #page-header h1 {
       font-size: 1.15em;
       font-weight: 600;
-      color: #24292e;
+      color: #134e4a;
     }
 
     #page-header a {
-      color: #0366d6;
+      color: #0d9488;
       text-decoration: none;
       font-size: 0.875em;
     }
@@ -41,9 +41,9 @@
     #subtitle {
       text-align: center;
       font-size: 0.8em;
-      color: #888;
+      color: #5a8a86;
       padding: 10px 0 6px;
-      background: #f6f8fa;
+      background: #f0faf9;
     }
 
     #chart-wrap {
@@ -61,7 +61,7 @@
     #breadcrumb {
       text-align: center;
       font-size: 0.8em;
-      color: #586069;
+      color: #2d6a65;
       padding: 0 0 4px;
       min-height: 1.4em;
     }
@@ -71,9 +71,9 @@
       display: flex;
       flex-direction: column;
       gap: 18px;
-      padding: 20px 28px;
+      padding: 14px 28px;
       background: #fff;
-      border-top: 1px solid #e1e4e8;
+      border-bottom: 1px solid #c3e8e4;
     }
 
     #legend-row {
@@ -130,7 +130,7 @@
     .legend-scale-bar span {
       display: inline-block;
       border-radius: 50%;
-      background: #0366d6;
+      background: #0d9488;
     }
 
     .legend-scale-label {
@@ -210,7 +210,7 @@
     }
 
     circle.root-circle {
-      fill: #24292e;
+      fill: #134e4a;
       stroke: #fff;
       stroke-width: 3;
     }
@@ -218,7 +218,7 @@
     text.domain-label {
       font-size: 12px;
       font-weight: 700;
-      fill: #24292e;
+      fill: #134e4a;
       text-anchor: middle;
       dominant-baseline: auto;
       pointer-events: none;
@@ -253,8 +253,6 @@
     <a href="https://tsimech.github.io/resume">&#8592; Back to Resume</a>
   </div>
   <div id="subtitle">Click a domain bubble to zoom in &nbsp;&bull;&nbsp; Click background to zoom out &nbsp;&bull;&nbsp; Hover any skill for details</div>
-  <div id="breadcrumb">&nbsp;</div>
-  <div id="chart-wrap"></div>
 
   <div id="legend">
     <div id="legend-row">
@@ -272,6 +270,9 @@
       </div>
     </div>
   </div>
+
+  <div id="breadcrumb">&nbsp;</div>
+  <div id="chart-wrap"></div>
 
   <div id="tooltip"></div>
 
@@ -408,11 +409,11 @@
   // ── Domain colors ────────────────────────────────────────────────────────────
   // Each domain gets a distinct hue; skill leaves inherit with slightly deeper saturation
   const domainColors = {
-    "AI & Search Platforms":   "#1a7abf",
-    "Analytics & Measurement": "#2a9d6b",
-    "Product Leadership":      "#8a4abf",
-    "Technical Skills":        "#bf7b2a",
-    "Domain Expertise":        "#bf3b4a"
+    "AI & Search Platforms":   "#0891b2",
+    "Analytics & Measurement": "#059669",
+    "Product Leadership":      "#0d9488",
+    "Technical Skills":        "#16a34a",
+    "Domain Expertise":        "#0f766e"
   };
 
   // Score → expertise label
@@ -463,7 +464,7 @@
 
   // ── Color helper ─────────────────────────────────────────────────────────────
   function nodeColor(d) {
-    if (d.depth === 0) return "#24292e";
+    if (d.depth === 0) return "#134e4a";
     // Walk up to find domain ancestor (depth 1)
     let anc = d;
     while (anc.depth > 1) anc = anc.parent;
@@ -494,6 +495,34 @@
       else if (d.depth === 1) zoomTo(currentFocus === d ? root : d);
     });
 
+  // ── Text wrap helper ─────────────────────────────────────────────────────────
+  function wrapTextInCircle(textEl, d) {
+    const text = d3.select(textEl);
+    const maxWidth = d.r * 1.65;
+    const lineHeight = 1.2;
+    const words = textEl.textContent.trim().split(/\s+/);
+    text.text(null);
+    const scratch = text.append("tspan").attr("x", 0).attr("opacity", 0);
+    const lines = [];
+    let cur = [];
+    for (const w of words) {
+      cur.push(w);
+      scratch.text(cur.join(" "));
+      if (scratch.node().getComputedTextLength() > maxWidth && cur.length > 1) {
+        cur.pop(); lines.push(cur.join(" ")); cur = [w];
+      }
+    }
+    scratch.remove();
+    lines.push(cur.join(" "));
+    const startDy = -((lines.length - 1) * lineHeight) / 2;
+    lines.forEach((ln, i) => {
+      text.append("tspan")
+        .attr("x", 0)
+        .attr("dy", i === 0 ? startDy + "em" : lineHeight + "em")
+        .text(ln);
+    });
+  }
+
   // ── Labels ───────────────────────────────────────────────────────────────────
   // Domain labels — positioned above (outside) each domain circle
   node.filter(d => d.depth === 1)
@@ -512,6 +541,8 @@
     .text(d => d.data.name)
     .style("pointer-events", "none")
     .style("opacity", d => d.r >= 22 ? 1 : 0);  // show large circles immediately
+
+  skillText.each(function(d) { wrapTextInCircle(this, d); });
 
   // Root label
   node.filter(d => d.depth === 0)
