@@ -216,15 +216,12 @@
     }
 
     text.domain-label {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 700;
-      fill: #fff;
+      fill: #24292e;
       text-anchor: middle;
-      dominant-baseline: middle;
+      dominant-baseline: auto;
       pointer-events: none;
-      paint-order: stroke;
-      stroke: rgba(0,0,0,0.3);
-      stroke-width: 3px;
     }
 
     text.skill-label {
@@ -498,12 +495,12 @@
     });
 
   // ── Labels ───────────────────────────────────────────────────────────────────
-  // Domain labels — always shown (inside large circles)
+  // Domain labels — positioned above (outside) each domain circle
   node.filter(d => d.depth === 1)
     .append("text")
     .attr("class", "domain-label")
-    .attr("y", d => -d.r * 0.62)
-    .style("font-size", d => Math.min(13, d.r * 0.22) + "px")
+    .attr("y", d => -(d.r + 6))
+    .style("fill", d => d3.color(domainColors[d.data.name]).darker(0.5))
     .text(d => d.data.name)
     .style("pointer-events", "none");
 
@@ -511,10 +508,10 @@
   const skillText = node.filter(d => d.depth === 2)
     .append("text")
     .attr("class", "skill-label")
-    .style("opacity", 0)  // start hidden; revealed on zoom
     .style("font-size", d => Math.min(11, Math.max(7, d.r * 0.38)) + "px")
     .text(d => d.data.name)
-    .style("pointer-events", "none");
+    .style("pointer-events", "none")
+    .style("opacity", d => d.r >= 22 ? 1 : 0);  // show large circles immediately
 
   // Root label
   node.filter(d => d.depth === 0)
@@ -568,13 +565,10 @@
 
     svg.transition().duration(500)
       .on("end", () => {
-        // After zoom, show/hide skill labels based on rendered size
-        const scaledR = focus.r * 2.15 / SIZE;
         skillText.style("opacity", d => {
-          if (focus.depth === 0) return 0;
-          if (d.parent !== focus) return 0;
           const displayR = d.r * scale;
-          return displayR >= 22 ? 1 : 0;
+          if (focus.depth === 1) return (d.parent === focus && displayR >= 18) ? 1 : 0;
+          return displayR >= 22 ? 1 : 0;  // full view: show large-enough circles
         });
       });
 
@@ -592,11 +586,11 @@
         return d.depth === 0 ? 0.95 : d.depth === 1 ? 0.82 : 0.90;
       });
 
-    // Scale text sizes
+    // Scale domain label positions; hide the focused domain's label (breadcrumb handles it)
     node.filter(d => d.depth === 1).select("text")
       .transition().duration(500)
-      .style("font-size", d => Math.min(13, d.r * scale * 0.22) + "px")
-      .attr("y", d => -(d.r * scale) * 0.62);
+      .style("opacity", d => (focus.depth === 1 && d === focus) ? 0 : 1)
+      .attr("y", d => -(d.r * scale + 6));
 
     skillText.transition().duration(500)
       .style("font-size", d => {
