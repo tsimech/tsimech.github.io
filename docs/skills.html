@@ -216,12 +216,16 @@
     }
 
     text.domain-label {
-      font-size: 12px;
-      font-weight: 700;
-      fill: #134e4a;
+      font-size: 15px;
+      font-weight: 800;
+      fill: #fff;
       text-anchor: middle;
       dominant-baseline: auto;
       pointer-events: none;
+      paint-order: stroke;
+      stroke: rgba(0,0,0,0.55);
+      stroke-width: 3.5px;
+      stroke-linejoin: round;
     }
 
     text.skill-label {
@@ -528,8 +532,7 @@
   node.filter(d => d.depth === 1)
     .append("text")
     .attr("class", "domain-label")
-    .attr("y", d => -(d.r + 6))
-    .style("fill", d => d3.color(domainColors[d.data.name]).darker(0.5))
+    .attr("y", d => -(d.r + 7))
     .text(d => d.data.name)
     .style("pointer-events", "none");
 
@@ -621,7 +624,7 @@
     node.filter(d => d.depth === 1).select("text")
       .transition().duration(500)
       .style("opacity", d => (focus.depth === 1 && d === focus) ? 0 : 1)
-      .attr("y", d => -(d.r * scale + 6));
+      .attr("y", d => -(d.r * scale + 7));
 
     skillText.transition().duration(500)
       .style("font-size", d => {
