@@ -8,6 +8,8 @@ robots: noindex, nofollow
 
 [Resume](resume)
 
+[Skills Map](skills)
+
 ---
 
 *Individual application materials are shared via direct links only.*

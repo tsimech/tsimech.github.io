@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todd Peters – Skills Map</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    #page-header {
+      padding: 14px 24px;
+      border-bottom: 1px solid #e1e4e8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #page-header h1 {
+      font-size: 1.15em;
+      font-weight: 600;
+      color: #24292e;
+    }
+
+    #page-header a {
+      color: #0366d6;
+      text-decoration: none;
+      font-size: 0.875em;
+    }
+
+    #page-header a:hover { text-decoration: underline; }
+
+    #instruction {
+      text-align: center;
+      font-size: 0.8em;
+      color: #888;
+      padding: 8px 0 4px;
+    }
+
+    #tree-container {
+      overflow: auto;
+      width: 100%;
+      padding: 0 0 40px 0;
+    }
+
+    /* Nodes */
+    .node circle {
+      fill: #fff;
+      stroke: #0366d6;
+      stroke-width: 2px;
+      cursor: pointer;
+    }
+
+    .node--collapsed circle {
+      fill: #0366d6;
+    }
+
+    .node--root circle {
+      fill: #0366d6;
+      stroke: #0366d6;
+      r: 8;
+    }
+
+    .node--leaf circle {
+      stroke: #6a9fd8;
+      cursor: default;
+    }
+
+    .node text {
+      font-size: 12.5px;
+      fill: #333;
+      pointer-events: none;
+    }
+
+    .node--root text {
+      font-size: 15px;
+      font-weight: 700;
+      fill: #0366d6;
+    }
+
+    .node--branch > text {
+      font-weight: 600;
+      fill: #24292e;
+    }
+
+    /* Links */
+    path.link {
+      fill: none;
+      stroke: #d0d7de;
+      stroke-width: 1.5px;
+    }
+
+    /* Tooltip */
+    #tooltip {
+      position: fixed;
+      background: #fff;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 12px;
+      max-width: 300px;
+      pointer-events: none;
+      box-shadow: 0 8px 24px rgba(140,149,159,0.2);
+      opacity: 0;
+      transition: opacity 0.12s;
+      z-index: 999;
+    }
+
+    #tooltip .t-name {
+      font-weight: 700;
+      color: #0366d6;
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+
+    #tooltip .t-desc {
+      color: #444;
+      line-height: 1.5;
+    }
+
+    #tooltip .t-roles {
+      margin-top: 7px;
+      color: #888;
+      font-style: italic;
+      font-size: 11px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="page-header">
+    <h1>Todd Peters &mdash; Skills Map</h1>
+    <a href="https://tsimech.github.io/resume">&#8592; Back to Resume</a>
+  </div>
+  <p id="instruction">Click any branch node to expand or collapse &nbsp;|&nbsp; Hover a leaf for details</p>
+  <div id="tree-container"></div>
+  <div id="tooltip"></div>
+
+  <script>
+  const data = {
+    name: "Todd Peters",
+    children: [
+      {
+        name: "AI & Search Platforms",
+        children: [
+          {
+            name: "Conversational AI / RAG",
+            desc: "OpenAI agentic framework (function calling), SOLR IR + LLM assessment, grounding citations, hallucination mitigation, semantic retrieval",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "Answer Engines (AEO / GEO)",
+            desc: "AI Overview optimization, LLM citation strategy, Otterly.ai monitoring, generative engine visibility tracking",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "SOLR / Lucidworks Fusion",
+            desc: "Field weight tuning (5–6 schema fields), query pipeline design, re-ranking with behavioral signals, schema optimization",
+            roles: "TF 2014–2024, Avantor 2024–2026"
+          },
+          {
+            name: "Endeca / FAST",
+            desc: "Legacy enterprise search platforms; led 2 full platform migrations protecting $3B revenue; pre-production A/B testing strategy",
+            roles: "TF 2010–2021"
+          },
+          {
+            name: "Query Understanding",
+            desc: "Synonym management (Lucidworks Fusion generator), spell correction, ML-based autocomplete (GA4 frequency, log boosting, decay factor, ghost term filtering)",
+            roles: "TF 2010–2024, Avantor 2024–2026"
+          },
+          {
+            name: "Faceted Navigation",
+            desc: "Auto-faceting (FAST, Endeca), dynamic attribute filtering, smart facet ordering via customer popularity ranking and sequential engagement linkages",
+            roles: "TF 2014–2024"
+          },
+          {
+            name: "Platform Migrations",
+            desc: "FAST→Endeca, Endeca→Lucidworks Fusion; designed pre-production A/B testing; established SLA and post-install performance specs (query response, uptime, indexing)",
+            roles: "TF 2010–2024"
+          },
+          {
+            name: "Multilingual Search",
+            desc: "Language-specific analyzers, cross-language synonym lists for recall improvement, URL-based localization; 15 global domains",
+            roles: "TF 2014–2024"
+          }
+        ]
+      },
+      {
+        name: "Analytics & Measurement",
+        children: [
+          {
+            name: "GA4 / Adobe Analytics",
+            desc: "GA4 implementation from scratch; human-only signal collection (search box vs. SRP loads); $/click revenue attribution; Omniture logging + dashboard distribution",
+            roles: "TF 2010–2024, Avantor 2024–2026"
+          },
+          {
+            name: "GSC / SEMrush / Otterly.ai",
+            desc: "Technical SEO monitoring, crawl health analysis, keyword gap analysis, AI answer engine presence tracking",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "Power BI / Looker",
+            desc: "ETL via Power Query, DAX formulas (measures, calculate, conditionals), table joins, GA4 integration, dashboard builds for exec and ops audiences",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "Offline Evaluation",
+            desc: "NDCG, Precision@K, Recall@K, MRR at multiple depths (top-5, top-10); non-inferiority testing; tradeoff decision modeling across 2,000 high-volume queries",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "A/B & Statistical Testing",
+            desc: "Pre/post statistical significance testing, click distribution analysis, pre-production A/B testing frameworks, confidence intervals, sample size planning",
+            roles: "TF 2010–2024, Avantor 2024–2026"
+          },
+          {
+            name: "KPI Framework Design",
+            desc: "Formal metric definitions, calculation methodology, glossary, and reference table; published as org-level artifact used across search and analytics teams",
+            roles: "TF 2021–2024"
+          }
+        ]
+      },
+      {
+        name: "Product Leadership",
+        children: [
+          {
+            name: "$3B Revenue Channel",
+            desc: "Sole PM for thermofisher.com + fishersci.com; 10M+ complex scientific products across 15 global domains; 95% decision authority for 11+ years",
+            roles: "TF 2010–2024"
+          },
+          {
+            name: "$14M Revenue Delivery",
+            desc: "SOLR field weight tuning in 90-day cycle; CIO audit identifying platform gaps; 2% CTR lift validated to statistical significance; presented to VP and Operations",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "WSJF / Prioritization",
+            desc: "Weighted Shortest Job First, Business Value frameworks, OKRs; secured CIO approval for $170M 3-year revenue roadmap using project gates",
+            roles: "TF 2021–2024, Avantor 2024–2026"
+          },
+          {
+            name: "Agile / SAFe",
+            desc: "Led TF transition from Agile SCRUM to SAFe; created Jira process flows and sprint structures adopted as SDLC foundation across multiple teams",
+            roles: "TF 2010–2024"
+          },
+          {
+            name: "Cross-functional Teams",
+            desc: "30 members across 6 functions; 5 on/offshore Agile SCRUM dev teams; 3 direct reports; mentored PMs, BAs, SOs, POs; built 6 cross-functional teams over tenure",
+            roles: "TF 2021–2024"
+          },
+          {
+            name: "Executive Communication",
+            desc: "CIO-level funding presentations; VP roadmap reviews; translated complex technical capabilities into executive language; secured phased funding with pre-negotiated resources",
+            roles: "TF 2021–2024, Avantor 2024–2026"
+          },
+          {
+            name: "Vendor Management",
+            desc: "Lucidworks, SOLR specialist, chemical structure search, A/B testing partners; solo MSA negotiation through 3-month procurement approval chain",
+            roles: "TF 2014–2024, Avantor 2024–2026"
+          },
+          {
+            name: "0-to-1 AI Product",
+            desc: "AvantorAI/Navigator: rescued failing initiative with paradigm-shifting architecture; launched multilingual US/Canada; recognized by CEO Michael Stubblefield in Q2 2025 earnings call",
+            roles: "Avantor 2024–2026"
+          }
+        ]
+      },
+      {
+        name: "Technical Skills",
+        children: [
+          {
+            name: "Python / SQL / VBA",
+            desc: "Self-taught 31 years; VBA expert (Excel, Outlook MAPI, Access GUI + reports); SQL advanced (Oracle production schema at Motorola, ODBC to TF data warehouse, MySQL); Python proficient",
+            roles: "All roles"
+          },
+          {
+            name: "JavaScript / HTML / CSS",
+            desc: "Proficient; used for UI work, dashboard integration, and web tooling",
+            roles: "Multiple roles"
+          },
+          {
+            name: "OpenAI API / Prompt Engineering",
+            desc: "Agentic framework (function calling), agent state management, RAG pipeline integration, prompt design for grounded and hallucination-mitigated responses",
+            roles: "Avantor 2024–2026"
+          },
+          {
+            name: "GitHub / Git / VS Code",
+            desc: "GitHub Copilot power user; version control; AI-assisted development; built and maintained this career site in VS Code",
+            roles: "Current"
+          },
+          {
+            name: "Database Design",
+            desc: "Oracle production tablespace/schema at Motorola; ODBC integration to TF enterprise data warehouse; MS Access normalized relational custom apps; SQL query builder tools",
+            roles: "Motorola 1999–2003, TF 2010–2024"
+          }
+        ]
+      },
+      {
+        name: "Domain Expertise",
+        children: [
+          {
+            name: "Life Sciences eCommerce",
+            desc: "14 yrs TF + Avantor; 10M+ complex scientific products; B2B purchasing workflows at enterprise scale; global multi-domain platforms for researchers and procurement teams",
+            roles: "TF 2010–2024, Avantor 2024–2026"
+          },
+          {
+            name: "Biochemistry / Chemistry",
+            desc: "B.S. Portland State University; 3 peer-reviewed publications (Clinical Chemistry, ASHG); Motorola microarray research; P450 genotyping product development",
+            roles: "Education + Motorola 1999–2003"
+          },
+          {
+            name: "SEO / Organic Discovery",
+            desc: "20,000+ SEO landing pages generated via taxonomy improvements and chemical structure search modernization; structured data; organic traffic growth strategies",
+            roles: "TF 2014–2024"
+          },
+          {
+            name: "Scientific Content & Taxonomy",
+            desc: "Chemical structure search; CAS ID landing pages; attribute structures for 10M+ products; application and marketing pages; CMS workflows and content governance",
+            roles: "TF 2010–2024"
+          },
+          {
+            name: "B2B Sales & Business Dev",
+            desc: ">$1M contracts closed (exclusive/non-exclusive licensing, OEM supply); $1.2M+ BD pipeline; CEO-level outreach to Fortune 500 targets; OEM negotiations",
+            roles: "Safe Life 2007–2010"
+          }
+        ]
+      }
+    ]
+  };
+
+  // ── Constants ───────────────────────────────────────────────────────────────
+  const nodeSpacingY = 22;   // vertical px between nodes
+  const nodeSpacingX = 230;  // horizontal px per depth level
+  const margin = { top: 40, right: 280, bottom: 40, left: 180 };
+
+  // ── SVG ─────────────────────────────────────────────────────────────────────
+  const svg = d3.select("#tree-container")
+    .append("svg");
+
+  const gLink = svg.append("g").attr("class", "links");
+  const gNode = svg.append("g").attr("class", "nodes");
+
+  // ── Tooltip ─────────────────────────────────────────────────────────────────
+  const tooltip = d3.select("#tooltip");
+
+  // ── Tree layout ─────────────────────────────────────────────────────────────
+  const treelayout = d3.tree().nodeSize([nodeSpacingY, nodeSpacingX]);
+
+  // ── Hierarchy + initial collapse ────────────────────────────────────────────
+  const root = d3.hierarchy(data);
+  root.x0 = 0;
+  root.y0 = 0;
+
+  // Start with top branches visible but leaves collapsed
+  root.children.forEach(d => {
+    if (d.children) {
+      d._children = d.children;
+      d.children = null;
+    }
+  });
+
+  let idCounter = 0;
+
+  // ── Curved path ─────────────────────────────────────────────────────────────
+  function diagonal(s, d) {
+    return `M ${s.y} ${s.x}
+            C ${(s.y + d.y) / 2} ${s.x},
+              ${(s.y + d.y) / 2} ${d.x},
+              ${d.y} ${d.x}`;
+  }
+
+  // ── Update ──────────────────────────────────────────────────────────────────
+  function update(source) {
+    treelayout(root);
+
+    const nodes = root.descendants();
+    const links = root.links();
+
+    // Compute vertical extent for SVG height
+    let xMin = Infinity, xMax = -Infinity;
+    nodes.forEach(d => {
+      if (d.x < xMin) xMin = d.x;
+      if (d.x > xMax) xMax = d.x;
+    });
+
+    const treeH = xMax - xMin + margin.top + margin.bottom;
+    const treeW = margin.left + margin.right + nodeSpacingX * (root.height + 1);
+
+    svg.attr("width", Math.max(treeW, 800))
+       .attr("height", Math.max(treeH, 200));
+
+    // Translate group so tree is vertically centered
+    const offsetY = -xMin + margin.top;
+    gLink.attr("transform", `translate(${margin.left},${offsetY})`);
+    gNode.attr("transform", `translate(${margin.left},${offsetY})`);
+
+    const duration = 350;
+
+    // ── Links ──
+    const link = gLink.selectAll("path.link")
+      .data(links, d => d.target.__id);
+
+    const linkEnter = link.enter()
+      .append("path")
+      .attr("class", "link")
+      .attr("d", () => {
+        const o = { x: source.x0 !== undefined ? source.x0 : source.x,
+                    y: source.y0 !== undefined ? source.y0 : source.y };
+        return diagonal(o, o);
+      });
+
+    link.merge(linkEnter)
+      .transition().duration(duration)
+      .attr("d", d => diagonal(d.source, d.target));
+
+    link.exit()
+      .transition().duration(duration)
+      .attr("d", () => {
+        const o = { x: source.x, y: source.y };
+        return diagonal(o, o);
+      })
+      .remove();
+
+    // ── Nodes ──
+    const node = gNode.selectAll("g.node")
+      .data(nodes, d => d.__id || (d.__id = ++idCounter));
+
+    const isExpandable = d => d.children || d._children;
+
+    const nodeEnter = node.enter()
+      .append("g")
+      .attr("class", d => {
+        let cls = "node";
+        if (d.depth === 0) cls += " node--root";
+        else if (!d.children && d._children) cls += " node--collapsed node--branch";
+        else if (d.children) cls += " node--branch";
+        else cls += " node--leaf";
+        return cls;
+      })
+      .attr("transform", () => {
+        const sx = source.x0 !== undefined ? source.x0 : source.x;
+        const sy = source.y0 !== undefined ? source.y0 : source.y;
+        return `translate(${sy},${sx})`;
+      })
+      .on("click", (event, d) => {
+        if (!isExpandable(d)) return;
+        if (d.children) {
+          d._children = d.children;
+          d.children = null;
+        } else {
+          d.children = d._children;
+          d._children = null;
+        }
+        update(d);
+      })
+      .on("mouseover", (event, d) => {
+        if (!d.data.desc) return;
+        tooltip.style("opacity", 1).html(`
+          <div class="t-name">${d.data.name}</div>
+          <div class="t-desc">${d.data.desc}</div>
+          ${d.data.roles ? `<div class="t-roles">${d.data.roles}</div>` : ""}
+        `);
+      })
+      .on("mousemove", (event) => {
+        const tx = Math.min(event.clientX + 16, window.innerWidth - 320);
+        const ty = Math.max(event.clientY - 30, 8);
+        tooltip.style("left", tx + "px").style("top", ty + "px");
+      })
+      .on("mouseout", () => tooltip.style("opacity", 0));
+
+    nodeEnter.append("circle")
+      .attr("r", d => d.depth === 0 ? 8 : 6);
+
+    nodeEnter.append("text")
+      .attr("dy", "0.32em")
+      .attr("x", d => isExpandable(d) || d.depth === 0 ? -12 : 12)
+      .attr("text-anchor", d => isExpandable(d) || d.depth === 0 ? "end" : "start")
+      .text(d => d.data.name);
+
+    // Merge + transition
+    node.merge(nodeEnter)
+      .transition().duration(duration)
+      .attr("transform", d => `translate(${d.y},${d.x})`)
+      .attr("class", d => {
+        let cls = "node";
+        if (d.depth === 0) cls += " node--root";
+        else if (!d.children && d._children) cls += " node--collapsed node--branch";
+        else if (d.children) cls += " node--branch";
+        else cls += " node--leaf";
+        return cls;
+      });
+
+    node.merge(nodeEnter).select("text")
+      .attr("x", d => isExpandable(d) || d.depth === 0 ? -12 : 12)
+      .attr("text-anchor", d => isExpandable(d) || d.depth === 0 ? "end" : "start");
+
+    node.exit()
+      .transition().duration(duration)
+      .attr("transform", () => `translate(${source.y},${source.x})`)
+      .style("opacity", 0)
+      .remove();
+
+    // Stash positions for next transition
+    nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+  }
+
+  update(root);
+  </script>
+</body>
+</html>
