@@ -51,10 +51,76 @@
       justify-content: center;
       align-items: flex-start;
       padding: 10px 0 20px;
+      position: relative;
     }
 
     #chart-wrap svg {
       cursor: pointer;
+    }
+
+    #skill-detail {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(340px, 72%);
+      background: rgba(255,255,255,0.96);
+      border: 2px solid #0d9488;
+      border-radius: 12px;
+      padding: 22px 24px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s;
+      z-index: 10;
+    }
+
+    #skill-detail .sd-name {
+      font-size: 17px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #0d9488;
+    }
+
+    #skill-detail .sd-score {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+      font-size: 13px;
+    }
+
+    #skill-detail .sd-pip {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #0d9488;
+      flex-shrink: 0;
+    }
+
+    #skill-detail .sd-score-num {
+      font-weight: 700;
+      color: #0d9488;
+    }
+
+    #skill-detail .sd-score-label {
+      color: #888;
+    }
+
+    #skill-detail .sd-desc {
+      font-size: 13px;
+      color: #333;
+      line-height: 1.6;
+      border-top: 1px solid #e0f2f1;
+      padding-top: 10px;
+      margin-bottom: 8px;
+    }
+
+    #skill-detail .sd-roles {
+      font-size: 11.5px;
+      color: #777;
+      font-style: italic;
     }
 
     /* Breadcrumb */
@@ -276,7 +342,18 @@
   </div>
 
   <div id="breadcrumb">&nbsp;</div>
-  <div id="chart-wrap"></div>
+  <div id="chart-wrap">
+    <div id="skill-detail">
+      <div class="sd-name"></div>
+      <div class="sd-score">
+        <span class="sd-pip"></span>
+        <span class="sd-score-num"></span>
+        <span class="sd-score-label"></span>
+      </div>
+      <div class="sd-desc"></div>
+      <div class="sd-roles"></div>
+    </div>
+  </div>
 
   <div id="tooltip"></div>
 
@@ -492,11 +569,12 @@
     .attr("fill", d => nodeColor(d))
     .attr("fill-opacity", d => d.depth === 0 ? 0.95 : d.depth === 1 ? 0.82 : 0.90)
     .attr("class", d => d.depth === 0 ? "root-circle" : d.depth === 1 ? "domain-circle" : "skill-circle")
-    .style("cursor", d => d.depth < 2 ? "pointer" : "default")
+    .style("cursor", "pointer")
     .on("click", (event, d) => {
       event.stopPropagation();
       if (d.depth === 0) zoomTo(root);
       else if (d.depth === 1) zoomTo(currentFocus === d ? root : d);
+      else if (d.depth === 2) zoomTo(currentFocus === d ? d.parent : d);
     });
 
   // ── Text wrap helper ─────────────────────────────────────────────────────────
@@ -593,17 +671,43 @@
     const bc = document.getElementById("breadcrumb");
     if (focus.depth === 0) {
       bc.innerHTML = "&nbsp;";
-    } else {
+    } else if (focus.depth === 1) {
       bc.textContent = "Todd Peters  ›  " + focus.data.name;
+    } else {
+      bc.textContent = "Todd Peters  ›  " + focus.parent.data.name + "  ›  " + focus.data.name;
+    }
+
+    // Hide or show skill detail overlay
+    const overlay = document.getElementById("skill-detail");
+    if (focus.depth === 2) {
+      const color = nodeColor(focus);
+      const score = focus.data.value;
+      overlay.style.borderColor = color;
+      overlay.querySelector(".sd-name").style.color = color;
+      overlay.querySelector(".sd-name").textContent = focus.data.name;
+      overlay.querySelector(".sd-pip").style.background = color;
+      overlay.querySelector(".sd-score-num").style.color = color;
+      overlay.querySelector(".sd-score-num").textContent = score + "/10";
+      overlay.querySelector(".sd-score-label").textContent = "\u2014 " + scoreLabel(score);
+      overlay.querySelector(".sd-desc").textContent = focus.data.desc || "";
+      overlay.querySelector(".sd-roles").textContent = focus.data.roles || "";
     }
 
     svg.transition().duration(500)
       .on("end", () => {
         skillText.style("opacity", d => {
+          if (focus.depth === 2) return d === focus ? 0 : 0;  // overlay handles label
           const displayR = d.r * scale;
           if (focus.depth === 1) return (d.parent === focus && displayR >= 18) ? 1 : 0;
-          return displayR >= 22 ? 1 : 0;  // full view: show large-enough circles
+          return displayR >= 22 ? 1 : 0;
         });
+        if (focus.depth === 2) {
+          overlay.style.opacity = "1";
+          overlay.style.pointerEvents = "auto";
+        } else {
+          overlay.style.opacity = "0";
+          overlay.style.pointerEvents = "none";
+        }
       });
 
     node.transition().duration(500)
@@ -616,6 +720,7 @@
     node.select("circle").transition().duration(500)
       .attr("r", d => d.r * scale)
       .attr("fill-opacity", d => {
+        if (focus.depth === 2) return (d === focus) ? 0.95 : 0.12;
         if (focus.depth > 0 && d.depth === 1 && d !== focus) return 0.35;
         return d.depth === 0 ? 0.95 : d.depth === 1 ? 0.82 : 0.90;
       });
