@@ -335,7 +335,7 @@
         <div class="legend-scale">
           <span class="legend-scale-label">1</span>
           <div class="legend-scale-bar" id="score-legend"></div>
-          <span class="legend-scale-label">10 = Expert</span>
+          <span class="legend-scale-label">100 = Expert</span>
         </div>
       </div>
     </div>
@@ -359,87 +359,111 @@
 
   <script>
   // ── Data ────────────────────────────────────────────────────────────────────
-  // value = expertise score 1–10 (drives circle radius via d3.pack)
+  // value = expertise score 1–100 (drives circle radius via d3.pack)
   const data = {
     name: "Todd Peters",
     children: [
       {
         name: "AI & Search Platforms",
         children: [
-          { name: "SOLR / Lucidworks", value: 9,
-            desc: "Field weight tuning (5–6 schema fields), query pipeline design, re-ranking with behavioral signals, schema optimization across 10M+ product catalog",
-            roles: "TF 2014–2024 · Avantor 2024–2026" },
-          { name: "Query Understanding", value: 9,
-            desc: "Synonym management (Lucidworks Fusion generator), spell correction, ML-based autocomplete (GA4 frequency, log boosting, decay factor, ghost term filtering)",
-            roles: "TF 2010–2024 · Avantor 2024–2026" },
-          { name: "Endeca / FAST", value: 8,
-            desc: "Legacy enterprise search platforms; led 2 full platform migrations protecting $3B revenue; pre-production A/B testing strategy",
-            roles: "TF 2010–2021" },
-          { name: "Faceted Navigation", value: 8,
-            desc: "Auto-faceting (FAST, Endeca), dynamic attribute filtering, smart facet ordering via customer popularity ranking and sequential engagement linkages",
+          { name: "Faceted Navigation", value: 100,
+            desc: "Auto-faceting, dynamic attribute filtering, smart facet ordering via customer popularity ranking and sequential engagement linkages; governed across 10M+ product catalog",
             roles: "TF 2014–2024" },
-          { name: "Platform Migrations", value: 8,
-            desc: "FAST→Endeca, Endeca→Lucidworks Fusion; designed pre-production A/B testing; established SLA and post-install performance specs",
-            roles: "TF 2010–2024" },
-          { name: "Multilingual Search", value: 7,
-            desc: "Language-specific analyzers, cross-language synonym lists for recall improvement, URL-based localization; 15 global domains",
+          { name: "Multilingual Search", value: 90,
+            desc: "Language-specific analyzers, cross-language synonym lists for recall improvement, URL-based localization; 15 global domains across Europe, Asia-Pacific, Americas",
             roles: "TF 2014–2024" },
-          { name: "Conversational AI / RAG", value: 7,
-            desc: "OpenAI agentic framework (function calling), SOLR IR + LLM assessment layer, grounding citations, hallucination mitigation, semantic retrieval pipeline",
+          { name: "Conversational AI", value: 85,
+            desc: "Prompt engineering, function calling, agent state management, multi-turn conversation design, LLM orchestration for enterprise search use cases",
             roles: "Avantor 2024–2026" },
-          { name: "AEO / GEO", value: 7,
-            desc: "AI Overview optimization, LLM citation strategy, Otterly.ai monitoring, generative engine visibility tracking across Google AI Overviews and ChatGPT",
+          { name: "FAST", value: 80,
+            desc: "Microsoft FAST ESP pipeline stages, document processing, keyword extraction; led migration away from FAST platform protecting $3B revenue channel",
+            roles: "TF 2010–2021" },
+          { name: "Platform Migrations", value: 80,
+            desc: "FAST→Endeca, Endeca→Lucidworks Fusion; designed pre-production A/B testing; established SLA and post-install performance specs (query response, uptime, indexing)",
+            roles: "TF 2010–2024" },
+          { name: "AEO", value: 80,
+            desc: "Answer Engine Optimization: structuring content for AI Overviews, featured snippet capture, People Also Ask optimization, FAQ schema, passage indexing",
+            roles: "Avantor 2024–2026" },
+          { name: "GEO", value: 80,
+            desc: "Generative Engine Optimization: citation strategy for ChatGPT, Perplexity, Gemini; Otterly.ai monitoring; generative engine content and authority building",
+            roles: "Avantor 2024–2026" },
+          { name: "Query Understanding", value: 70,
+            desc: "Synonym management (Lucidworks Fusion generator), spell correction pipelines, ML-based autocomplete (frequency boosting, log-based decay, ghost term filtering)",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Lucidworks Fusion", value: 60,
+            desc: "ML-based re-ranking pipelines, behavioral signals integration, Fusion Studio query workflows, connector management, signal aggregation jobs",
+            roles: "TF 2014–2024 · Avantor 2024–2026" },
+          { name: "SOLR", value: 55,
+            desc: "Apache Solr configuration, schema design, field type optimization, query parser selection, relevance debugging, facet queries",
+            roles: "TF 2014–2024 · Avantor 2024–2026" },
+          { name: "Endeca", value: 55,
+            desc: "Oracle Endeca Experience Manager, record adapter configuration, dimension attribute management; led migration to Lucidworks protecting $3B eComm revenue",
+            roles: "TF 2010–2021" },
+          { name: "RAG", value: 35,
+            desc: "Retrieval-Augmented Generation pipeline design, hybrid keyword/vector retrieval, source grounding, citation injection, hallucination mitigation strategies",
             roles: "Avantor 2024–2026" }
         ]
       },
       {
         name: "Analytics & Measurement",
         children: [
-          { name: "A/B Testing", value: 8,
-            desc: "Pre/post statistical significance testing, click distribution analysis, pre-production A/B testing frameworks, confidence intervals, sample size planning",
-            roles: "TF 2010–2024 · Avantor 2024–2026" },
-          { name: "KPI Framework Design", value: 8,
+          { name: "KPI Framework Design", value: 100,
             desc: "Formal metric definitions, calculation methodology, glossary, and reference table; published as org-level artifact used across search and analytics teams",
             roles: "TF 2021–2024" },
-          { name: "GA4 / Adobe Analytics", value: 8,
-            desc: "GA4 implementation from scratch; human-only signal collection (search box vs. SRP loads); $/click revenue attribution; Omniture logging + dashboard distribution",
+          { name: "Adobe Analytics", value: 95,
+            desc: "Omniture/SiteCatalyst implementation, eVar/prop configuration, report suite management, dashboard distribution across global search and merchandising teams",
+            roles: "TF 2010–2024" },
+          { name: "GA4", value: 85,
+            desc: "Implementation from scratch; custom event taxonomy; human-only signal collection (search box vs. SRP loads); $/click revenue attribution; funnel analysis",
+            roles: "Avantor 2024–2026" },
+          { name: "Looker", value: 85,
+            desc: "LookML dimensional modeling, explore-level field definitions, join logic, dashboard distribution for exec and operational audiences",
+            roles: "Avantor 2024–2026" },
+          { name: "Power BI", value: 60,
+            desc: "ETL via Power Query, DAX measures (calculate, conditionals, time intelligence), calendar tables, GA4 connector, exec-facing dashboards",
+            roles: "Avantor 2024–2026" },
+          { name: "A/B Testing", value: 60,
+            desc: "Pre/post statistical significance testing, click distribution analysis, pre-production A/B testing frameworks, confidence intervals, sample size planning",
             roles: "TF 2010–2024 · Avantor 2024–2026" },
-          { name: "Offline Eval (NDCG)", value: 7,
+          { name: "Offline Eval (NDCG)", value: 55,
             desc: "NDCG, Precision@K, Recall@K, MRR at multiple depths (top-5, top-10); non-inferiority testing; tradeoff decision modeling across 2,000 high-volume queries",
             roles: "Avantor 2024–2026" },
-          { name: "Power BI / Looker", value: 7,
-            desc: "ETL via Power Query, DAX formulas (measures, calculate, conditionals), table joins, GA4 integration, dashboard builds for exec and ops audiences",
+          { name: "SEMrush", value: 50,
+            desc: "Keyword gap analysis, competitor research, backlink auditing, content opportunity identification, technical SEO issue monitoring",
             roles: "Avantor 2024–2026" },
-          { name: "GSC / SEMrush", value: 6,
-            desc: "Technical SEO monitoring, crawl health analysis, keyword gap analysis, AI answer engine presence tracking via Otterly.ai",
+          { name: "Google Search Console", value: 25,
+            desc: "Coverage reports, crawl error analysis, Core Web Vitals monitoring, indexing status, URL inspection tool, search performance query analysis",
             roles: "Avantor 2024–2026" }
         ]
       },
       {
         name: "Product Leadership",
         children: [
-          { name: "Executive Communication", value: 9,
-            desc: "CIO-level funding presentations; VP roadmap reviews; translated complex technical capabilities into executive language; secured phased funding with pre-negotiated resources",
-            roles: "TF 2021–2024 · Avantor 2024–2026" },
-          { name: "Cross-functional Teams", value: 9,
-            desc: "30 members across 6 functions; 5 on/offshore Agile SCRUM dev teams; 3 direct reports; mentored PMs, BAs, SOs, POs; built 6 cross-functional teams over tenure",
-            roles: "TF 2021–2024" },
-          { name: "$3B Revenue Channel", value: 9,
+          { name: "$3B Revenue Channel", value: 100,
             desc: "Sole PM for thermofisher.com + fishersci.com; 10M+ complex scientific products across 15 global domains; 95% decision authority for 11+ years",
             roles: "TF 2010–2024" },
-          { name: "$14M Revenue Delivery", value: 8,
+          { name: "$14M Revenue Delivery", value: 100,
             desc: "SOLR field weight tuning in 90-day cycle; CIO audit identifying platform gaps; 2% CTR lift validated to statistical significance; presented to VP and Operations",
             roles: "Avantor 2024–2026" },
-          { name: "WSJF / Prioritization", value: 8,
-            desc: "Weighted Shortest Job First, Business Value frameworks, OKRs; secured CIO approval for $170M 3-year revenue roadmap using project gates",
-            roles: "TF 2021–2024 · Avantor 2024–2026" },
-          { name: "0-to-1 AI Product", value: 8,
+          { name: "0-to-1 AI Product", value: 100,
             desc: "AvantorAI/Navigator: rescued failing initiative with paradigm-shifting architecture; launched multilingual US/Canada; recognized by CEO Michael Stubblefield in Q2 2025 earnings call",
             roles: "Avantor 2024–2026" },
-          { name: "Agile / SAFe", value: 7,
-            desc: "Led TF transition from Agile SCRUM to SAFe; created Jira process flows and sprint structures adopted as SDLC foundation across multiple teams",
+          { name: "Agile / Scrum", value: 95,
+            desc: "Sprint planning, backlog refinement, velocity tracking, retrospectives; led 5+ SCRUM teams simultaneously across on/offshore resources",
             roles: "TF 2010–2024" },
-          { name: "Vendor Management", value: 7,
+          { name: "WSJF / Prioritization", value: 95,
+            desc: "Weighted Shortest Job First, Business Value frameworks, OKRs; secured CIO approval for $170M 3-year revenue roadmap using project gates",
+            roles: "TF 2021–2024 · Avantor 2024–2026" },
+          { name: "Cross-functional Teams", value: 93,
+            desc: "30 members across 6 functions; 5 on/offshore Agile SCRUM dev teams; 3 direct reports; mentored PMs, BAs, SOs, POs; built 6 cross-functional teams over tenure",
+            roles: "TF 2021–2024" },
+          { name: "Executive Communication", value: 90,
+            desc: "CIO-level funding presentations; VP roadmap reviews; translated complex technical capabilities into executive language; secured phased funding with pre-negotiated resources",
+            roles: "TF 2021–2024 · Avantor 2024–2026" },
+          { name: "SAFe", value: 90,
+            desc: "PI planning, ART coordination; led TF transition from Agile SCRUM to SAFe; created Jira process flows and sprint structures adopted as SDLC standard across multiple teams",
+            roles: "TF 2010–2024" },
+          { name: "Vendor Management", value: 85,
             desc: "Lucidworks, SOLR specialist, chemical structure search, A/B testing partners; solo MSA negotiation through 3-month procurement approval chain",
             roles: "TF 2014–2024 · Avantor 2024–2026" }
         ]
@@ -447,41 +471,91 @@
       {
         name: "Technical Skills",
         children: [
-          { name: "Python / SQL / VBA", value: 8,
-            desc: "VBA expert (Excel, Outlook MAPI, Access GUI + reports); SQL advanced (Oracle production schema at Motorola, ODBC to TF data warehouse, MySQL); Python proficient — 31 years self-taught",
+          { name: "VBA", value: 100,
+            desc: "Expert-level Excel automation (30+ custom applications), Outlook MAPI integration (email triggers + parsing), Access GUI + reports — 31 years of self-teaching",
             roles: "All roles" },
-          { name: "OpenAI API", value: 7,
-            desc: "Agentic framework (function calling), agent state management, RAG pipeline integration, prompt design for grounded and hallucination-mitigated responses",
-            roles: "Avantor 2024–2026" },
-          { name: "GitHub / Git / VS Code", value: 7,
-            desc: "GitHub Copilot power user; version control; AI-assisted development; built and maintained this career site entirely in VS Code",
+          { name: "GitHub Copilot", value: 90,
+            desc: "Power user of agentic coding workflows, inline completion, multi-file context edits, prompt engineering for code generation; built this career site entirely with Copilot",
             roles: "Current" },
-          { name: "JavaScript / HTML / CSS", value: 6,
-            desc: "Proficient; used for UI work, dashboard integration, and web tooling across multiple projects",
-            roles: "Multiple roles" },
-          { name: "Database Design", value: 6,
+          { name: "GitHub / Git / VS Code", value: 90,
+            desc: "Version control workflows, branching strategies, GitHub Pages deployment, VS Code extensions; full development environment for this career site",
+            roles: "Current" },
+          { name: "Database Design", value: 45,
             desc: "Oracle production tablespace/schema at Motorola; ODBC integration to TF enterprise data warehouse; MS Access normalized relational custom apps",
-            roles: "Motorola 1999–2003 · TF 2010–2024" }
+            roles: "Motorola 1999–2003 · TF 2010–2024" },
+          { name: "SQL", value: 40,
+            desc: "Oracle production schema queries (Motorola), ODBC to TF enterprise data warehouse, MySQL, complex JOINs, subqueries, stored procedures",
+            roles: "Motorola 1999–2003 · TF 2010–2024" },
+          { name: "JavaScript / HTML / CSS", value: 35,
+            desc: "Custom D3.js visualizations (this page), dashboard integration, responsive layouts, event handling — proficient and actively used",
+            roles: "Multiple roles" },
+          { name: "Python", value: 25,
+            desc: "Web scraping (BeautifulSoup/requests), data processing (pandas), automation scripts, job search tooling — self-taught, growing actively",
+            roles: "Current" },
+          { name: "OpenAI API", value: 20,
+            desc: "Agentic framework (function calling), agent state management, RAG pipeline integration, prompt design for grounded and hallucination-mitigated responses",
+            roles: "Avantor 2024–2026" }
         ]
       },
       {
         name: "Domain Expertise",
         children: [
-          { name: "Life Sciences eComm", value: 10,
+          { name: "Life Sciences eComm", value: 100,
             desc: "14+ yrs across TF + Avantor; 10M+ complex scientific products; B2B purchasing workflows at enterprise scale; global multi-domain platforms for researchers and procurement teams",
             roles: "TF 2010–2024 · Avantor 2024–2026" },
-          { name: "SEO / Organic Discovery", value: 8,
-            desc: "20,000+ SEO landing pages generated via taxonomy improvements and chemical structure search modernization; structured data; organic traffic growth strategies",
-            roles: "TF 2014–2024" },
-          { name: "Scientific Taxonomy", value: 8,
+          { name: "Scientific Taxonomy", value: 70,
             desc: "Chemical structure search; CAS ID landing pages; attribute structures for 10M+ products; application and marketing pages; CMS workflows and content governance",
             roles: "TF 2010–2024" },
-          { name: "Biochemistry / Chemistry", value: 7,
-            desc: "B.S. Portland State University; 3 peer-reviewed publications (Clinical Chemistry, ASHG); Motorola microarray research; P450 genotyping product development",
-            roles: "Education + Motorola 1999–2003" },
-          { name: "B2B Sales & BD", value: 6,
+          { name: "B2B Sales & BD", value: 60,
             desc: ">$1M contracts closed (exclusive/non-exclusive licensing, OEM supply); $1.2M+ BD pipeline; CEO-level outreach to Fortune 500 targets; OEM negotiations",
-            roles: "Safe Life 2007–2010" }
+            roles: "Safe Life 2007–2010" },
+          { name: "SEO / Organic Discovery", value: 55,
+            desc: "20,000+ SEO landing pages generated via taxonomy improvements and chemical structure search modernization; structured data; organic traffic growth strategies",
+            roles: "TF 2014–2024" },
+          { name: "Biochemistry / Chemistry", value: 45,
+            desc: "B.S. Portland State University; 3 peer-reviewed publications (Clinical Chemistry, ASHG); Motorola microarray research; P450 genotyping product development",
+            roles: "Education + Motorola 1999–2003" }
+        ]
+      },
+      {
+        name: "Site Search UX",
+        children: [
+          { name: "SRP Design", value: 100,
+            desc: "Search results page layout architecture, result card metadata hierarchy, sorting controls, result count display, pagination patterns, zero-state design",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Autocomplete", value: 100,
+            desc: "Ghost text implementation, keyword + category suggestions, ML frequency boosting, log-based decay factor tuning, negative keyword filtering, visual hierarchy design",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Browse Navigation", value: 100,
+            desc: "Category hierarchy design, breadcrumb patterns, left-rail navigation, attribute-driven browsing flows, mega-menu architecture for large scientific catalogs",
+            roles: "TF 2010–2024" },
+          { name: "Category Page Design", value: 100,
+            desc: "Category landing page templates, hero content, product grid layout, attribute filter integration, SEO metadata, CMS-driven content zones",
+            roles: "TF 2010–2024" },
+          { name: "Click Analysis", value: 100,
+            desc: "CTR measurement by position, click distribution modeling, position bias correction, behavioral pattern analysis, human-only signal filtering",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "ML Re-ranking", value: 100,
+            desc: "Machine learning re-ranking frameworks, LambdaMART/behavioral boosting, signal-to-feature pipelines, online/offline evaluation loop design",
+            roles: "TF 2014–2024 · Avantor 2024–2026" },
+          { name: "Behavioral Signals", value: 100,
+            desc: "Behavioral signal pipeline design, clickstream instrumentation, implicit feedback collection, signal quality filtering, ML training data curation for ranking models",
+            roles: "TF 2014–2024 · Avantor 2024–2026" },
+          { name: "No Results Recovery", value: 95,
+            desc: "Zero-results strategy and UX, fallback messaging, query broadening suggestions, related category recommendations, partial match recovery, null prevention logic",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Relevance Tuning", value: 90,
+            desc: "Business rule definition, field weight rationale documentation, boosting strategy governance, relevance committee facilitation, stakeholder alignment frameworks",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Search UX Testing", value: 85,
+            desc: "Usability studies, task-based search scenario design, think-aloud protocols, SRP variant testing, A/B test hypothesis design for search interactions",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Spell Check / DYM", value: 85,
+            desc: "Spell correction configuration, Did You Mean confidence thresholds, transparent correction UX patterns, query amendment design, auto-correct vs. suggested correction decisions",
+            roles: "TF 2010–2024 · Avantor 2024–2026" },
+          { name: "Personalization", value: 25,
+            desc: "Customer history signals, purchase affinity-based re-ranking, personalized search results frameworks — exposure and design work; not deep production implementation",
+            roles: "TF 2021–2024" }
         ]
       }
     ]
@@ -494,14 +568,15 @@
     "Analytics & Measurement": "#059669",
     "Product Leadership":      "#0d9488",
     "Technical Skills":        "#16a34a",
-    "Domain Expertise":        "#0f766e"
+    "Domain Expertise":        "#0f766e",
+    "Site Search UX":          "#14b8a6"
   };
 
   // Score → expertise label
   function scoreLabel(v) {
-    if (v >= 10) return "Expert";
-    if (v >= 8)  return "Advanced";
-    if (v >= 6)  return "Proficient";
+    if (v >= 90) return "Expert";
+    if (v >= 70) return "Advanced";
+    if (v >= 50) return "Proficient";
     return "Familiar";
   }
 
@@ -648,7 +723,7 @@
         <div class="t-name" style="color:${color}">${d.data.name}</div>
         <div class="t-score">
           <span class="t-score-pip" style="background:${color}"></span>
-          <span class="t-score-num" style="color:${color}">${score}/10</span>
+          <span class="t-score-num" style="color:${color}">${score}/100</span>
           <span class="t-score-label">— ${scoreLabel(score)}</span>
         </div>
         <div class="t-desc">${d.data.desc}
@@ -692,7 +767,7 @@
       overlay.querySelector(".sd-name").textContent = focus.data.name;
       overlay.querySelector(".sd-pip").style.background = color;
       overlay.querySelector(".sd-score-num").style.color = color;
-      overlay.querySelector(".sd-score-num").textContent = score + "/10";
+      overlay.querySelector(".sd-score-num").textContent = score + "/100";
       overlay.querySelector(".sd-score-label").textContent = "\u2014 " + scoreLabel(score);
       overlay.querySelector(".sd-desc").textContent = focus.data.desc || "";
       overlay.querySelector(".sd-roles").textContent = focus.data.roles || "";
