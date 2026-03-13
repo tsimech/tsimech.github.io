@@ -57,8 +57,8 @@ Todd Peters
 
 ---
 
-## CONSUMER SEARCH & AI PRODUCT LEADER
-**Agentic Systems | Deterministic + Probabilistic Search | $3B+ Revenue at Scale**
+## SITE SEARCH & AI PRODUCT LEADER
+**$3B+ Revenue at Scale**
 
 Product leader with 14+ years in site search product leadership. Owned $3B+ in digital revenue across two of the largest life sciences eCommerce platforms in the world. Converts user intent into incremental revenue. Led two full platform migrations. Ran two independent products simultaneously at Avantor. Built the industry reference implementation for life sciences eCommerce search. Technical MBA who codes.
 
