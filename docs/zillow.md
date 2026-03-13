@@ -101,7 +101,7 @@ Todd Peters
 <hr id="page-break">
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Zillow%20-%20Senior%20Product%20Manager%2C%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Senior%20Product%20Manager%2C%20Search%20Intelligence%20role%20at%20Zillow.%20Your%20background%20building%20search%20experiences%20at%20scale%20and%20the%20AI%20product%20work%20you%20shipped%20at%20Avantor%20caught%20our%20attention.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0A%5BYour%20Name%5D%0ATalent%20Acquisition%2C%20Zillow) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Zillow%20-%20Senior%20Product%20Manager%2C%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Senior%20Product%20Manager%2C%20Search%20Intelligence%20role%20at%20Zillow.%20Your%20background%20building%20search%20experiences%20at%20scale%20and%20the%20AI%20product%20work%20you%20shipped%20at%20Avantor%20caught%20our%20attention.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Zillow) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 

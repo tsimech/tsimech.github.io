@@ -45,7 +45,7 @@ Todd Peters
 ---
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Home%20Depot%20-%20Senior%20Analyst%2C%20SEO&body=Hi%20Todd%2C%0A%0AI%20reviewed%20your%20application.%20The%20combination%20of%20measurable%20business%20impact%2C%20cross-functional%20leadership%2C%20and%20hands-on%20technical%20depth%20in%20your%20background%20caught%20our%20attention.%0A%0AI%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0AYou%20can%20book%20a%20time%20directly%20at:%20https://cal.com/todd-peters%0A%0A%5BYour%20Name%5D%0ATalent%20Acquisition) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Home%20Depot%20-%20Senior%20Analyst%2C%20SEO&body=Hi%20Todd%2C%0A%0AI%20reviewed%20your%20application.%20The%20combination%20of%20measurable%20business%20impact%2C%20cross-functional%20leadership%2C%20and%20hands-on%20technical%20depth%20in%20your%20background%20caught%20our%20attention.%0A%0AI%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
