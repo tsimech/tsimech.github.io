@@ -6,11 +6,15 @@ body {
   background: url('/zillow-bg.png') center center / cover no-repeat fixed;
 }
 .wrapper {
+  background: transparent !important;
+}
+section {
   background: rgba(255, 255, 255, 0.95) !important;
+  padding: 20px 30px !important;
 }
 @media print {
   body { background: none !important; }
-  .wrapper { background: white !important; }
+  section { background: white !important; }
   html, body, .wrapper, section, article, main {
     height: auto !important;
     max-height: none !important;
