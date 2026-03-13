@@ -16,6 +16,8 @@ robots: noindex, nofollow
   align-items: center;
   gap: 6px;
   padding: 8px 14px;
+  line-height: normal;
+  box-sizing: border-box;
   background: linear-gradient(135deg, #0891b2 0%, #14b8a6 100%);
   color: white !important;
   text-decoration: none !important;
@@ -53,7 +55,7 @@ setTimeout(function() {
       </svg>
       Skills Map
     </a>
-    <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+    <button onclick="window.print()" style="padding: 8px 16px; line-height: normal; box-sizing: border-box; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
   </div>
 </div>
 
