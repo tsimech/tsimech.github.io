@@ -8,7 +8,7 @@ robots: noindex, nofollow
     max-height: none !important;
     overflow: visible !important;
   }
-  hr:first-of-type { page-break-after: always; break-after: page; }
+  hr#page-break { page-break-after: always; break-after: page; }
   button { display: none; }
 }
 </style>
@@ -31,7 +31,9 @@ setTimeout(function() {
   <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
 </div>
 
-**Zillow: Senior Product Manager, Search Intelligence**
+<hr>
+
+## Zillow: Senior Product Manager, Search Intelligence
 
 Dear Hiring Team,
 
@@ -42,14 +44,13 @@ At Avantor I led that system through the same transition Zillow is making: from 
 For nearly 14 years I was the only Site Search Product Manager at ThermoFisher Scientific. The vision, the prioritization, and the revenue outcome were mine to own with 95% decision authority. I would like to bring that same ownership to Zillow.
 
 Thank you for your consideration.
+<br><br>
 
 Todd Peters
 
----
-
 <br><br><br><br><br>
 
----
+<hr id="page-break">
 
 # TODD PETERS
 **Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Zillow%20-%20Senior%20PM%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AI%20reviewed%20your%20application.%20The%20combination%20of%20measurable%20business%20impact%2C%20cross-functional%20leadership%2C%20and%20hands-on%20technical%20depth%20in%20your%20background%20caught%20our%20attention.%0A%0AI%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0AYou%20can%20book%20a%20time%20directly%20at:%20https://cal.com/todd-peters%0A%0A%5BYour%20Name%5D%0ATalent%20Acquisition) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
