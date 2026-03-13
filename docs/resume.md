@@ -25,7 +25,7 @@ setTimeout(function() {
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
   <div>
     <strong style="font-size: 1.5em;">Todd Peters</strong><br>
-    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a> &nbsp;&bull;&nbsp; <a href="https://tsimech.github.io/skills">Interactive Skills Map</a>
   </div>
   <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
 </div>
