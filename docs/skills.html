@@ -38,6 +38,32 @@
 
     #page-header a:hover { text-decoration: underline; }
 
+    #mode-toggle {
+      display: flex;
+      background: #e0f2f1;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+    }
+
+    .mode-btn {
+      padding: 5px 15px;
+      border: none;
+      border-radius: 17px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      background: transparent;
+      color: #0d9488;
+      transition: background 0.18s, color 0.18s;
+      line-height: normal;
+    }
+
+    .mode-btn.active {
+      background: #0d9488;
+      color: #fff;
+    }
+
     #subtitle {
       text-align: center;
       font-size: 0.8em;
@@ -320,7 +346,13 @@
 
   <div id="page-header">
     <h1>Todd Peters: Skills Map</h1>
-    <a href="https://tsimech.github.io/resume">&#8592; Back to Resume</a>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div id="mode-toggle">
+        <button class="mode-btn active" data-mode="expertise">Expertise</button>
+        <button class="mode-btn" data-mode="recency">Recency</button>
+      </div>
+      <a href="https://tsimech.github.io/resume">&#8592; Back to Resume</a>
+    </div>
   </div>
   <div id="subtitle">Click a domain bubble to zoom in &nbsp;&bull;&nbsp; Click background to zoom out &nbsp;&bull;&nbsp; Hover any skill for details</div>
 
@@ -580,6 +612,55 @@
     return "Familiar";
   }
 
+  // Score → recency label
+  function recencyLabel(v) {
+    if (v >= 95) return "Active now";
+    if (v >= 85) return "Two roles";
+    if (v >= 60) return "Prior role";
+    return "Historical";
+  }
+
+  // Active display mode
+  let currentMode = 'expertise';
+
+  // Recency scores — last active year determines score
+  // 100=current daily use · 95=Avantor-only · 90=TF+Avantor · 80=all roles · 65=TF-ended-2024 · 35=TF-ended-2021 · 10/5=pre-2010
+  const recencyScores = {
+    // AI & Search Platforms
+    "Faceted Navigation": 65, "Multilingual Search": 65, "Conversational AI": 95,
+    "FAST": 35, "Platform Migrations": 65, "AEO": 95, "GEO": 95,
+    "Query Understanding": 90, "Lucidworks Fusion": 90, "SOLR": 90,
+    "Endeca": 35, "RAG": 95,
+    // Analytics & Measurement
+    "KPI Framework Design": 65, "Adobe Analytics": 65, "GA4": 95,
+    "Looker": 95, "Power BI": 95, "A/B Testing": 90, "Offline Eval (NDCG)": 95,
+    "SEMrush": 95, "Google Search Console": 95,
+    // Product Leadership
+    "$3B Revenue Channel": 65, "$14M Revenue Delivery": 95, "0-to-1 AI Product": 95,
+    "Agile / Scrum": 65, "WSJF / Prioritization": 90, "Cross-functional Teams": 65,
+    "Executive Communication": 90, "SAFe": 65, "Vendor Management": 90,
+    // Technical Skills
+    "VBA": 80, "GitHub Copilot": 100, "GitHub / Git / VS Code": 100,
+    "Database Design": 65, "SQL": 65, "JavaScript / HTML / CSS": 80,
+    "Python": 100, "OpenAI API": 95,
+    // Domain Expertise
+    "Life Sciences eComm": 90, "Scientific Taxonomy": 65, "B2B Sales & BD": 10,
+    "SEO / Organic Discovery": 65, "Biochemistry / Chemistry": 5,
+    // Site Search UX
+    "SRP Design": 90, "Autocomplete": 90, "Browse Navigation": 65,
+    "Category Page Design": 65, "Click Analysis": 90, "ML Re-ranking": 90,
+    "Behavioral Signals": 90, "No Results Recovery": 90, "Relevance Tuning": 90,
+    "Search UX Testing": 90, "Spell Check / DYM": 90, "Personalization": 65
+  };
+
+  function getScore(d) {
+    return currentMode === 'recency' ? (recencyScores[d.data.name] || 10) : d.data.value;
+  }
+
+  function getLabel(score) {
+    return currentMode === 'recency' ? recencyLabel(score) : scoreLabel(score);
+  }
+
   // ── Dimensions ───────────────────────────────────────────────────────────────
   const SIZE = Math.min(window.innerWidth - 40, 860);
 
@@ -594,6 +675,12 @@
     .padding(d => d.depth === 0 ? 20 : d.depth === 1 ? 10 : 4);
 
   const root = pack(hierarchy);
+
+  function rebuildPack(mode) {
+    hierarchy.sum(d => mode === 'expertise' ? (d.value || 0) : (recencyScores[d.name] || 10))
+      .sort((a, b) => b.value - a.value);
+    pack(hierarchy);
+  }
 
   // ── Track current zoom node ───────────────────────────────────────────────────
   let currentFocus = root;
@@ -718,13 +805,13 @@
   node.filter(d => d.depth === 2)
     .on("mouseover", (event, d) => {
       const color = nodeColor(d);
-      const score = d.data.value;
+      const score = getScore(d);
       tooltip.style("opacity", 1).html(`
         <div class="t-name" style="color:${color}">${d.data.name}</div>
         <div class="t-score">
           <span class="t-score-pip" style="background:${color}"></span>
           <span class="t-score-num" style="color:${color}">${score}/100</span>
-          <span class="t-score-label">— ${scoreLabel(score)}</span>
+          <span class="t-score-label">— ${getLabel(score)}</span>
         </div>
         <div class="t-desc">${d.data.desc}
           ${d.data.roles ? `<div class="t-roles">${d.data.roles}</div>` : ""}
@@ -761,14 +848,14 @@
     const overlay = document.getElementById("skill-detail");
     if (focus.depth === 2) {
       const color = nodeColor(focus);
-      const score = focus.data.value;
+      const score = getScore(focus);
       overlay.style.borderColor = color;
       overlay.querySelector(".sd-name").style.color = color;
       overlay.querySelector(".sd-name").textContent = focus.data.name;
       overlay.querySelector(".sd-pip").style.background = color;
       overlay.querySelector(".sd-score-num").style.color = color;
       overlay.querySelector(".sd-score-num").textContent = score + "/100";
-      overlay.querySelector(".sd-score-label").textContent = "\u2014 " + scoreLabel(score);
+      overlay.querySelector(".sd-score-label").textContent = "\u2014 " + getLabel(score);
       overlay.querySelector(".sd-desc").textContent = focus.data.desc || "";
       overlay.querySelector(".sd-roles").textContent = focus.data.roles || "";
     }
@@ -833,6 +920,55 @@
   const labels = ["1","","","","","","","","","10"];
   sizes.forEach((s, i) => {
     scoreLegend.innerHTML += `<span style="width:${s}px;height:${s}px;opacity:${0.4 + i*0.065}"></span>`;
+  });
+
+  // ── Mode toggle ──────────────────────────────────────────────────────────────
+  function toggleMode(mode) {
+    if (mode === currentMode) return;
+    currentMode = mode;
+    rebuildPack(mode);
+
+    // Reset to root
+    currentFocus = root;
+    const overlay = document.getElementById("skill-detail");
+    overlay.style.opacity = "0";
+    overlay.style.pointerEvents = "none";
+    document.getElementById("breadcrumb").innerHTML = "&nbsp;";
+
+    // Animate all nodes to new layout
+    node.transition().duration(600)
+      .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    node.select("circle").transition().duration(600)
+      .attr("r", d => d.r)
+      .attr("fill-opacity", d => d.depth === 0 ? 0.95 : d.depth === 1 ? 0.82 : 0.90);
+
+    domainLabels.transition().duration(600)
+      .style("opacity", 1)
+      .attr("x", d => d.x)
+      .attr("y", d => d.y - d.r - 7);
+
+    skillText.transition().duration(600)
+      .style("font-size", d => Math.min(11, Math.max(7, d.r * 0.38)) + "px")
+      .style("opacity", d => d.r >= 22 ? 1 : 0)
+      .on("end", function(d) { wrapTextInCircle(this, d); });
+
+    // Update button states
+    document.querySelectorAll(".mode-btn").forEach(b => {
+      b.classList.toggle("active", b.dataset.mode === mode);
+    });
+
+    // Update subtitle
+    const sub = document.getElementById("subtitle");
+    if (mode === 'recency') {
+      sub.textContent = "Recency: 100 = active daily \u00b7 90 = used at both roles \u00b7 65 = prior role \u00b7 \u226435 = historical  \u00b7  Click a domain to zoom in";
+    } else {
+      sub.innerHTML = "Click a domain bubble to zoom in &nbsp;&bull;&nbsp; Click background to zoom out &nbsp;&bull;&nbsp; Hover any skill for details";
+    }
+  }
+
+  document.querySelectorAll(".mode-btn").forEach(btn => {
+    btn.addEventListener("click", () => toggleMode(btn.dataset.mode));
   });
 
   </script>
