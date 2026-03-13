@@ -2,7 +2,18 @@
 robots: noindex, nofollow
 ---
 <style>
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('zillow-bg.png') center center / cover no-repeat;
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: -1;
+}
 @media print {
+  body::before { display: none; }
   html, body, .wrapper, section, article, main {
     height: auto !important;
     max-height: none !important;
