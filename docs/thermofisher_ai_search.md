@@ -203,7 +203,7 @@ AI search product leader who designed and built the on-site search experience fo
 <table style="width:100%; border-collapse: collapse; font-size: 0.95em;">
 <tr><td style="font-weight:bold; padding: 4px 12px 4px 0; width:22%; white-space:nowrap;">M.B.A.</td><td style="padding: 4px 12px 4px 0;">Arizona State University, W.P. Carey School of Business</td><td style="padding: 4px 0; white-space:nowrap;">2003</td></tr>
 <tr><td style="font-weight:bold; padding: 4px 12px 4px 0; white-space:nowrap;">B.S., Biochemistry/Chemistry</td><td style="padding: 4px 12px 4px 0;">Portland State University</td><td style="padding: 4px 0; white-space:nowrap;">1998</td></tr>
-<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; white-space:nowrap;">Certifications</td><td style="padding: 4px 0;" colspan="2">Certified Agile SCRUM Master &nbsp;|&nbsp; Trained SAFe &nbsp;|&nbsp; Pragmatic Marketing Level III</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; white-space:nowrap;">Certifications</td><td style="padding: 4px 0;" colspan="2">Certified Agile SCRUM Master &nbsp;&middot;&nbsp; Trained SAFe &nbsp;&middot;&nbsp; Pragmatic Marketing Level III</td></tr>
 </table>
 
 ---
