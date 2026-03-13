@@ -46,9 +46,6 @@ Thank you for your consideration.
 Todd Peters
 
 ---
-> **See my full application online** — resume, cover letter, and a requirement-by-requirement fit summary:
-> ### [View Full Application: Senior PM, Search Intelligence](https://tsimech.github.io/zillow)
----
 
 <br><br><br><br><br>
 
