@@ -51,7 +51,7 @@ setTimeout(function() {
 }, 5 * 60 * 1000); // 5 minutes in milliseconds
 </script>
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em; position: sticky; top: 0; background: rgba(255,255,255,0.97); z-index: 100; padding: 8px 0; border-bottom: 1px solid #e5e7eb;">
   <div style="display: flex; align-items: center; gap: 1em;">
     <img src="https://www.zillowstatic.com/s3/web-platform/sub-apps/hops-homepage/hops-homepage.prod.master.13218772.2d7b7bbd/web/4af10a9d5d4ea7de5a33fba1eb5faca7.svg" alt="Zillow" style="height: 36px;">
     <div>
