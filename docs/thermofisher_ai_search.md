@@ -1,4 +1,5 @@
 ---
+title: "Thermo Fisher Scientific | Sr. Manager, AI Search & Discoverability"
 robots: noindex, nofollow
 ---
 <style>

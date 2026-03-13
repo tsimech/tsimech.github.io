@@ -1,4 +1,5 @@
 ---
+title: "Generic Resume"
 robots: noindex, nofollow
 ---
 <style>
