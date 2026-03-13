@@ -10,7 +10,27 @@ robots: noindex, nofollow
   }
   hr#page-break { page-break-after: always; break-after: page; }
   button { display: none; }
+  .skills-btn { display: none; }
 }
+.skills-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  line-height: normal;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #0891b2 0%, #14b8a6 100%);
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  box-shadow: 0 1px 4px rgba(8,145,178,0.25);
+  transition: filter 0.15s;
+}
+.skills-btn:hover { filter: brightness(1.1); }
+.skills-btn svg { flex-shrink: 0; }
 </style>
 
 <script>
@@ -24,15 +44,27 @@ setTimeout(function() {
 </script>
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
-  <div>
-    <strong style="font-size: 1.5em;">Todd Peters</strong><br>
-    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+  <div style="display: flex; align-items: center; gap: 1em;">
+    <img src="https://www.zillowstatic.com/s3/web-platform/sub-apps/hops-homepage/hops-homepage.prod.master.13218772.2d7b7bbd/web/4af10a9d5d4ea7de5a33fba1eb5faca7.svg" alt="Zillow" style="height: 36px;">
+    <div>
+      <strong style="font-size: 1.5em;">Todd Peters</strong><br>
+      <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+    </div>
   </div>
-  <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+  <div style="display: flex; gap: 8px; align-items: center;">
+    <a href="https://tsimech.github.io/skills" class="skills-btn" target="_blank">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="7" cy="18" r="3"/><circle cx="17" cy="6" r="3"/><circle cx="17" cy="18" r="3"/>
+        <line x1="7" y1="15" x2="17" y2="9"/><line x1="17" y1="15" x2="17" y2="9"/>
+      </svg>
+      Skills Map
+    </a>
+    <button onclick="window.print()" style="padding: 8px 16px; line-height: normal; box-sizing: border-box; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+  </div>
 </div>
 
 <hr>
-
+<br><br>
 ## Zillow: Senior Product Manager, Search Intelligence
 
 Dear Hiring Team,
