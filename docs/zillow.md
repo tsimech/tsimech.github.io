@@ -2,21 +2,15 @@
 robots: noindex, nofollow
 ---
 <style>
-body {
+html {
   background: url('/zillow-bg.png') center center / cover no-repeat fixed;
 }
-.wrapper, header, footer {
-  background: transparent !important;
-}
-.wrapper > section {
+body {
   background: rgba(255, 255, 255, 0.95) !important;
-  padding: 20px 30px !important;
-  border-radius: 4px;
-  box-shadow: 0 0 40px rgba(0,0,0,0.15);
 }
 @media print {
-  body { background: none !important; }
-  .wrapper > section { background: white !important; box-shadow: none !important; }
+  html { background: none !important; }
+  body { background: white !important; }
   html, body, .wrapper, section, article, main {
     height: auto !important;
     max-height: none !important;
@@ -48,12 +42,6 @@ body {
 </style>
 
 <script>
-// Force section background (overcomes theme CSS specificity)
-document.addEventListener('DOMContentLoaded', function() {
-  var s = document.querySelector('.wrapper > section');
-  if (s) { s.style.background = 'rgba(255,255,255,0.95)'; }
-});
-
 // Auto-trigger email after 5 minutes
 setTimeout(function() {
   var emailLink = document.querySelector('a[href^="mailto:"]');
