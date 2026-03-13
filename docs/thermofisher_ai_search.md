@@ -188,11 +188,13 @@ AI search product leader who designed and built the on-site search experience fo
 
 ## TECHNICAL PROFICIENCIES
 
-**Conversational AI & RAG:** RAG (SOLR IR + LLM assessment), grounding citations, hallucination mitigation, OpenAI agentic framework (function calling), semantic retrieval, prompt engineering, agentic task orchestration  
-**Search Platforms & Development:** Lucidworks Fusion (SOLR), SAP SOLR, Endeca, FAST, SERP design, platform migrations, A/B testing, query understanding, synonym management, spell correction, ML-based autocomplete, faceted navigation, multilingual search  
-**Analytics & Performance Marketing:** GA4, Adobe Analytics, Google Search Console, SEMrush, Otterly.ai, statistical significance testing, NDCG, Precision@K, Recall@K, MRR, revenue attribution modeling  
-**Product Management & Leadership:** WSJF, OKRs, Agile/SAFe, CIO-level business cases, cross-functional team leadership (30+ members, 5 Agile SCRUM teams), $1-2M budgets  
-**Technical Skills:** Python, SQL, VBA, HTML/CSS, JavaScript, GitHub Copilot, Jira, Confluence, Git, VS Code
+<table style="width:100%; border-collapse: collapse; font-size: 0.95em;">
+<tr><td style="width:30%; font-weight:bold; padding: 4px 12px 4px 0; vertical-align:top; white-space:nowrap;">Conversational AI & RAG</td><td style="padding: 4px 0;">RAG (SOLR IR + LLM assessment), grounding citations, hallucination mitigation, OpenAI agentic framework (function calling), semantic retrieval, prompt engineering, agentic task orchestration</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; vertical-align:top; white-space:nowrap;">Search Platforms</td><td style="padding: 4px 0;">Lucidworks Fusion (SOLR), SAP SOLR, Endeca, FAST, SERP design, platform migrations, A/B testing, query understanding, synonym management, spell correction, ML-based autocomplete, faceted navigation, multilingual search</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; vertical-align:top; white-space:nowrap;">Analytics & Performance</td><td style="padding: 4px 0;">GA4, Adobe Analytics, Google Search Console, SEMrush, Otterly.ai, statistical significance testing, NDCG, Precision@K, Recall@K, MRR, revenue attribution modeling</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; vertical-align:top; white-space:nowrap;">Product & Leadership</td><td style="padding: 4px 0;">WSJF, OKRs, Agile/SAFe, CIO-level business cases, cross-functional team leadership (30+ members, 5 Agile SCRUM teams), $1-2M budgets</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; vertical-align:top; white-space:nowrap;">Technical Skills</td><td style="padding: 4px 0;">Python, SQL, VBA, HTML/CSS, JavaScript, GitHub Copilot, Jira, Confluence, Git, VS Code</td></tr>
+</table>
 
 ---
 
@@ -200,7 +202,7 @@ AI search product leader who designed and built the on-site search experience fo
 
 **M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003  
 **B.S., Biochemistry/Chemistry** | Portland State University | 1998  
-**Certifications:** Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+**Certifications:** Certified Agile SCRUM Master | Trained SAFe | Pragmatic Marketing Level III
 
 ---
 
