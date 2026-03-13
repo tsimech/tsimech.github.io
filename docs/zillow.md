@@ -198,5 +198,5 @@ Product leader with 14+ years in site search product leadership. Owned $3B+ in d
 
 ### EDUCATION
 
-**MBA** | San Diego State University
+**MBA** | Arizona State University
 **B.S. Biochemistry** | Portland State University
