@@ -3,10 +3,29 @@ title: "Thermo Fisher Scientific | Sr. Manager, AI Search & Discoverability"
 robots: noindex, nofollow
 ---
 <style>
-@media print {
-  hr:first-of-type { page-break-after: always; break-after: page; }
-  button { display: none; }
+body {
+  background: rgba(255, 255, 255, 0.95) !important;
 }
+@media print {
+  body { background: white !important; }
+  html, body, .wrapper, section, article, main {
+    height: auto !important; max-height: none !important; overflow: visible !important;
+  }
+  hr#page-break { page-break-after: always; break-after: page; }
+  button { display: none; }
+  .skills-btn { display: none; }
+}
+.skills-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 14px; line-height: normal; box-sizing: border-box;
+  background: linear-gradient(135deg, #0891b2 0%, #14b8a6 100%);
+  color: white !important; text-decoration: none !important;
+  border-radius: 5px; font-size: 13px; font-weight: 600;
+  letter-spacing: 0.01em; box-shadow: 0 1px 4px rgba(8,145,178,0.25);
+  transition: filter 0.15s;
+}
+.skills-btn:hover { filter: brightness(1.1); }
+.skills-btn svg { flex-shrink: 0; }
 </style>
 
 <script>
@@ -19,15 +38,37 @@ setTimeout(function() {
 }, 5 * 60 * 1000); // 5 minutes in milliseconds
 </script>
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
+<div style="position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.97); padding: 0.5em 0; margin-bottom: 0.5em;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <strong style="font-size: 1.5em;">Todd Peters</strong><br>
     <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
   </div>
-  <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+  <div style="display: flex; gap: 8px; align-items: center;">
+    <a href="https://tsimech.github.io/skills" class="skills-btn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="7" cy="18" r="3"/><circle cx="17" cy="6" r="3"/><circle cx="17" cy="18" r="3"/>
+        <line x1="7" y1="15" x2="17" y2="9"/><line x1="17" y1="15" x2="17" y2="9"/>
+      </svg>
+      Skills Map
+    </a>
+    <a href="https://cal.com/todd-peters" class="skills-btn" target="_blank" style="background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+        <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>
+        <line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Book a Call
+    </a>
+    <button onclick="window.print()" style="padding: 8px 16px; line-height: normal; box-sizing: border-box; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+  </div>
+</div>
 </div>
 
-**Thermo Fisher Scientific: Sr. Manager, AI Search & Discoverability**
+<hr>
+<br><br>
+
+## Thermo Fisher Scientific: Sr. Manager, AI Search & Discoverability
 
 Dear Robin,
 
@@ -43,10 +84,10 @@ Todd Peters
 
 <br><br><br><br><br>
 
----
+<hr id="page-break">
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Thermo%20Fisher%20Scientific%20-%20Sr.%20Manager%2C%20AI%20Search%20%26%20Discoverability&body=Hi%20Todd%2C%0A%0AI%20reviewed%20your%20application.%20The%20combination%20of%20measurable%20business%20impact%2C%20cross-functional%20leadership%2C%20and%20hands-on%20technical%20depth%20in%20your%20background%20caught%20our%20attention.%0A%0AI%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**[(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Thermo%20Fisher%20Scientific%20-%20Sr.%20Manager%2C%20AI%20Search%20%26%20Discoverability&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Sr.%20Manager%2C%20AI%20Search%20%26%20Discoverability%20role%20at%20Thermo%20Fisher%20Scientific.%20Your%2014-year%20internal%20knowledge%20of%20our%20search%20platform%20and%20recent%20AI%20work%20at%20Avantor%20caught%20our%20attention.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Thermo%20Fisher%20Scientific) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
