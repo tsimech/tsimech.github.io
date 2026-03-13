@@ -13,7 +13,7 @@ body {
   }
   hr#page-break { page-break-after: always; break-after: page; }
   button { display: none; }
-  .skills-btn { display: none; }
+  .skills-btn { display: none !important; }
 }
 .skills-btn {
   display: inline-flex; align-items: center; gap: 6px;

@@ -10,7 +10,7 @@ robots: noindex, nofollow
     overflow: visible !important;
   }
   button { display: none; }
-  .skills-btn { display: none; }
+  .skills-btn { display: none !important; }
 }
 .skills-btn {
   display: inline-flex;
