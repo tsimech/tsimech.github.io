@@ -6,7 +6,7 @@ body {
   background: url('/zillow-bg.png') center center / cover no-repeat fixed;
 }
 .wrapper {
-  background: rgba(255, 255, 255, 0.93) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
 }
 @media print {
   body { background: none !important; }
@@ -67,6 +67,14 @@ setTimeout(function() {
       </svg>
       Skills Map
     </a>
+    <a href="https://cal.com/todd-peters" class="skills-btn" target="_blank" style="background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+        <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>
+        <line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Book a Call
+    </a>
     <button onclick="window.print()" style="padding: 8px 16px; line-height: normal; box-sizing: border-box; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
   </div>
 </div>
@@ -93,7 +101,7 @@ Todd Peters
 <hr id="page-break">
 
 # TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Zillow%20-%20Senior%20PM%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AI%20reviewed%20your%20application.%20The%20combination%20of%20measurable%20business%20impact%2C%20cross-functional%20leadership%2C%20and%20hands-on%20technical%20depth%20in%20your%20background%20caught%20our%20attention.%0A%0AI%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0AYou%20can%20book%20a%20time%20directly%20at:%20https://cal.com/todd-peters%0A%0A%5BYour%20Name%5D%0ATalent%20Acquisition) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Zillow%20-%20Senior%20Product%20Manager%2C%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Senior%20Product%20Manager%2C%20Search%20Intelligence%20role%20at%20Zillow.%20Your%20background%20building%20search%20experiences%20at%20scale%20and%20the%20AI%20product%20work%20you%20shipped%20at%20Avantor%20caught%20our%20attention.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0A%5BYour%20Name%5D%0ATalent%20Acquisition%2C%20Zillow) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
 ---
 
