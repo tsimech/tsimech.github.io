@@ -40,9 +40,12 @@ setTimeout(function() {
 
 <div style="position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.97); padding: 0.5em 0; margin-bottom: 0.5em;">
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <div>
-    <strong style="font-size: 1.5em;">Todd Peters</strong><br>
-    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+  <div style="display: flex; align-items: center; gap: 1em;">
+    <img src="https://cdn.phenompeople.com/CareerConnectResources/TFSCGLOBAL/en_global/desktop/assets/images/header_logo.png" alt="Thermo Fisher Scientific" style="height: 36px;">
+    <div>
+      <strong style="font-size: 1.5em;">Todd Peters</strong><br>
+      <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+    </div>
   </div>
   <div style="display: flex; gap: 8px; align-items: center;">
     <a href="https://tsimech.github.io/skills" class="skills-btn">
