@@ -61,7 +61,7 @@ setTimeout(function() {
 
 ### SITE SEARCH & PRODUCT DISCOVERY LEADER
 
-Product leader with 14+ years as sole PM for enterprise search platforms supporting $3B+ in digital revenue across two of the largest life sciences eCommerce platforms in the world. Led three full platform migrations. Ran two independent products simultaneously at Avantor. Built the industry reference implementation for life sciences eCommerce search. Technical MBA who codes.
+Product leader with 14+ years as sole PM for enterprise search platforms supporting $3B+ in digital revenue across two of the largest life sciences eCommerce platforms in the world. Led two full platform migrations. Ran two independent products simultaneously at Avantor. Built the industry reference implementation for life sciences eCommerce search. Technical MBA who codes.
 
 ---
 
