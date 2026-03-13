@@ -200,14 +200,16 @@ AI search product leader who designed and built the on-site search experience fo
 
 ## EDUCATION & CERTIFICATIONS
 
-**M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003  
-**B.S., Biochemistry/Chemistry** | Portland State University | 1998  
-**Certifications:** Certified Agile SCRUM Master | Trained SAFe | Pragmatic Marketing Level III
+<table style="width:100%; border-collapse: collapse; font-size: 0.95em;">
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; width:22%; white-space:nowrap;">M.B.A.</td><td style="padding: 4px 12px 4px 0;">Arizona State University, W.P. Carey School of Business</td><td style="padding: 4px 0; white-space:nowrap;">2003</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; white-space:nowrap;">B.S., Biochemistry/Chemistry</td><td style="padding: 4px 12px 4px 0;">Portland State University</td><td style="padding: 4px 0; white-space:nowrap;">1998</td></tr>
+<tr><td style="font-weight:bold; padding: 4px 12px 4px 0; white-space:nowrap;">Certifications</td><td style="padding: 4px 0;" colspan="2">Certified Agile SCRUM Master &nbsp;|&nbsp; Trained SAFe &nbsp;|&nbsp; Pragmatic Marketing Level III</td></tr>
+</table>
 
 ---
 
 ## HONORS & AWARDS
 
-**Thermo Fisher Scientific:** 25 performance awards (4X Stock Incentive, 9X Discretionary, 12X Merit) | Company's highest employee rating (Consistently Exceeds) in 2020 | First 100% remote approval in division
+**Thermo Fisher Scientific:** 25 performance awards (4X Stock Incentive, 9X Discretionary, 12X Merit) &nbsp;&middot;&nbsp; Company's highest employee rating (Consistently Exceeds) in 2020 &nbsp;&middot;&nbsp; First 100% remote approval in division
 
-**Motorola Life Sciences:** Full corporate MBA sponsorship | 3X Stock Option Incentive Award | Bravo Award (exclusive, monetary)
+**Motorola Life Sciences:** Full corporate MBA sponsorship &nbsp;&middot;&nbsp; 3X Stock Option Incentive Award &nbsp;&middot;&nbsp; Bravo Award (exclusive, monetary)
