@@ -28,7 +28,10 @@ const skillsData = {
           roles: "TF 2014–2024 · Avantor 2024–2026" },
         { name: "OpenAI API", value: 20,
           desc: "Agentic framework (function calling), agent state management, RAG pipeline integration, prompt design for grounded and hallucination-mitigated responses",
-          roles: "Avantor 2024–2026" }
+          roles: "Avantor 2024–2026" },
+        { name: "Vector Search & Embeddings", value: 40,
+          desc: "Dense vector embeddings using HuggingFace sentence-transformers; kNN vector search in Elasticsearch; hybrid keyword/vector retrieval for semantic search use cases",
+          roles: "Self-directed · Avantor 2024–2026" }
       ]
     },
 
@@ -50,7 +53,10 @@ const skillsData = {
           roles: "TF 2010–2021" },
         { name: "Platform Migrations", value: 80,
           desc: "FAST→Endeca, Endeca→Lucidworks Fusion; designed pre-production A/B testing; established SLA and post-install performance specs (query response, uptime, indexing)",
-          roles: "TF 2010–2024" }
+          roles: "TF 2010–2024" },
+        { name: "Elasticsearch", value: 40,
+          desc: "Elasticsearch query DSL, index configuration, dense vector field mappings for semantic search; built demo using HuggingFace sentence-transformers with kNN vector search",
+          roles: "Self-directed" }
       ]
     },
 
@@ -241,10 +247,10 @@ const skillsDomainColors = {
 const skillsRecencyScores = {
   // AI & Generative Search
   "Conversational AI": 95, "RAG": 95, "AEO": 95, "GEO": 95,
-  "ML Re-ranking": 90, "OpenAI API": 95,
+  "ML Re-ranking": 90, "OpenAI API": 95, "Vector Search & Embeddings": 80,
   // Search Platforms
   "Lucidworks Fusion": 90, "SOLR": 90, "Endeca": 35,
-  "FAST": 35, "Platform Migrations": 65,
+  "FAST": 35, "Platform Migrations": 65, "Elasticsearch": 80,
   // Search UX & Quality
   "SRP Design": 90, "Faceted Navigation": 65, "Autocomplete": 90,
   "Multilingual Search": 65, "Query Understanding": 90, "Relevance Tuning": 90,
