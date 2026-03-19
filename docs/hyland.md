@@ -3,12 +3,6 @@ title: "Hyland | Product Manager 4"
 robots: noindex, nofollow
 ---
 <style>
-html {
-  background: url('/hyland-bg.png') center center / cover no-repeat fixed;
-}
-body {
-  background: rgba(255, 255, 255, 0.95) !important;
-}
 @media print {
   html { background: none !important; }
   body { background: white !important; }
