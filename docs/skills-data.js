@@ -56,7 +56,10 @@ const skillsData = {
           roles: "TF 2010–2024" },
         { name: "Elasticsearch", value: 40,
           desc: "Elasticsearch query DSL, index configuration, dense vector field mappings for semantic search; built demo using HuggingFace sentence-transformers with kNN vector search",
-          roles: "Self-directed" }
+          roles: "Self-directed" },
+        { name: "Doesn't Matter", value: 100,
+          desc: "FAST → Endeca → Lucidworks Fusion → SOLR → Elasticsearch → whatever is next. Every generation of enterprise search has a different API and the same core problems: relevance, recall, latency, and customer-specific data in results. I have navigated every platform transition since 2010, and I am actively working with vector search and agentic retrieval now. The platform is a tool. The problems are permanent.",
+          roles: "TF 2010–2024 · Avantor 2024–2026 · Self-directed" }
       ]
     },
 
