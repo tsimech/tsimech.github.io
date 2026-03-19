@@ -48,7 +48,7 @@ setTimeout(function() {
     </div>
   </div>
   <div style="display: flex; gap: 8px; align-items: center;">
-    <a href="https://tsimech.github.io/skills" class="skills-btn">
+    <a href="https://tsimech.github.io/skills?utm_source=application&utm_medium=skills_btn&utm_campaign=thermofisher_ai_search" class="skills-btn">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="7" cy="18" r="3"/><circle cx="17" cy="6" r="3"/><circle cx="17" cy="18" r="3"/>
         <line x1="7" y1="15" x2="17" y2="9"/><line x1="17" y1="15" x2="17" y2="9"/>
