@@ -79,11 +79,11 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-The Content Innovation Cloud is fundamentally a retrieval problem: an enterprise needs to find, rank, and surface answers from a corpus of unstructured documents, with enough grounding to satisfy a regulated industry. I architected and shipped a production RAG system doing exactly that at Avantor, with grounding citations and hallucination mitigation deployed in a regulated life sciences environment. I am applying because Graph RAG and agentic orchestration are the logical next step of that architecture, and Hyland has the enterprise content footprint to make that impact meaningful across healthcare, insurance, and government.
+I built and shipped a production RAG system inside a global life sciences company. The CEO named it in the Q2 2025 earnings call.
 
-The results speak for themselves. The conversational AI assistant I built on OpenAI agentic frameworks with function calling and multi-agent orchestration was recognized by CEO Michael Stubblefield in the Q2 2025 earnings call and remains in production today. The RAG pipeline I implemented, SOLR IR with LLM assessment, relevancy trimming, grounding citations, and hallucination mitigation on enterprise content, shipped as a production product, not a proof of concept. Separately, I generated $14M in annual incremental revenue in 90 days through AI-powered search optimization validated to a 2% CTR lift with statistical significance. Before Avantor, I owned enterprise search platforms at ThermoFisher Scientific for 14 years across FAST, Endeca, and Lucidworks Fusion on a $3B+ digital revenue channel with 95% decision authority.
+At Avantor: OpenAI agentic framework, RAG pipeline with grounding citations, guardrails, and hallucination mitigation on enterprise content, $14M incremental revenue in 90 days. Before that, 14 years as sole PM on a $3B+ search platform at ThermoFisher Scientific across FAST, Endeca, and Lucidworks Fusion.
 
-My regulated life sciences background, production RAG and agentic AI experience, and 14-year enterprise search platform ownership map directly to the PM4 role on the Content Innovation Cloud. I would welcome a conversation about contributing to that roadmap.
+Making enterprise customers trust AI answers in regulated environments is the core of this role. I have already shipped grounding citations, guardrails, and hallucination mitigation in production; I would welcome a conversation about bringing that to Hyland's scale.
 
 Thank you for your consideration.
 
