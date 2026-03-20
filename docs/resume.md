@@ -57,15 +57,9 @@ setTimeout(function() {
   </div>
 </div>
 
-<hr>
-
-<br><br>
-
 Results-driven Senior Product Manager with 16+ years of experience in eCommerce search, AI product delivery, and digital commerce platform leadership; Technical MBA with the depth to lead engineering, analytics, and ML teams without a translator.<br>
 Proven ability to own the full product lifecycle from 0-to-1 delivery through long-horizon platform strategy; builds cross-functional teams and secures executive investment to execute at scale.<br>
 Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and digital commerce platform leadership.
-
----
 
 ## CAREER HIGHLIGHTS
 
@@ -74,18 +68,37 @@ Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and
 - Sole PM on a $3B+ digital commerce platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $1-2M annual budget
 - Built and scaled eCommerce search for a $3B+ platform cited by independent search experts as a benchmark implementation; 14 years, 10M+ products, 3 platform migrations
 
----
-
 ## SKILLS
 
-| **CORE COMPETENCIES** | **LEADERSHIP & STRATEGY** | **TECHNICAL SKILLS** |
-|---|---|---|
-| • AI/ML Product Management | • Cross-Functional Leadership (30 members) | • OpenAI Agentic Framework (function calling) |
-| • eCommerce Search Strategy | • Stakeholder & Executive Alignment | • RAG Pipeline Design (SOLR + LLM + grounding) |
-| • Revenue Attribution & A/B Testing | • Agile/SAFe · Roadmapping · WSJF | • Lucidworks Fusion · Endeca · FAST · SOLR |
-| • 0-to-1 Product Delivery | • Business Case & CIO-Level Funding | • Python · SQL · APIs · GA4 · Power BI |
-
----
+<table style="width:100%; border-collapse:collapse; font-size:0.95em;">
+<thead><tr>
+  <th style="width:33%; padding:6px 10px; border:1px solid #ddd; background:#f6f8fa; text-align:left;">CORE COMPETENCIES</th>
+  <th style="width:33%; padding:6px 10px; border:1px solid #ddd; background:#f6f8fa; text-align:left;">LEADERSHIP &amp; STRATEGY</th>
+  <th style="width:34%; padding:6px 10px; border:1px solid #ddd; background:#f6f8fa; text-align:left;">TECHNICAL SKILLS</th>
+</tr></thead>
+<tbody>
+<tr>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">AI/ML Product Management</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Cross-Functional Leadership (30 members)</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">OpenAI Agentic Framework (function calling)</td>
+</tr>
+<tr>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">eCommerce Search Strategy</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Stakeholder &amp; Executive Alignment</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">RAG Pipeline Design (SOLR + LLM + grounding)</td>
+</tr>
+<tr>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Revenue Attribution &amp; A/B Testing</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Agile/SAFe · Roadmapping · WSJF</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Lucidworks Fusion · Endeca · FAST · SOLR</td>
+</tr>
+<tr>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">0-to-1 Product Delivery</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Business Case &amp; CIO-Level Funding</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Python · SQL · APIs · GA4 · Power BI</td>
+</tr>
+</tbody>
+</table>
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -99,8 +112,6 @@ PM of record for enterprise eCommerce search and conversational AI at a global d
 - Secured Phase 2 (six-figure budget, 18-person team) through CIO-level business case; scaled from bootstrap Phase 1
 - Led delivery of enterprise-grade conversational AI assistant (AvantorAI) on OpenAI agentic framework (function calling, multi-agent orchestration) and RAG pipeline; drove production deployment of grounding citations, guardrails, and hallucination mitigation on enterprise content corpus
 - Commissioned and owned offline evaluation framework across 2,000 high-volume queries; defined relevance metrics suite (NDCG, precision, recall) with non-inferiority testing
-
----
 
 ### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
@@ -125,19 +136,13 @@ Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.
 **Web Content Specialist / Business Analyst, Site Search** | 2010 - 2013
 - Built global synonym management process and search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly search metrics dashboards distributed to Directors, VPs, and business unit leadership
 
----
-
 ### SAFE LIFE CORPORATION | Del Mar, CA
 **Associate Director, Product Management & Business Development** | 2007 - 2010
 - Closed contracts >$1M; built BD pipeline >$1.2M; addressed FDA and EPA regulatory concerns; designed corporate CRM and manufacturing reporting systems
 
----
-
 ### MOTOROLA LIFE SCIENCES | Tempe, AZ
 **Research Associate II** | 1999 - 2003
 - Designed division-wide Product Development Database (VBA/SQL/ODBC); won Motorola Bravo Award; earned full corporate MBA sponsorship; received 3X Stock Option Awards
-
----
 
 ## EDUCATION & CERTIFICATIONS
 
