@@ -21,6 +21,7 @@ robots: noindex, nofollow
 }
 .skills-btn:hover { filter: brightness(1.1); }
 .skills-btn svg { flex-shrink: 0; }
+h2 { color: #1e3a5f; border-bottom: none; }
 </style>
 
 <script>
@@ -62,6 +63,7 @@ Proven ability to own the full product lifecycle from 0-to-1 delivery through lo
 Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and digital commerce platform leadership.
 
 ## CAREER HIGHLIGHTS
+---
 
 - Generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
 - Shipped production agentic AI assistant (multilingual, English/French) to enterprise scale; CEO named the product in Q2 2025 earnings call and company-wide Town Hall
@@ -69,12 +71,13 @@ Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and
 - Built and scaled eCommerce search for a $3B+ platform cited by independent search experts as a benchmark implementation; 14 years, 10M+ products, 3 platform migrations
 
 ## SKILLS
+---
 
 <table style="width:100%; border-collapse:collapse; font-size:0.95em;">
 <thead><tr>
-  <th style="width:33%; padding:6px 10px; border:1px solid #ddd; background:#f6f8fa; text-align:left;">CORE COMPETENCIES</th>
-  <th style="width:33%; padding:6px 10px; border:1px solid #ddd; background:#f6f8fa; text-align:left;">LEADERSHIP &amp; STRATEGY</th>
-  <th style="width:34%; padding:6px 10px; border:1px solid #ddd; background:#f6f8fa; text-align:left;">TECHNICAL SKILLS</th>
+  <th style="width:33%; padding:6px 10px; border:1px solid #bbb; background:#1e3a5f; color:white; text-align:left;">CORE COMPETENCIES</th>
+  <th style="width:33%; padding:6px 10px; border:1px solid #bbb; background:#1e3a5f; color:white; text-align:left;">LEADERSHIP &amp; STRATEGY</th>
+  <th style="width:34%; padding:6px 10px; border:1px solid #bbb; background:#1e3a5f; color:white; text-align:left;">TECHNICAL SKILLS</th>
 </tr></thead>
 <tbody>
 <tr>
@@ -101,6 +104,7 @@ Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and
 </table>
 
 ## PROFESSIONAL EXPERIENCE
+---
 
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
@@ -145,6 +149,7 @@ Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.
 - Designed division-wide Product Development Database (VBA/SQL/ODBC); won Motorola Bravo Award; earned full corporate MBA sponsorship; received 3X Stock Option Awards
 
 ## EDUCATION & CERTIFICATIONS
+---
 
 **M.B.A.**, Arizona State University, W.P. Carey School of Business
 **B.S., Biochemistry/Chemistry**, Portland State University
