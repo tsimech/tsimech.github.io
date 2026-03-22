@@ -3,10 +3,33 @@ title: "Instacart | Principal Product Manager, Agentic Commerce"
 robots: noindex, nofollow
 ---
 <style>
-@media print {
-  hr:first-of-type { page-break-after: always; break-after: page; }
-  button { display: none; }
+html {
+  background: url('/instacart-bg.png') center center / cover no-repeat fixed;
 }
+body {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+@media print {
+  html { background: none !important; }
+  body { background: white !important; }
+  html, body, .wrapper, section, article, main {
+    height: auto !important; max-height: none !important; overflow: visible !important;
+  }
+  hr#page-break { page-break-after: always; break-after: page; }
+  button { display: none; }
+  .skills-btn { display: none !important; }
+}
+.skills-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 14px; line-height: normal; box-sizing: border-box;
+  background: linear-gradient(135deg, #0891b2 0%, #14b8a6 100%);
+  color: white !important; text-decoration: none !important;
+  border-radius: 5px; font-size: 13px; font-weight: 600;
+  letter-spacing: 0.01em; box-shadow: 0 1px 4px rgba(8,145,178,0.25);
+  transition: filter 0.15s;
+}
+.skills-btn:hover { filter: brightness(1.1); }
+.skills-btn svg { flex-shrink: 0; }
 </style>
 
 <script>
@@ -19,57 +42,86 @@ setTimeout(function() {
 }, 5 * 60 * 1000); // 5 minutes in milliseconds
 </script>
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
-  <div>
-    <strong style="font-size: 1.5em;">Todd Peters</strong><br>
-    <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+<div style="position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.97); padding: 0.5em 0; margin-bottom: 0.5em;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: flex; align-items: center; gap: 1em;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Instacart_logo_and_wordmark.svg" alt="Instacart" style="height: 32px;">
+    <div>
+      <strong style="font-size: 1.5em;">Todd Peters</strong><br>
+      <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a>
+    </div>
   </div>
-  <button onclick="window.print()" style="padding: 8px 16px; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+  <div style="display: flex; gap: 8px; align-items: center;">
+    <a href="https://tsimech.github.io/skills?utm_source=application&utm_medium=skills_btn&utm_campaign=instacart" class="skills-btn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="7" cy="18" r="3"/><circle cx="17" cy="6" r="3"/><circle cx="17" cy="18" r="3"/>
+        <line x1="7" y1="15" x2="17" y2="9"/><line x1="17" y1="15" x2="17" y2="9"/>
+      </svg>
+      Skills Map
+    </a>
+    <a href="https://cal.com/todd-peters" class="skills-btn" target="_blank" style="background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+        <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>
+        <line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Book a Call
+    </a>
+    <button onclick="window.print()" style="padding: 8px 16px; line-height: normal; box-sizing: border-box; background-color: #0366d6; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 13px;">Print</button>
+  </div>
+</div>
 </div>
 
-**Instacart: Principal Product Manager, Agentic Commerce**
+<hr>
+<br><br>
+
+## Instacart: Principal Product Manager, Agentic Commerce
 
 Dear Hiring Team,
 
-I rescued a failing conversational AI initiative and shipped an agentic commerce product using OpenAI frameworks that earned CEO recognition in our Q2 earnings call. AvantorAI/Navigator is a production agentic system that helps users discover products through natural conversation across a 10M+ product catalog. Your challenge of building Cart Assistant for grocery mirrors the problem I solved for life sciences ecommerce: turn product discovery into conversational commerce at scale.
+I rescued a failing conversational AI initiative and shipped an agentic commerce product on OpenAI's agentic framework that earned CEO recognition in our Q2 2025 earnings call. AvantorAI is a production agent that helps users discover products through natural conversation across a 10M+ product catalog. Your challenge of building Cart Assistant for grocery mirrors the problem I solved for life sciences ecommerce: turn product discovery into conversational commerce at scale.
 
-Here's what most companies miss about agentic systems: conversational AI is only as good as the information retrieval layer underneath it. Most organizations separate Search and AI between different teams, losing the integration advantage. At Avantor, I led both Site Search and AI simultaneously, which is precisely why I could rescue the failing initiative. I understood how the agent's function calling depended on search relevance, how RAG retrieval quality affected conversation accuracy, and how to optimize the entire stack end-to-end using OpenAI's agentic framework. This dual expertise means I can ensure Cart Assistant delivers both delightful conversational experiences and accurate grocery product discovery.
+Here is what most companies miss about agentic systems: conversational AI is only as good as the information retrieval layer underneath it. Most organizations separate Search and AI into different teams, losing the integration advantage. At Avantor, I led both Site Search and AI simultaneously, which is exactly why I could rescue the failing initiative. I understood how the agent's function calling depended on search relevance, how RAG retrieval quality affected conversation accuracy, and how to optimize the entire stack end-to-end. That dual ownership is the same capability Cart Assistant needs: accurate grocery product discovery powering a highly engaging conversational experience.
 
-I bring exactly what this role demands: shipped LLM products in production, consumer commerce at $3B+ scale, 0-to-1 product launches, and the technical fluency to partner with ML teams on state-of-the-art agent architectures. I've built the experimentation culture and metrics infrastructure needed to de-risk Cart Assistant's roadmap. Most importantly, I've navigated the dual-customer challenge of building agents that consumers love while meeting enterprise partner constraints, securing unanimous approval from both Search and AI leadership for paradigm-shifting architectures.
+My background maps directly to this role: LLM products shipped to production, consumer commerce at $3B+ scale, 0-to-1 product delivery, and the technical depth to partner with ML teams on agent architectures. I have defined OKRs, built experimentation infrastructure, and run the rapid A/B iteration cycles needed to de-risk a product like Cart Assistant. Most critically, I have already navigated the dual-customer challenge you face: I secured unanimous approval from both Search and AI leadership for a novel architectural overhaul, building consensus across two VPs with competing priorities to ship the product consumers and enterprise partners both needed.
 
 Thank you for your consideration.
 
 Todd Peters
 
-Please visit my documents online for the best experience: **[https://tsimech.github.io/instacart](https://tsimech.github.io/instacart)**
-
 <br><br><br><br><br>
 
+<hr id="page-break">
+
+# TODD PETERS, MBA
+
+**PRINCIPAL PRODUCT MANAGER | Agentic Commerce & AI Search | Consumer + Enterprise**
+
+[(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re%3A%20Instacart%20-%20Principal%20Product%20Manager%2C%20Agentic%20Commerce&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Principal%20Product%20Manager%2C%20Agentic%20Commerce%20role%20at%20Instacart.%20Your%20experience%20shipping%20AvantorAI%20using%20OpenAI%27s%20agentic%20framework%20%E2%80%94%20and%20owning%20both%20the%20search%20and%20conversational%20AI%20layers%20simultaneously%20%E2%80%94%20maps%20directly%20to%20what%20we%27re%20building%20with%20Cart%20Assistant.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Instacart) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba) | [tsimech.github.io/instacart](https://tsimech.github.io/instacart?utm_source=application&utm_medium=resume&utm_campaign=instacart)
+
+Results-driven Principal Product Manager with 16+ years of experience in eCommerce search, AI product delivery, and digital commerce platform leadership; Technical MBA with the depth to lead engineering, analytics, and ML teams without a translator.<br>
+Proven ability to own the full product lifecycle from 0-to-1 delivery through long-horizon platform strategy; builds cross-functional teams and secures executive investment to execute at scale.<br>
+Seeking to leverage deep AI search and product leadership expertise to drive measurable outcomes as **Principal Product Manager, Agentic Commerce** at **Instacart**.
+
 ---
 
-# TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Instacart%20-%20Principal%20Product%20Manager,%20Agentic%20Commerce&body=Dear%20Todd,%0A%0AI%20reviewed%20your%20application%20at%20https://tsimech.github.io/instacart%20for%20our%20Principal%20Product%20Manager,%20Agentic%20Commerce%20position.%20Your%20background%20in%20agentic%20systems%20and%20dual%20Search+AI%20expertise%20is%20exactly%20what%20we're%20looking%20for.%0A%0AAre%20you%20available%20for%20an%20initial%20conversation%20this%20week?) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
+## CAREER HIGHLIGHTS
+
+- Generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
+- Shipped production agentic AI assistant (multilingual, English/French) to enterprise scale; CEO named the product in Q2 2025 earnings call and company-wide Town Hall
+- Sole PM on a $3B+ digital commerce platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $1-2M annual budget
+- Built and scaled eCommerce search for a $3B+ platform cited by independent search experts as a benchmark implementation; 14 years, 10M+ products, 3 platform migrations
 
 ---
 
-## AGENTIC COMMERCE PRODUCT LEADER
-**Shipped LLM-Powered Agentic Product | Dual Search + AI Expertise | $3B+ Consumer Channel**
+## SKILLS
 
-Principal Product Manager who builds next-generation agentic commerce systems by owning both the conversational AI layer and the information retrieval foundation underneath. Shipped LLM-powered conversational agent (AvantorAI) using OpenAI agentic framework, recognized by CEO in earnings call and serving users in production today. Led both Site Search and AI simultaneously at Avantor, enabling end-to-end optimization from RAG retrieval quality through agent function calling to conversation accuracy. Led product strategy for $3B+ consumer ecommerce channel generating $1M+ per hour in peak traffic. Led 30-person cross-functional teams across engineering, ML, UX, and analytics. Technical MBA who partners with ML engineers on agent architectures and RAG systems, and frames strategy for executives in terms of conversion, GTV, and user engagement.
-
----
-
-## KEY ACHIEVEMENTS
-
-- **Shipped 0-to-1 LLM-Powered Agentic Commerce Product**: Led AvantorAI/Navigator from concept through production deployment using OpenAI agentic framework with function calling; enables conversational product discovery through intelligent agent orchestration; launched in Canada/US markets with multilingual support; recognized by CEO in Q2 2025 earnings call; product remains in production today serving enterprise customers
-
-- **$14M Annual Incremental Revenue**: Delivered in 90 days through search relevance optimization; built business case, partnered with ML vendor, validated 2% CTR lift with statistical significance testing, presented ROI to VP/Operations leadership
-
-- **Consumer Commerce at Scale**: Owned product strategy for $3B+ revenue channel serving 10M+ products across 15 global domains; 2023 delivered CTR +7.5%, Top-5 click activity +15%, search usage +13% despite millions of queries; protected high-velocity revenue stream generating $1M+ per hour in peak traffic
-
-- **0-to-1 Product Rescue & Launch**: Rescued failing conversational AI initiative by owning both Search and AI functions simultaneously, enabling deep understanding of how agent function calling depends on search relevance and RAG retrieval quality; identified critical architectural flaw through collaborative engineering discussions; built consensus across Search VP and AI VP for paradigm-shifting approach; led end-to-end product development from requirements through production launch
-
-- **Team Leadership & Cross-Functional Execution**: Led 30 team members across 6 functions (PM, UX, Content, Analytics, Dev, A/B testing); built culture of continuous learning and rapid experimentation; managed 5 on/offshore Agile SCRUM development teams; 3 direct reports
+| **CORE COMPETENCIES** | **LEADERSHIP & STRATEGY** | **TECHNICAL SKILLS** |
+|---|---|---|
+| • AI/ML Product Management | • Cross-Functional Leadership (30 members) | • OpenAI Agentic Framework (function calling) |
+| • eCommerce Search Strategy | • Stakeholder & Executive Alignment | • RAG Pipeline Design (SOLR + LLM + grounding) |
+| • Revenue Attribution & A/B Testing | • Agile/SAFe · Roadmapping · WSJF | • Lucidworks Fusion · Endeca · FAST · SOLR |
+| • 0-to-1 Product Delivery | • Business Case & CIO-Level Funding | • Python · SQL · APIs · GA4 · Power BI |
 
 ---
 
@@ -78,118 +130,60 @@ Principal Product Manager who builds next-generation agentic commerce systems by
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-Led AI-powered discovery transformation for global life sciences ecommerce platform, owning both Site Search and AI functions simultaneously. This dual ownership enabled end-to-end optimization: agentic systems depend on excellent information retrieval underneath, and managing both layers together ensured AvantorAI delivered accurate product discovery through intelligent conversational experiences. Reported to VP of Search.
+PM of record for enterprise eCommerce search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
 
-**LLM-Powered Agentic Commerce Product (Search + AI Integration)**
-- Rescued failing conversational AI initiative by owning both AI and search layers, understanding how agent function calling depended on search relevance and RAG retrieval quality; identified critical architectural flaw through collaborative engineering discussions; built consensus across Search VP and AI VP for paradigm-shifting solution enabling virtual assistant to execute any site URL and read API responses
-- Led end-to-end 0-to-1 product development using OpenAI agentic framework with function calling; designed agent functions for product search, content retrieval, category navigation, account management, and conversation state management; simultaneously optimized underlying search quality to ensure accurate product retrieval
-- Launched AvantorAI/Navigator in Canada/US markets with English/French language support; enabled conversational product discovery at scale through integrated AI and information retrieval optimization
-- Recognized by CEO in Q2 2025 earnings call; product remains in production today serving enterprise customers
-
-**Product Strategy & Execution**
-- Developed $170M 3-year revenue impact roadmap; secured CIO approval using project gates, WSJF prioritization, and achievable quarterly milestones
-- Generated $14M annual incremental revenue through search relevance optimization (90-day cycle); built business case securing Phase 1 then Phase 2 funding
-- Partnered with ML vendor for SOLR field weight tuning; analyzed best seller positioning across 2000 high-volume queries; evaluated search quality using NDCG, MRR, Precision@K
-- Made tradeoff decisions using non-inferiority testing; validated 2% CTR lift with statistical significance testing
-
-**Analytics, Metrics & Experimentation**
-- Established GA4 analytics from scratch; designed ML-based autocomplete leveraging GA4 frequency data: log boosting, decay factor, rolling window, thresholds
-- Defined product OKRs; established metrics dashboards and regular business reviews
-- Led rapid experimentation cycles; used data insights to prioritize, de-risk, and accelerate roadmap
-
-**Discovery Experience & Product Delivery**
-- Modernized search results and category page UI/UX; overhauled synonym database; launched product comparison capability
-- Integrated chemical structure search via third-party API; shipped features across multiple global markets
+- Drove $14M annual incremental revenue in 90 days through directed SOLR relevance optimization; validated 2% CTR lift to statistical significance (3-week pre/post)
+- Delivered multilingual conversational AI (English/French) to North American markets; CEO named product in Q2 2025 earnings call
+- Secured Phase 2 (six-figure budget, 18-person team) through CIO-level business case; scaled from bootstrap Phase 1
+- Led delivery of enterprise-grade conversational AI assistant (AvantorAI) on OpenAI agentic framework (function calling, multi-agent orchestration) and RAG pipeline; drove production deployment of grounding citations, guardrails, and hallucination mitigation on enterprise content corpus
+- Commissioned and owned offline evaluation framework across 2,000 high-volume queries; defined relevance metrics suite (NDCG, precision, recall) with non-inferiority testing
 
 ---
 
 ### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
-Led enterprise-wide search and discovery strategy for $3B+ revenue ecommerce channel (thermofisher.com, fishersci.com, 15 global domains). Sole Product Manager managing 10M+ products serving millions of users.
+Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com) across 10M+ product catalog with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
 
-**Consumer Commerce at Scale**
-- Owned product strategy for $3B+ digital channel generating $1M+ per hour in peak traffic
-- Delivered 2023 results: CTR +7.5%, Top-5 click activity +15%, search usage +13%, customer complaints <10/month despite millions of queries
-- Protected high-velocity revenue stream through platform reliability, performance optimization, and continuous UX improvement
-
-**Team Leadership & Cross-Functional Collaboration**
-- Led 30 team members across 6 functions: managed 5 on/offshore Agile SCRUM development teams; directed 4 supplemental teams (UX, Content, Analytics, A/B testing)
-- Built culture of continuous learning and experimentation; mentored Product Managers, Business Analysts, and Product Owners to develop autonomy and strategic thinking; hiring manager with 3 direct reports
-- Partnered with A/B testing team for experimentation culture; presented roadmaps at annual business unit meetings across global markets
-
-**Strategic Roadmaps & Stakeholder Management**
-- Defined multi-year strategy and quarterly priorities using WSJF and Business Value frameworks
-- Managed $1-2M annual budgets; secured executive approval for major platform upgrades using ROI analysis
-- Translated complex technical capabilities into executive-level language for C-suite presentations
-- Represented product to senior leadership and external retail partners
-
-**Discovery Performance & Product Delivery**
-- Delivered 20,000+ SEO landing pages through taxonomy improvements and platform enhancements
-- Conducted CX/UX audits using proprietary quality framework; established enterprise standards
-- Implemented query understanding pipeline: managed synonym database, deployed spell correction and autocomplete features
-- Led rapid iteration cycles; shipped incremental improvements every quarter to demonstrate continuous progress
-
----
+- Search implementation cited by independent search experts as a benchmark for eCommerce search at scale
+- Drove CTR +7.5%, Top-5 clicks +15%, search usage +13% (2023) through ML-driven relevance optimization at enterprise scale
+- Directed 5 on/offshore Agile SCRUM dev teams; served as hiring manager with 3 direct reports; presented roadmaps at annual in-person global business unit meetings
+- Defined and drove delivery of query understanding pipeline: synonym management (Lucidworks Fusion), spell correction, ML autocomplete, customer-specific pricing and entitlements
+- Designed formal KPI definition framework: metric definitions, calculation methodology, glossary; published as org-level artifact across search and analytics teams
 
 **Product Manager, Search and Selection** | 2014 - 2021
 
-**Platform Migration & Industry Recognition**
-- Created industry reference implementation for site search (fishersci.com), recognized by independent experts as standard-setting approach for life sciences ecommerce
-- Orchestrated platform replacement from Endeca to Lucidworks Fusion: led vendor evaluation, partnered with Enterprise Architect, established SLA, designed pre-production A/B testing strategy to protect $3B revenue stream
-- Delivered chemical structure search modernization generating 20,000+ CAS ID SEO landing pages; managed annual budgets using ROI analysis
-
----
+- Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
+- Orchestrated full enterprise search platform migrations (FAST to Endeca; Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, and post-install SLA and performance specifications
+- Built null-results recovery for fishersci.com using supplemental data and targeted query broadening strategies
 
 **Associate Product Manager** | 2013 - 2014
+- Led enterprise search platform integration (FAST) through corporate acquisition transition
 
-Supported Site Search platform evolution and functionality development during organizational transition; contributed to strategy development and cross-functional coordination for global search operations.
-
----
-
-### THERMO FISHER SCIENTIFIC | San Diego, CA
-**Senior Specialist, eCommerce** | 2008 - 2013
-
-Partnered with Product Management and IT teams on fishersci.com search and site launch initiatives; contributed to platform transition from mainframe to modern ecommerce architecture.
+**Web Content Specialist / Business Analyst, Site Search** | 2010 - 2013
+- Built global synonym management process and search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly search metrics dashboards distributed to Directors, VPs, and business unit leadership
 
 ---
 
 ### SAFE LIFE CORPORATION | Del Mar, CA
-**Director, Business Development & New Product Development** | 2006 - 2008
-
-Closed contracts valued over $1M (exclusive/non-exclusive licensing, OEM supply); led new product development from material selection through NIJ certification pursuit.
-
----
-
-### ROCHE DIAGNOSTICS | San Diego, CA
-**"A" Accounts Manager, Outside Sales** | 2005 - 2006
-
-Managed large pharmaceutical and biotech accounts (Pfizer, Johnson & Johnson, Takeda, BD, VAMED, UCSD); communicated complex technical concepts to scientific and non-scientific audiences.
+**Associate Director, Product Management & Business Development** | 2007 - 2010
+- Closed contracts >$1M; built BD pipeline >$1.2M; addressed FDA and EPA regulatory concerns; designed corporate CRM and manufacturing reporting systems
 
 ---
 
-### MOTOROLA LIFE SCIENCES / AMERSHAM BIOSCIENCES | Tempe, AZ
-**Research Associate (Chemist/Biochemist)** | 1999 - 2003
-
-Invented automated analysis tools (estimated $250K+ savings over 5 years); received exclusive Bravo Award and 3 Stock Option Incentive Awards; acquired by Amersham at 33% pay increase.
+### MOTOROLA LIFE SCIENCES | Tempe, AZ
+**Research Associate II** | 1999 - 2003
+- Designed division-wide Product Development Database (VBA/SQL/ODBC); won Motorola Bravo Award; earned full corporate MBA sponsorship; received 3X Stock Option Awards
 
 ---
 
 ## EDUCATION & CERTIFICATIONS
 
-**MBA** | Arizona State University, W.P. Carey School of Business  
-**BS, Biochemistry/Chemistry** | Portland State University  
-**Certifications:**
-- Certified Agile SCRUM Master
-- Certified SAFe
-- Pragmatic Marketing Level III
+**M.B.A.**, Arizona State University, W.P. Carey School of Business
+**B.S., Biochemistry/Chemistry**, Portland State University
 
----
+**Certifications:** SAFe Certified · Certified Agile SCRUM Master · Pragmatic Marketing Level III
+**Training:** 110+ corporate trainings including Generative AI, LLMs, RAG, and ML/AI (Stanford, MIT)
 
-## TECHNICAL PROFICIENCIES
+**Awards:** ThermoFisher Scientific: 25 performance awards (4X Stock Incentive, 9X Discretionary, 12X Merit) · Consistently Exceeds 2020 · Motorola: Full corporate MBA sponsorship · 3X Stock Options · Bravo Award
 
-**Agentic AI & LLM Systems**: OpenAI (agentic frameworks, function calling), RAG (Retrieval-Augmented Generation), conversational AI, agent orchestration, state management, multi-step reasoning  
-**Search & Discovery**: SOLR, Lucidworks Fusion, Endeca, SAP Commerce, Elasticsearch, semantic search, ML-driven autocomplete, relevance tuning  
-**Analytics & Experimentation**: Google Analytics 4, Statistical Hypothesis Testing, A/B Testing, NDCG, MRR, Precision@K, Offline Evaluation, OKR frameworks  
-**Product Management**: 0-to-1 product launches, roadmapping, WSJF prioritization, cross-functional leadership, Agile/SCRUM, vendor management, business case development  
-**Programming & Tools**: Python, SQL, AI-assisted development (GitHub Copilot power user)
