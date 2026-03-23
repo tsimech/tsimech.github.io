@@ -79,11 +79,11 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-I rescued a stalled conversational AI initiative and shipped an agentic commerce product on OpenAI's agentic framework that earned CEO recognition in our Q2 2025 earnings call. AvantorAI is a production agent that helps users discover products through natural conversation across a 10M+ product catalog. Your challenge of building Cart Assistant for grocery mirrors the problem I solved for life sciences ecommerce: turn product discovery into conversational commerce at scale.
+I shipped AvantorAI, a production agentic commerce system on OpenAI's framework recognized by our CEO in the Q2 2025 earnings call, and it solves exactly the problem Cart Assistant is trying to solve: turn product discovery into natural conversation at scale.
 
-Here is what most companies miss about agentic systems: conversational AI is only as good as the information retrieval layer underneath it. Most organizations separate Search and AI into different teams, losing the integration advantage. At Avantor, I led both Site Search and AI simultaneously, which is exactly why I could rescue the stalled initiative. I understood how the agent's function calling depended on search relevance, how RAG retrieval quality affected conversation accuracy, and how to optimize the entire stack end-to-end. That dual ownership is the same capability Cart Assistant needs: accurate grocery product discovery powering a highly engaging conversational experience.
+Before that, I spent 14 years as the sole PM on a $3B+ digital commerce platform with 95% decision authority, owning the vision, the roadmap, and the revenue outcome end-to-end across 10M+ products and 30 team members. What made me effective at Avantor is what Cart Assistant specifically needs: I led both Site Search and AI simultaneously. Most organizations separate those functions and lose the integration advantage. I understood how function calling depended on retrieval quality, how RAG accuracy drove conversation fidelity, and how to optimize the full stack.
 
-My background maps directly to this role: LLM products shipped to production, consumer commerce at $3B+ scale, 0-to-1 product delivery, and the technical depth to partner with ML teams on agent architectures. I have defined OKRs, built experimentation infrastructure, and run the rapid A/B iteration cycles needed to de-risk a product like Cart Assistant. Most critically, I have already navigated the dual-customer challenge you face: I secured unanimous approval from both Search and AI leadership for a novel architectural overhaul, building consensus across two VPs with competing priorities to ship the product consumers and enterprise partners both needed.
+I have defined the OKRs, built the A/B infrastructure, and navigated cross-VP alignment to ship. I would bring that same end-to-end ownership to Cart Assistant.
 
 Thank you for your consideration.
 
@@ -101,16 +101,16 @@ Todd Peters
 
 Results-driven Principal Product Manager with 16+ years of experience in eCommerce search, AI product delivery, and digital commerce platform leadership; Technical MBA with the depth to lead engineering, analytics, and ML teams without a translator.<br>
 Proven ability to own the full product lifecycle from 0-to-1 delivery through long-horizon platform strategy; builds cross-functional teams and secures executive investment to execute at scale.<br>
-Seeking to leverage deep AI search and product leadership expertise to drive measurable outcomes as **Principal Product Manager, Agentic Commerce** at **Instacart**.
+Seeking to leverage AI search and product leadership expertise to drive measurable outcomes as **Principal Product Manager, Agentic Commerce** at **Instacart**.
 
 ---
 
 ## CAREER HIGHLIGHTS
 
-- Generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
-- Shipped production agentic AI assistant (multilingual, English/French) to enterprise scale; CEO named the product in Q2 2025 earnings call and company-wide Town Hall
-- Sole PM on a $3B+ digital commerce platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $1-2M annual budget
-- Built and scaled eCommerce search for a $3B+ platform cited by independent search experts as a benchmark implementation; 14 years, 10M+ products, 3 platform migrations
+- Sole Product Manager on a $3B+ digital commerce platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $1-2M annual budget
+- Search implementation cited by independent search experts as a benchmark; 10M+ products, 3 platform migrations
+- Shipped industry-novel production agentic AI assistant (multilingual, English/French) to enterprise scale; CEO named the product in Q2 2025 earnings call and company-wide Town Hall
+- Recently generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
 
 ---
 
@@ -130,7 +130,7 @@ Seeking to leverage deep AI search and product leadership expertise to drive mea
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-PM of record for enterprise eCommerce search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
+Product Manager of record for enterprise eCommerce search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
 
 - Drove $14M annual incremental revenue in 90 days through directed SOLR relevance optimization; validated 2% CTR lift to statistical significance (3-week pre/post)
 - Delivered multilingual conversational AI (English/French) to North American markets; CEO named product in Q2 2025 earnings call
@@ -143,7 +143,7 @@ PM of record for enterprise eCommerce search and conversational AI at a global d
 ### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
-Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com) across 10M+ product catalog with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
+Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com) across 10M+ product catalog with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
 
 - Search implementation cited by independent search experts as a benchmark for eCommerce search at scale
 - Drove CTR +7.5%, Top-5 clicks +15%, search usage +13% (2023) through ML-driven relevance optimization at enterprise scale
