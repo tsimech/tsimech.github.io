@@ -219,7 +219,7 @@ Built and shipped production RAG and agentic AI systems at Avantor; owned enterp
 **M.B.A.**, Arizona State University, W.P. Carey School of Business | 2003
 **B.S., Biochemistry/Chemistry**, Portland State University | 1998
 Trained SAFe | Certified Agile SCRUM Master | Pragmatic Marketing Level III
-110+ corporate trainings including Generative AI, LLMs, RAG, search platforms, ML/AI (Stanford, MIT)
+110+ corporate trainings including Generative AI, LLMs, RAG, search platforms, ML/AI (Stanford)
 
 ---
 

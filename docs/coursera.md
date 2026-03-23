@@ -109,7 +109,7 @@ Product management, sales, molecular biology research; received MBA corporate sp
 **M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003  
 **B.S., Biochemistry/Chemistry** | Portland State University | 1998  
 **Certifications:** Pragmatic Marketing III | Certified Agile SCRUM Master | Certified SAFe  
-**Continuous Learning:** ML/AI (Stanford, MIT) | 110+ corporate trainings: Generative AI, LLMs, Analytics | Search platforms
+**Continuous Learning:** ML/AI (Stanford) | 110+ corporate trainings: Generative AI, LLMs, Analytics | Search platforms
 
 ---
 

@@ -155,4 +155,4 @@ Sole Product Manager for $3B+ digital revenue channel (thermofisher.com, fishers
 **M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003
 **B.S., Biochemistry/Chemistry** | Portland State University | 1998
 **Certifications:** Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
-**Continuous Learning:** 110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford, MIT)
+**Continuous Learning:** 110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford)

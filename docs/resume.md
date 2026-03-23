@@ -151,6 +151,6 @@ Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.
 **B.S., Biochemistry/Chemistry**, Portland State University
 
 **Certifications:** SAFe Certified · Certified Agile SCRUM Master · Pragmatic Marketing Level III
-**Training:** 110+ corporate trainings including Generative AI, LLMs, RAG, and ML/AI (Stanford, MIT)
+**Training:** 110+ corporate trainings including Generative AI, LLMs, RAG, and ML/AI (Stanford)
 
 **Awards:** Thermo Fisher Scientific: 25 performance awards (4X Stock Incentive, 9X Discretionary, 12X Merit) · Consistently Exceeds &nbsp;·&nbsp; Motorola: Full corporate MBA sponsorship · 3X Stock Options · Bravo Award

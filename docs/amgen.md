@@ -221,7 +221,7 @@ Portland State University | 1998
 - Pragmatic Marketing Level III
 
 **Continuous Learning**  
-110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford, MIT courses)
+110+ corporate trainings including Generative AI, LLMs, Search platforms, ML/AI (Stanford courses)
 
 ---
 
