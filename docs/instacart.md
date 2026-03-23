@@ -79,9 +79,9 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-I shipped AvantorAI, a production agentic commerce system on OpenAI's framework recognized by our CEO in the Q2 2025 earnings call, and it solves exactly the problem Cart Assistant is trying to solve: turn product discovery into natural conversation at scale.
+I shipped AvantorAI, a production agentic commerce system on OpenAI's framework recognized by our CEO in the Q2 2025 earnings call. Its novel architecture uses rolling context windows to combine the customer's current product page with conversation history, delivering grounded, coherent product discovery as natural conversation at scale, exactly the problem Cart Assistant is trying to solve.
 
-Before that, I spent 14 years as the sole PM on a $3B+ digital commerce platform with 95% decision authority, owning the vision, the roadmap, and the revenue outcome end-to-end across 10M+ products and 30 team members. What made me effective at Avantor is what Cart Assistant specifically needs: I led both Site Search and AI simultaneously. Most organizations separate those functions and lose the integration advantage. I understood how function calling depended on retrieval quality, how RAG accuracy drove conversation fidelity, and how to optimize the full stack.
+Before that, I spent 14 years as the **sole PM on a $3B+ digital commerce platform with 95% decision authority**, owning the vision, the roadmap, and the revenue outcome end-to-end across 10M+ products and 30 team members. What made me effective at Avantor is what Cart Assistant specifically needs: I led both Site Search and AI simultaneously. Most organizations separate those functions and lose the integration advantage. I understood how function calling depended on retrieval quality, how RAG accuracy drove conversation fidelity, and how to optimize the full stack.
 
 I have defined the OKRs, built the A/B infrastructure, and navigated cross-VP alignment to ship. I would bring that same end-to-end ownership to Cart Assistant.
 
