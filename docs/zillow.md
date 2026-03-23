@@ -86,11 +86,11 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-From 2010 to 2024 I owned search at ThermoFisher Scientific across thermofisher.com and fishersci.com, supporting $3B+ in digital revenue. By the end of that tenure, independent experts cited those site search experiences as industry standard for life sciences eCommerce search.
+From 2010 to 2024 I owned search at Thermo Fisher Scientific across thermofisher.com and fishersci.com, supporting $3B+ in digital revenue. By the end of that tenure, independent experts cited those site search experiences as industry standard for life sciences eCommerce search.
 
 At Avantor I led that system through the same transition Zillow is making: from structured filters and ranking into conversational AI. I shipped AvantorAI/Navigator, which reads the current page, maintains rolling context windows, and lets users ask natural language questions against any page they are viewing. The CEO recognized the product by name in the Q2 2025 earnings call.
 
-For nearly 14 years I was the only Site Search Product Manager at ThermoFisher Scientific. The vision, the prioritization, and the revenue outcome were mine to own with 95% decision authority. I would like to bring that same ownership to Zillow.
+For nearly 14 years I was the only Site Search Product Manager at Thermo Fisher Scientific. The vision, the prioritization, and the revenue outcome were mine to own with 95% decision authority. I would like to bring that same ownership to Zillow.
 
 Thank you for your consideration.
 <br><br>

@@ -79,7 +79,7 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-Cardinal Health's ordering channel presents a search problem I know well: healthcare professionals buying under time pressure, with contract-specific pricing, allocation constraints, and substitution options that all have to surface correctly in results. I spent 14 years as the sole Search PM at ThermoFisher Scientific owning exactly this problem across thermofisher.com and fishersci.com, with 95% decision authority over a $3B+ digital revenue channel serving 10M+ complex scientific products. The vision, the roadmap, the vendor relationships, and the outcomes were mine to own.
+Cardinal Health's ordering channel presents a search problem I know well: healthcare professionals buying under time pressure, with contract-specific pricing, allocation constraints, and substitution options that all have to surface correctly in results. I spent 14 years as the sole Search PM at Thermo Fisher Scientific owning exactly this problem across thermofisher.com and fishersci.com, with 95% decision authority over a $3B+ digital revenue channel serving 10M+ complex scientific products. The vision, the roadmap, the vendor relationships, and the outcomes were mine to own.
 
 At Avantor I delivered $14M in incremental annual revenue in 90 days by identifying critical gaps in an undertuned search platform, building the business case, and driving relevance optimization validated to statistical significance. I am ready to bring that same end-to-end ownership to Cardinal Health.
 
@@ -101,7 +101,7 @@ Todd Peters
 ## SENIOR PRODUCT MANAGER, SITE SEARCH
 **B2B E-Commerce Search | Owned $3B+ Digital Revenue Channel | 14+ Years Product Leadership**
 
-Fourteen years as the sole Search PM at ThermoFisher Scientific, owning the complete search experience across a B2B ordering platform for 10M+ complex scientific products. Led two full platform migrations. Defined metadata and attribute requirements; owned relevance, faceted navigation, and customer-specific data in results. Technical MBA who codes.
+Fourteen years as the sole Search PM at Thermo Fisher Scientific, owning the complete search experience across a B2B ordering platform for 10M+ complex scientific products. Led two full platform migrations. Defined metadata and attribute requirements; owned relevance, faceted navigation, and customer-specific data in results. Technical MBA who codes.
 
 ---
 

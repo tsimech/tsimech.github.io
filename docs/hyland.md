@@ -75,7 +75,7 @@ Dear Hiring Team,
 
 I built and shipped a production RAG system inside a global life sciences company. The CEO named it in the Q2 2025 earnings call.
 
-At Avantor: OpenAI agentic framework, RAG pipeline with grounding citations, guardrails, and hallucination mitigation on enterprise content, $14M incremental revenue in 90 days. Before that, 14 years as sole PM on a $3B+ search platform at ThermoFisher Scientific across FAST, Endeca, and Lucidworks Fusion.
+At Avantor: OpenAI agentic framework, RAG pipeline with grounding citations, guardrails, and hallucination mitigation on enterprise content, $14M incremental revenue in 90 days. Before that, 14 years as sole PM on a $3B+ search platform at Thermo Fisher Scientific across FAST, Endeca, and Lucidworks Fusion.
 
 Making enterprise customers trust AI answers in regulated environments is the core of this role. I have already shipped grounding citations, guardrails, and hallucination mitigation in production; I would welcome a conversation about bringing that to Hyland's scale.
 
@@ -97,7 +97,7 @@ Todd Peters
 ## SENIOR PRODUCT MANAGER, AI-POWERED ENTERPRISE SEARCH
 **Enterprise AI & Search | RAG + Agentic Systems | 14+ Years Platform Ownership**
 
-Built and shipped production RAG and agentic AI systems at Avantor; owned enterprise-scale search platforms for 14 years at ThermoFisher Scientific with 95% decision authority over a $3B+ digital revenue channel. Led FAST, Endeca, Lucidworks Fusion, SOLR, and OpenAI agentic frameworks in production. Technical MBA who codes.
+Built and shipped production RAG and agentic AI systems at Avantor; owned enterprise-scale search platforms for 14 years at Thermo Fisher Scientific with 95% decision authority over a $3B+ digital revenue channel. Led FAST, Endeca, Lucidworks Fusion, SOLR, and OpenAI agentic frameworks in production. Technical MBA who codes.
 
 ---
 
