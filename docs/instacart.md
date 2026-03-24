@@ -30,6 +30,7 @@ body {
 }
 .skills-btn:hover { filter: brightness(1.1); }
 .skills-btn svg { flex-shrink: 0; }
+hr { border: none; border-top: 1px solid #333; margin: 0.5em 0; }
 </style>
 
 <script>
@@ -73,6 +74,7 @@ setTimeout(function() {
 </div>
 
 <hr>
+
 <br><br>
 
 ## Instacart: Principal Product Manager, Agentic Commerce
@@ -87,34 +89,38 @@ Cart Assistant is exactly the intersection I've been working at: agentic AI, com
 
 Thank you for your consideration.
 
-<div style="height: 2em;"></div>
+<br><br><br><br><br>
 
 Todd Peters
-<br><br><br>
+
+<br><br><br><br><br>
+
 <hr id="page-break">
 
 # TODD PETERS, MBA
 
-**PRINCIPAL PRODUCT MANAGER · Agentic Commerce & AI Search · Consumer + Enterprise**
+**PRINCIPAL PRODUCT MANAGER | Agentic Commerce & AI Search | Consumer + Enterprise**
 
-[(858) 752-4071](tel:8587524071) · [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re%3A%20Instacart%20-%20Principal%20Product%20Manager%2C%20Agentic%20Commerce&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Principal%20Product%20Manager%2C%20Agentic%20Commerce%20role%20at%20Instacart.%20Your%20experience%20shipping%20AvantorAI%20using%20OpenAI%27s%20agentic%20framework%2C%20owning%20both%20the%20search%20and%20conversational%20AI%20layers%20simultaneously%2C%20maps%20directly%20to%20what%20we%27re%20building%20with%20Cart%20Assistant.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Instacart) · [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba) · [tsimech.github.io/instacart](https://tsimech.github.io/instacart?utm_source=application&utm_medium=resume&utm_campaign=instacart)
+[(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re%3A%20Instacart%20-%20Principal%20Product%20Manager%2C%20Agentic%20Commerce&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Principal%20Product%20Manager%2C%20Agentic%20Commerce%20role%20at%20Instacart.%20Your%20experience%20shipping%20AvantorAI%20using%20OpenAI%27s%20agentic%20framework%20%E2%80%94%20and%20owning%20both%20the%20search%20and%20conversational%20AI%20layers%20simultaneously%20%E2%80%94%20maps%20directly%20to%20what%20we%27re%20building%20with%20Cart%20Assistant.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Instacart) | Castle Pines, CO | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba) | [tsimech.github.io/instacart](https://tsimech.github.io/instacart?utm_source=application&utm_medium=resume&utm_campaign=instacart)
 
 Results-driven Principal Product Manager with 16+ years of experience in eCommerce search, AI product delivery, and digital commerce platform leadership; Technical MBA with the depth to lead engineering, analytics, and ML teams without a translator.<br>
 Proven ability to own the full product lifecycle from 0-to-1 delivery through long-horizon platform strategy; builds cross-functional teams and secures executive investment to execute at scale.<br>
 Seeking to leverage AI search and product leadership expertise to drive measurable outcomes as **Principal Product Manager, Agentic Commerce** at **Instacart**.
 
----
+<hr>
 
 ## CAREER HIGHLIGHTS
+
+<hr>
 
 - Sole Product Manager on a $3B+ digital commerce platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $1-2M annual budget
 - Search implementation cited by independent search experts as a benchmark; 10M+ products, 3 platform migrations
 - Shipped industry-novel production agentic AI assistant (multilingual, English/French) to enterprise scale; CEO named the product in Q2 2025 earnings call and company-wide Town Hall
 - Recently generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
 
----
-
 ## SKILLS
+
+<hr>
 
 | **CORE COMPETENCIES** | **LEADERSHIP & STRATEGY** | **TECHNICAL SKILLS** |
 |---|---|---|
@@ -123,9 +129,9 @@ Seeking to leverage AI search and product leadership expertise to drive measurab
 | • Revenue Attribution & A/B Testing | • Agile/SAFe · Roadmapping · WSJF | • Lucidworks Fusion · Endeca · FAST · SOLR |
 | • 0-to-1 Product Delivery | • Business Case & CIO-Level Funding | • Python · SQL · APIs · GA4 · Power BI |
 
----
-
 ## PROFESSIONAL EXPERIENCE
+
+<hr>
 
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
@@ -138,7 +144,7 @@ Product Manager of record for enterprise eCommerce search and conversational AI 
 - Led delivery of enterprise-grade conversational AI assistant (AvantorAI) on OpenAI agentic framework (function calling, multi-agent orchestration) and RAG pipeline; drove production deployment of grounding citations, guardrails, and hallucination mitigation on enterprise content corpus
 - Commissioned and owned offline evaluation framework across 2,000 high-volume queries; defined relevance metrics suite (NDCG, precision, recall) with non-inferiority testing
 
----
+<hr>
 
 ### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
@@ -163,21 +169,21 @@ Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.co
 **Web Content Specialist / Business Analyst, Site Search** | 2010 - 2013
 - Built global synonym management process and search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly search metrics dashboards distributed to Directors, VPs, and business unit leadership
 
----
+<hr>
 
 ### SAFE LIFE CORPORATION | Del Mar, CA
 **Associate Director, Product Management & Business Development** | 2007 - 2010
 - Closed contracts >$1M; built BD pipeline >$1.2M; addressed FDA and EPA regulatory concerns; designed corporate CRM and manufacturing reporting systems
 
----
+<hr>
 
 ### MOTOROLA LIFE SCIENCES | Tempe, AZ
 **Research Associate II** | 1999 - 2003
 - Designed division-wide Product Development Database (VBA/SQL/ODBC); won Motorola Bravo Award; earned full corporate MBA sponsorship; received 3X Stock Option Awards
 
----
-
 ## EDUCATION & CERTIFICATIONS
+
+<hr>
 
 **M.B.A.**, Arizona State University, W.P. Carey School of Business
 **B.S., Biochemistry/Chemistry**, Portland State University
