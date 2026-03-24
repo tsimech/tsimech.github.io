@@ -89,11 +89,11 @@ Cart Assistant is exactly the intersection I've been working at: agentic AI, com
 
 Thank you for your consideration.
 
-<br><br><br><br><br>
+<br>
 
 Todd Peters
 
-<br><br><br><br><br>
+<br><br><br>
 
 <hr id="page-break">
 
