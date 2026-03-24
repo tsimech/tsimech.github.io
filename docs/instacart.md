@@ -83,14 +83,14 @@ I shipped AvantorAI, a production agentic commerce system on OpenAI's framework 
 
 Before that, I spent 14 years as the **sole PM on a $3B+ digital commerce platform with 95% decision authority**, owning the vision, the roadmap, and the revenue outcome end-to-end across 10M+ products and 30 team members. What made me effective at Avantor is what Cart Assistant specifically needs: I led both Site Search and AI simultaneously. Most organizations separate those functions and lose the integration advantage. I understood how function calling depended on retrieval quality, how RAG accuracy drove conversation fidelity, and how to optimize the full stack.
 
-I have defined the OKRs, built the A/B infrastructure, and navigated cross-VP alignment to ship. I would bring that same end-to-end ownership to Cart Assistant.
+Cart Assistant is exactly the intersection I've been working at: agentic AI, commerce, and search. I'd welcome the chance to talk.
 
 Thank you for your consideration.
 
-<div style="height: 2.5em;"></div>
+<div style="height: 2em;"></div>
 
 Todd Peters
-
+<br><br><br>
 <hr id="page-break">
 
 # TODD PETERS, MBA
