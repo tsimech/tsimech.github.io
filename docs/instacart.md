@@ -136,7 +136,7 @@ Seeking to leverage AI search and product leadership expertise to drive measurab
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-Product Manager of record for enterprise eCommerce search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
+Product Manager of record for site search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
 
 - Drove $14M annual incremental revenue in 90 days through directed SOLR relevance optimization; validated 2% CTR lift to statistical significance (3-week pre/post)
 - Delivered multilingual conversational AI (English/French) to North American markets; CEO named product in Q2 2025 earnings call
@@ -160,11 +160,11 @@ Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.co
 **Product Manager, Search and Selection** | 2014 - 2021
 
 - Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
-- Orchestrated full enterprise search platform migrations (FAST to Endeca; Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, and post-install SLA and performance specifications
+- Orchestrated full site search platform migrations (FAST to Endeca; Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, and post-install SLA and performance specifications
 - Built null-results recovery for fishersci.com using supplemental data and targeted query broadening strategies
 
 **Associate Product Manager** | 2013 - 2014
-- Led enterprise search platform integration (FAST) through corporate acquisition transition
+- Led site search platform integration (FAST) through corporate acquisition transition
 
 **Web Content Specialist / Business Analyst, Site Search** | 2010 - 2013
 - Built global synonym management process and search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly search metrics dashboards distributed to Directors, VPs, and business unit leadership

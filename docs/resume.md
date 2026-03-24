@@ -128,11 +128,11 @@ Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.
 **Product Manager, Search and Selection** | 2014 - 2021
 
 - Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
-- Orchestrated full enterprise search platform migrations (FAST to Endeca; Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, and post-install SLA and performance specifications
+- Orchestrated full site search platform migrations (FAST to Endeca; Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, and post-install SLA and performance specifications
 - Built null-results recovery for fishersci.com using supplemental data and targeted query broadening strategies
 
 **Associate Product Manager** | 2013 - 2014
-- Led enterprise search platform integration (FAST) through corporate acquisition transition
+- Led site search platform integration (FAST) through corporate acquisition transition
 
 **Web Content Specialist / Business Analyst, Site Search** | 2010 - 2013
 - Built global synonym management process and search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly search metrics dashboards distributed to Directors, VPs, and business unit leadership
