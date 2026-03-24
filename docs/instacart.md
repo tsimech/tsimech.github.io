@@ -87,14 +87,9 @@ I have defined the OKRs, built the A/B infrastructure, and navigated cross-VP al
 
 Thank you for your consideration.
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<div style="height: 2.5em;"></div>
 
 Todd Peters
-
-<br><br><br><br><br>
 
 <hr id="page-break">
 
