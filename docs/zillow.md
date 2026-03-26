@@ -86,11 +86,11 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-From 2010 to 2024 I owned search at Thermo Fisher Scientific across thermofisher.com and fishersci.com, supporting $3B+ in digital revenue. By the end of that tenure, independent experts cited those site search experiences as industry standard for life sciences eCommerce search.
+Zillow is turning search from filters and ranking into an agentic, journey-aware system. I have already shipped that transition in production. At Avantor I built AvantorAI/Navigator: a system that reads the user's current context, maintains rolling conversation windows, and surfaces intent-driven answers at scale. The CEO recognized it by name in the Q2 2025 earnings call.
 
-At Avantor I led that system through the same transition Zillow is making: from structured filters and ranking into conversational AI. I shipped AvantorAI/Navigator, which reads the current page, maintains rolling context windows, and lets users ask natural language questions against any page they are viewing. The CEO recognized the product by name in the Q2 2025 earnings call.
+Before that, I was the sole Product Manager for site search at Thermo Fisher Scientific for 14 years: $2M+ annual budget, 6 cross-functional teams, 95% decision authority over a $3B+ platform. I owned the 5-year roadmap, the vendor strategy, and the revenue outcome. Semantic retrieval, intent modeling, AI-assisted discovery: every capability on Zillow's search roadmap is something I have built and measured in production.
 
-For nearly 14 years I was the only Site Search Product Manager at Thermo Fisher Scientific. The vision, the prioritization, and the revenue outcome were mine to own with 95% decision authority. I would like to bring that same ownership to Zillow.
+Most PMs arrive at this problem with search experience or AI experience. I have both, already integrated in a shipping product. I would welcome the conversation.
 
 Thank you for your consideration.
 <br><br>
