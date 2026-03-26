@@ -4,7 +4,7 @@ robots: noindex, nofollow
 ---
 <style>
 html {
-  background: url('/zillow-bg.png') center center / cover no-repeat fixed;
+  background: url('/zillow-bg.png?v=2') center center / cover no-repeat fixed;
 }
 body {
   background: rgba(255, 255, 255, 0.95) !important;
