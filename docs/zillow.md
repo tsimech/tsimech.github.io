@@ -99,7 +99,7 @@ Todd Peters
 
 <p style="font-size:1em;color:#555;margin-top:1.5em;">P.S. See my work live: <a href="https://www.vwr.com/us/en/category/542760/beakers" target="_blank">vwr.com</a> &nbsp;·&nbsp; <a href="https://www.thermofisher.com/search/browse/category/us/en/90126210" target="_blank">thermofisher.com</a> &nbsp;·&nbsp; <a href="https://www.fishersci.com/us/en/browse/90111009/Flasks" target="_blank">fishersci.com</a></p>
 
-<br><br><br>
+<br><br>
 
 <hr id="page-break">
 
@@ -177,7 +177,7 @@ Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.co
 **Product Manager, Search and Selection** | 2014 - 2021
 
 - Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
-- Designed multi-signal Learning to Rank (LTR) model combining behavioral signals (CTR, conversion), business signals (revenue, margin), and fulfillment signals to adapt ranking for population- and country-level purchasing patterns
+- Designed multi-signal LTR model combining behavioral, business, and fulfillment signals to adapt ranking for segment- and locale-level purchasing patterns; the same signal pipeline architecture that underlies individual user personalization at consumer scale
 - Orchestrated platform migrations (Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, post-install performance SLAs; delivered 20,000+ SEO landing pages through taxonomy improvements
 - Built intent-based query routing (category redirects, dynamic resubmission, PDP hijacking) and query rewriting pipeline translating user intent directly into action
 - Designed heterogeneous SERP: product main rail, CMS right rail, and editorial spotlight module delivering unified result diversity across content types
