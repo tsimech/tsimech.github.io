@@ -86,7 +86,7 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-Zillow is turning search from filters and ranking into an agentic, journey-aware system. I have already shipped that transition in production. At VWR/Avantor I built the VWR AI Assistant: a system that reads the user's current context, maintains rolling conversation windows, and surfaces intent-driven answers at scale. The CEO recognized it by name in the Q2 2025 earnings call. <a href="https://www.vwr.com/us/en/" target="_blank" title="Try VWR AI Assistant live on VWR.com" style="display:inline-flex;align-items:center;gap:5px;text-decoration:none;vertical-align:middle;"><img src="/vwr-ai-button.png" alt="Try it — Use AI button on VWR.com" style="height:22px;width:auto;border-radius:4px;vertical-align:middle;"> <span style="font-size:0.8em;color:#0891b2;font-weight:600;">Try it live</span></a>
+Zillow is turning search from filters and ranking into an agentic, journey-aware system. I have already shipped that transition in production. At VWR I built the VWR AI Assistant: a system that reads the user's current context, maintains rolling conversation windows, and surfaces intent-driven answers at scale. The CEO recognized it by name in the Q2 2025 earnings call. <a href="https://www.vwr.com/us/en/" target="_blank" title="Try VWR AI Assistant live on VWR.com" style="display:inline-flex;align-items:center;gap:5px;text-decoration:none;vertical-align:middle;"><img src="/vwr-ai-button.png" alt="Try it — Use AI button on VWR.com" style="height:22px;width:auto;border-radius:4px;vertical-align:middle;"> <span style="font-size:0.8em;color:#0891b2;font-weight:600;">Try it live</span></a>
 
 Before that, I was the sole Product Manager for site search at Thermo Fisher Scientific for 14 years: $2M+ annual budget, 6 cross-functional teams, 95% decision authority over a $3B+ platform. I owned the 5-year roadmap, the vendor strategy, and the revenue outcome. Semantic retrieval, intent modeling, AI-assisted discovery: every capability on Zillow's search roadmap is something I have built and measured in production.
 
@@ -96,6 +96,8 @@ Thank you for your consideration.
 <br><br>
 
 Todd Peters
+
+<p style="font-size:0.85em;color:#555;margin-top:1.5em;"><em>P.S. — See the work live:</em> <a href="https://www.vwr.com/us/en/" target="_blank">vwr.com</a> (VWR AI Assistant) &nbsp;·&nbsp; <a href="https://www.thermofisher.com/us/en/home.html" target="_blank">thermofisher.com</a> &nbsp;·&nbsp; <a href="https://www.fishersci.com/us/en/home.html" target="_blank">fishersci.com</a></p>
 
 <br><br><br><br><br>
 
@@ -148,7 +150,7 @@ Seeking to leverage search intelligence and AI product expertise to drive measur
 
 <hr>
 
-### VWR/AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
+### [VWR](https://www.vwr.com/us/en/) / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
 Product Manager of record for site search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and search relevance improvements to production across B2B markets in North America.
@@ -161,7 +163,7 @@ Product Manager of record for site search and conversational AI at a global digi
 
 <hr>
 
-### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
+### [THERMO FISHER SCIENTIFIC](https://www.thermofisher.com/us/en/home.html) | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
 Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com) across 10M+ product catalog with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
