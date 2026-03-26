@@ -86,7 +86,7 @@ setTimeout(function() {
 
 Dear Hiring Team,
 
-Zillow is turning search from filters and ranking into an agentic, journey-aware system. I have already shipped that transition in production. At Avantor I built AvantorAI/Navigator: a system that reads the user's current context, maintains rolling conversation windows, and surfaces intent-driven answers at scale. The CEO recognized it by name in the Q2 2025 earnings call. <a href="https://www.vwr.com/us/en/" target="_blank" title="Try AvantorAI/Navigator live on VWR.com" style="display:inline-flex;align-items:center;gap:5px;text-decoration:none;vertical-align:middle;"><img src="/vwr-ai-button.png" alt="Try it — Use AI button on VWR.com" style="height:22px;width:auto;border-radius:4px;vertical-align:middle;"> <span style="font-size:0.8em;color:#0891b2;font-weight:600;">Try it live</span></a>
+Zillow is turning search from filters and ranking into an agentic, journey-aware system. I have already shipped that transition in production. At VWR/Avantor I built the VWR AI Assistant: a system that reads the user's current context, maintains rolling conversation windows, and surfaces intent-driven answers at scale. The CEO recognized it by name in the Q2 2025 earnings call. <a href="https://www.vwr.com/us/en/" target="_blank" title="Try VWR AI Assistant live on VWR.com" style="display:inline-flex;align-items:center;gap:5px;text-decoration:none;vertical-align:middle;"><img src="/vwr-ai-button.png" alt="Try it — Use AI button on VWR.com" style="height:22px;width:auto;border-radius:4px;vertical-align:middle;"> <span style="font-size:0.8em;color:#0891b2;font-weight:600;">Try it live</span></a>
 
 Before that, I was the sole Product Manager for site search at Thermo Fisher Scientific for 14 years: $2M+ annual budget, 6 cross-functional teams, 95% decision authority over a $3B+ platform. I owned the 5-year roadmap, the vendor strategy, and the revenue outcome. Semantic retrieval, intent modeling, AI-assisted discovery: every capability on Zillow's search roadmap is something I have built and measured in production.
 
@@ -101,103 +101,111 @@ Todd Peters
 
 <hr id="page-break">
 
-# TODD PETERS
-**Castle Pines, CO | [(858) 752-4071](tel:8587524071) | [toddttp@kalama.com](mailto:toddttp@kalama.com?subject=Re:%20Zillow%20-%20Senior%20Product%20Manager%2C%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Senior%20Product%20Manager%2C%20Search%20Intelligence%20role%20at%20Zillow.%20Your%20background%20building%20search%20experiences%20at%20scale%20and%20the%20AI%20product%20work%20you%20shipped%20at%20Avantor%20caught%20our%20attention.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Zillow) | [linkedin.com/in/toddpetersmba](https://linkedin.com/in/toddpetersmba)**
 
----
+<style>
+.resume-header { text-align: center !important; }
+.resume-header h1, .resume-header p { text-align: center !important; }
+hr:not(#page-break) { border: none; border-top: 1px solid #333; margin: 0.5em 0; }
+</style>
 
-## SITE SEARCH & AI PRODUCT LEADER
-**$3B+ Revenue at Scale**
+<div class="resume-header" style="text-align: center !important;">
 
-Product leader with 14+ years in site search product leadership. Owned $3B+ in digital revenue across two of the largest life sciences eCommerce platforms in the world. Converts user intent into incremental revenue. Led two full platform migrations. Ran two independent products simultaneously at Avantor. Built the industry reference implementation for life sciences eCommerce search. Technical MBA who codes.
+<h1 style="text-align: center;">TODD PETERS, MBA</h1>
 
----
+<p style="text-align: center;"><strong>SENIOR PRODUCT MANAGER | Search Intelligence &amp; AI</strong></p>
 
-### KEY ACHIEVEMENTS
+<p style="text-align: center;"><a href="tel:8587524071">(858) 752-4071</a> | <a href="mailto:toddttp@kalama.com?subject=Re%3A%20Zillow%20-%20Senior%20Product%20Manager%2C%20Search%20Intelligence&body=Hi%20Todd%2C%0A%0AWe%20reviewed%20your%20application%20for%20the%20Senior%20Product%20Manager%2C%20Search%20Intelligence%20role%20at%20Zillow.%20Your%20background%20building%20search%20experiences%20at%20scale%20and%20the%20AI%20product%20work%20you%20shipped%20at%20Avantor%20caught%20our%20attention.%0A%0AWe%20would%20like%20to%20schedule%20a%20brief%20call%20to%20discuss%20the%20role%20and%20your%20experience.%0A%0ATalent%20Acquisition%2C%20Zillow">toddttp@kalama.com</a> | Castle Pines, CO | <a href="https://linkedin.com/in/toddpetersmba">linkedin.com/in/toddpetersmba</a> | <a href="https://tsimech.github.io/zillow?utm_source=application&utm_medium=resume&utm_campaign=zillow">tsimech.github.io/zillow</a></p>
 
-- **Delivered $14M annual incremental revenue** in 90 days through AI-powered search optimization at Avantor: built business case, partnered with ML vendor, validated 2% CTR lift to statistical significance, and presented ROI to VP and Operations
-- **Owned $3B+ digital revenue channel** as sole PM for thermofisher.com and fishersci.com supporting 10M+ complex scientific products across 15 global domains
-- **Secured multi-phase CIO funding** through ROI-driven business case: bootstrapped Phase 1, scaled to 18-person Phase 2 team
-- **Architected AvantorAI/Navigator** using OpenAI agentic framework with RAG: rescued failing initiative, launched multilingual US/Canada, recognized by CEO Michael Stubblefield in Q2 2025 earnings call
-- **Drove CTR +7.5%, Top-5 clicks +15%, search usage +13%** (2023) through ML-driven relevance optimization and query understanding at scale
-- **Created industry reference implementation** for life sciences eCommerce search: fishersci.com independently recognized as the industry standard by external search specialists
-- **25 performance awards at ThermoFisher** including 4X Stock Incentive Award and company highest rating (Consistently Exceeds) in 2020
+<p style="text-align: center;">Results-driven Senior Product Manager with 14+ years of experience in eCommerce search, AI product delivery, and digital platform leadership; Technical MBA with the depth to lead engineering, data science, and ML teams without a translator.<br>
+Proven ability to own the full search product lifecycle from 0-to-1 agentic AI delivery through long-horizon relevance strategy; builds cross-functional teams and secures executive investment to execute at scale.<br>
+Seeking to leverage search intelligence and AI product expertise to drive measurable outcomes as <strong>Senior Product Manager, Search Intelligence</strong> at <strong>Zillow</strong>.</p>
 
----
+</div>
 
-### PROFESSIONAL EXPERIENCE
+<hr>
 
-### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
+## CAREER HIGHLIGHTS
+
+<hr>
+
+- Sole Product Manager on a $3B+ digital commerce search platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $2M annual budget
+- Search implementation cited by independent experts as the industry benchmark for eCommerce search at scale; 10M+ products, 3 platform migrations, 15 global domains
+- Shipped production agentic AI assistant (multilingual, English/French) using OpenAI function calling with full state management; CEO named the product in Q2 2025 earnings call
+- Generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for follow-on 18-person team
+
+## SKILLS
+
+<hr>
+
+| **SEARCH & AI** | **LEADERSHIP & STRATEGY** | **TECHNICAL SKILLS** |
+|---|---|---|
+| • Search Relevance & Ranking | • Cross-Functional Leadership (30 members) | • SOLR · Lucidworks Fusion · Endeca · FAST |
+| • Semantic Retrieval & Intent Modeling | • Stakeholder & Executive Alignment | • OpenAI Agentic Framework (function calling) |
+| • AI/ML Product Management | • Agile/SAFe · Roadmapping · WSJF | • RAG Pipeline Design (SOLR + LLM + grounding) |
+| • Revenue Attribution & A/B Testing | • Business Case & Executive Investment | • Python · SQL · NDCG · GA4 · Power BI |
+
+## PROFESSIONAL EXPERIENCE
+
+<hr>
+
+### VWR/AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-#### AI Product Architecture
-- Architected AvantorAI/Navigator conversational AI using OpenAI agentic framework (function calling): defined agent functions for search, CMS, category pages, orders, and account with full state management
-- Designed natural language query normalization pipeline: coerced free-text consumer queries into IR-ready structured forms, bridging conversational input with deterministic search systems
-- Designed AI output guardrails enforcing content boundaries, preventing hallucination of product and pricing data, and ensuring policy-compliant responses at production scale
-- Implemented RAG pipeline: SOLR IR + LLM assessment layer with relevancy trimming and grounding citations
-- Launched in Canada/US with multilingual support (English/French); recognized by CEO Michael Stubblefield in Q2 2025 earnings call and company Town Hall
+Product Manager of record for site search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and search relevance improvements to production across B2B markets in North America.
 
-#### Evaluation, Analytics & Revenue
-- Generated $14M annual incremental revenue through BM25 field weight tuning in SOLR (90-day delivery cycle)
-- Evaluated search using NDCG, Precision@K, Recall@K, and MRR at multiple depths; made tradeoff decisions using non-inferiority testing across 2,000 high-volume queries
-- Validated 2% CTR lift to statistical significance via 3-week pre/post analysis; presented results to VP and Operations leadership
-- Designed ML-based autocomplete using GA4 frequency, log boosting, decay factor, rolling window, and ghost term filtering
-- Connected GA4 to Power BI; built ETL using Power Query with table relationship joins for search term analytics and $/click revenue attribution
+- Drove $14M annual incremental revenue in 90 days through directed SOLR relevance optimization; validated 2% CTR lift to statistical significance (3-week pre/post)
+- Delivered multilingual conversational AI (English/French) to North American markets; CEO named product in Q2 2025 earnings call
+- Secured Phase 2 (six-figure budget, 18-person team) through CIO-level business case; scaled from bootstrap Phase 1
+- Architected VWR AI Assistant on OpenAI agentic framework (function calling, full state management) with RAG pipeline; implemented guardrails preventing hallucination of product and pricing data at production scale
+- Commissioned and owned offline evaluation framework across 2,000 high-volume queries; defined relevance metrics suite (NDCG, Precision@K, Recall@K, MRR) with non-inferiority testing
 
-#### Strategic Execution
-- Secured Phase 1 then Phase 2 funding (18-person team pre-negotiated) through CIO-level business case using WSJF prioritization
-- Navigated 3-month MSA approval solo: built legal and sourcing relationships, persisted through sequential VP signatures
-- Overhauled synonym database: updated SOLR schema, cleaned full dataset, reloaded to production
-- Led UAT sessions with regional business unit leaders across global markets
-
----
+<hr>
 
 ### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
-- Delivered 2023 results: CTR +7.5%, Top-5 clicks +15%, search usage +13%, customer complaints under 10/month across millions of queries
-- Directed 30 team members across 6 functions: managed 5 on/offshore Agile SCRUM dev teams concurrently and directed 4 supplemental teams (UX, Content, Analytics, A/B testing)
-- Defined multi-year strategy and quarterly priorities using WSJF and Business Value frameworks with $1-2M annual budget authority; served as enterprise-wide search strategy KOL
-- Designed formal KPI definition framework: metric definitions, calculation methodology, glossary, and reference table published as org-level artifact across search and analytics teams
-- Implemented query understanding pipeline: synonym database management via Lucidworks Fusion generator, spell correction, ML-based autocomplete, and intent signal analysis
+Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com) across 10M+ product catalog with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
+
+- Search implementation cited by independent experts as the benchmark for eCommerce search at scale
+- Drove CTR +7.5%, Top-5 clicks +15%, search usage +13% (2023) through ML-driven relevance optimization
+- Directed 5 on/offshore Agile SCRUM dev teams; served as enterprise-wide search strategy KOL and hiring manager with 3 direct reports
+- Defined and drove delivery of query understanding pipeline: synonym management (Lucidworks Fusion), spell correction, ML autocomplete, and intent signal analysis
+- Designed formal KPI definition framework: metric definitions, calculation methodology, glossary; published as org-level artifact across search and analytics teams
 
 **Product Manager, Search and Selection** | 2014 - 2021
 
-- Built intent-based query routing: category redirects, dynamic query resubmission, high-confidence destination routing, and PDP hijacking for navigational queries, translating user intent directly into action
-- Designed query rewriting pipeline: stripped navigational/collection tokens at query time for collection routing; stripped non-descriptive tokens from product titles at index time for BM25 field precision without recall loss
-- Applied merchandising controls (boost, bury, pin) layered over relevance ranking for business-driven result promotion and demotion across $3B product catalog
-- Designed heterogeneous SERP: product main rail, non-product CMS right rail, and editorial spotlight module delivering unified result diversity across content types
-- Constructed human-judged golden evaluation sets for offline relevance assessment, enabling repeatable pre/post quality measurement across search algorithm changes
-- Orchestrated platform migration Endeca to Lucidworks Fusion: led vendor evaluation, designed pre-production A/B testing, and established post-install performance specifications (query response, uptime, indexing) protecting $3B revenue
-- Deployed faceted navigation with auto-faceting and dynamic attribute filtering; implemented multilingual search with language-specific analyzers and responsive design across 15 global domains
-- Designed multi-signal Learning to Rank (LTR) model: combined behavioral signals (CTR, conversion), business signals (revenue, margin), and fulfillment signals (shipping speed) to adapt ranking for population- and country-level purchasing patterns
-- Delivered 20,000+ SEO landing pages through chemical structure search modernization and taxonomy improvements driving organic traffic growth
-- Created industry reference implementation for site search (fishersci.com) recognized by independent experts as industry standard for life sciences eCommerce search
+- Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
+- Designed multi-signal Learning to Rank (LTR) model combining behavioral signals (CTR, conversion), business signals (revenue, margin), and fulfillment signals to adapt ranking for population- and country-level purchasing patterns
+- Orchestrated platform migrations (Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, post-install performance SLAs; delivered 20,000+ SEO landing pages through taxonomy improvements
+- Built intent-based query routing (category redirects, dynamic resubmission, PDP hijacking) and query rewriting pipeline translating user intent directly into action
+- Designed heterogeneous SERP: product main rail, CMS right rail, and editorial spotlight module delivering unified result diversity across content types
 
 **Associate Product Manager / Web Content Specialist** | 2010 - 2014
 
-- Led FAST search integration into Endeca during corporate acquisition; simplified search and navigation for 10M+ complex genomics products (Project Magellan)
-- Created global synonym management process and tools; built FAST interface emulator reducing relevancy tuning time from weeks to 30 minutes
+- Led FAST search integration through corporate acquisition; built global synonym management process and search platform emulator reducing relevancy tuning from weeks to 30 minutes
 
----
+<hr>
 
 ### SAFE LIFE CORPORATION | Del Mar, CA
 **Associate Director, Product Management & Business Development** | 2007 - 2010
 
-- Closed contracts valued over $1M (exclusive/non-exclusive licensing, OEM supply) with total Business Development pipeline over $1.2M; led CEO-level Fortune 500 outreach
-- Designed corporate-wide MS Dynamics CRM and manufacturing database systems consulting with CFO, VPs, and executive stakeholders
+- Closed contracts >$1M; built BD pipeline >$1.2M; addressed FDA and EPA regulatory concerns; designed corporate CRM and manufacturing reporting systems
 
----
+<hr>
 
 ### MOTOROLA LIFE SCIENCES | Tempe, AZ
-**Research Associate** | 1999 - 2003
+**Research Associate II** | 1999 - 2003
 
-- Designed and built division-wide Product Development Database (VBA, SQL, ODBC) delivering estimated $250K+ savings; won Motorola Bravo Award and 3X Stock Incentive Awards
-- Published 3 peer-reviewed papers (Clinical Chemistry, ASHG); P450 genotyping product development
+- Designed division-wide Product Development Database (VBA/SQL/ODBC); won Motorola Bravo Award; earned full corporate MBA sponsorship; received 3X Stock Option Awards
 
----
+## EDUCATION & CERTIFICATIONS
 
-### EDUCATION
+<hr>
 
-**MBA** | Arizona State University
-**B.S. Biochemistry** | Portland State University
+**M.B.A.**, Arizona State University, W.P. Carey School of Business
+**B.S., Biochemistry/Chemistry**, Portland State University
+
+**Certifications:** SAFe Certified · Certified Agile SCRUM Master · Pragmatic Marketing Level III
+**Training:** 110+ corporate trainings including Generative AI, LLMs, RAG, and ML/AI (Stanford)
+
+**Awards:** Thermo Fisher Scientific: 25 performance awards (4X Stock Incentive, 9X Discretionary, 12X Merit) · Consistently Exceeds 2020 · Motorola: Full corporate MBA sponsorship · 3X Stock Options · Bravo Award
