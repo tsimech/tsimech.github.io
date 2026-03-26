@@ -97,7 +97,7 @@ Thank you for your consideration.
 
 Todd Peters
 
-<p style="font-size:1em;color:#555;margin-top:1.5em;">P.S. See my work live: <a href="https://www.vwr.com/us/en/category/542760/beakers" target="_blank">vwr.com</a> (VWR AI Assistant) &nbsp;·&nbsp; <a href="https://www.thermofisher.com/search/browse/category/us/en/90126210" target="_blank">thermofisher.com</a> &nbsp;·&nbsp; <a href="https://www.fishersci.com/us/en/browse/90111009/Flasks" target="_blank">fishersci.com</a></p>
+<p style="font-size:1em;color:#555;margin-top:1.5em;">P.S. See my work live: <a href="https://www.vwr.com/us/en/category/542760/beakers" target="_blank">vwr.com</a> &nbsp;·&nbsp; <a href="https://www.thermofisher.com/search/browse/category/us/en/90126210" target="_blank">thermofisher.com</a> &nbsp;·&nbsp; <a href="https://www.fishersci.com/us/en/browse/90111009/Flasks" target="_blank">fishersci.com</a></p>
 
 <br><br><br>
 
