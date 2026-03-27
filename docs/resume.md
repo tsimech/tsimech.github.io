@@ -106,7 +106,7 @@ Seeking senior PM roles at the intersection of eCommerce site search, agentic AI
 ### AVANTOR / INSIGHT GLOBAL | Castle Pines, CO (Remote)
 **Sr. Product Manager, Site Search and AI** | June 2024 - January 2026
 
-PM of record for enterprise eCommerce search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
+Product Manager of record for site search and conversational AI at a global digital commerce platform; shipped enterprise-grade conversational AI assistant and site search to production across B2B markets in North America.
 
 - Drove $14M annual incremental revenue in 90 days through directed SOLR relevance optimization; validated 2% CTR lift to statistical significance (3-week pre/post)
 - Delivered multilingual conversational AI (English/French) to North American markets; CEO named product in Q2 2025 earnings call
@@ -151,6 +151,6 @@ Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.co
 **B.S., Biochemistry/Chemistry**, Portland State University
 
 **Certifications:** Certified Agile SCRUM Master · Pragmatic Marketing Level III
-**Training:** 110+ corporate trainings including Generative AI, LLMs, RAG, and ML/AI (Stanford)
+**Training:** 110+ corporate trainings including SAFe, Generative AI, LLMs, RAG, and ML/AI (Stanford)
 
 **Awards:** Thermo Fisher Scientific: 25 performance awards (4X Stock Incentive, 9X Discretionary, 12X Merit) · Consistently Exceeds &nbsp;·&nbsp; Motorola: Full corporate MBA sponsorship · 3X Stock Options · Bravo Award
