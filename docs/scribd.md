@@ -179,7 +179,7 @@ Invented automated analysis tools (estimated $250K+ savings over 5 years); recei
 **BS, Biochemistry/Chemistry** | Portland State University  
 **Certifications:**
 - Certified Agile SCRUM Master
-- Certified SAFe
+- SAFe Trained
 - Pragmatic Marketing Level III
 
 ---

@@ -164,7 +164,7 @@ Progressed from BA contract through Web Content Specialist to Associate PM. Buil
 
 **M.B.A.** Arizona State University, W.P. Carey School of Business | 2003
 **B.S., Biochemistry/Chemistry** Portland State University | 1998
-**Certifications:** Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+**Certifications:** Certified Agile SCRUM Master | Pragmatic Marketing Level III
 **Continuous Learning:** 110+ corporate trainings including Generative AI, LLMs, ML/AI (Stanford courses)
 
 ---

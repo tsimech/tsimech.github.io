@@ -92,7 +92,7 @@ Sole PM and analytics lead for $3B+ digital revenue channel (thermofisher.com, f
 - Conducted structured stakeholder discovery sessions with business unit leaders at annual in-person meetings to define dashboard objectives, KPIs, and reporting requirements; delivered enhancements through Agile iterative cycles
 - Set up ODBC connections to ThermoFisher enterprise data warehouse for data extraction, statistics, and UI decision support
 - Led A/B testing and statistical significance testing with Analytics team; drove CTR +7.5%, Top-5 clicks +15%, search usage +13% (2023)
-- Certified SAFe/Agile SCRUM; directed 5 on/offshore dev teams across 6 functions; $1-2M annual budget; 3 direct reports
+- SAFe Trained / Certified Agile SCRUM; directed 5 on/offshore dev teams across 6 functions; $1-2M annual budget; 3 direct reports
 
 ---
 
@@ -134,7 +134,7 @@ Sole PM and analytics lead for $3B+ digital revenue channel (thermofisher.com, f
 - Structured discovery sessions with VP, CIO, and C-suite stakeholders
 - KPI definition, dashboard scoping, and requirements documentation
 - Iterative stakeholder review cycles with documented outcomes
-- Agile/SAFe (Certified SCRUM Master, Certified SAFe); Jira, Confluence
+- Agile/SAFe (Certified SCRUM Master, SAFe Trained); Jira, Confluence
 
 ### Programming
 - VBA, SQL, Python, C/C++, C#, HTML, CSS, JavaScript
@@ -148,7 +148,7 @@ Sole PM and analytics lead for $3B+ digital revenue channel (thermofisher.com, f
 
 **B.S., Biochemistry/Chemistry** | Portland State University | 1998
 
-**Certifications:** Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+**Certifications:** Certified Agile SCRUM Master | SAFe Trained | Pragmatic Marketing Level III
 
 **Continuous Learning:** Power BI; Generative AI and LLMs; ML/AI; Optuna hyperparameter tuning
 

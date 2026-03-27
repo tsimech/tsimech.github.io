@@ -217,7 +217,7 @@ Portland State University | 1998
 
 **Certifications**
 - Certified Agile SCRUM Master
-- Certified SAFe
+- SAFe Trained
 - Pragmatic Marketing Level III
 
 **Continuous Learning**  

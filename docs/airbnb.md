@@ -137,7 +137,7 @@ Led enterprise digital platform strategy for $3B+ revenue channel. Sole PM with 
 
 **M.B.A.** | Arizona State University, W.P. Carey School of Business | 2003
 **B.S., Biochemistry/Chemistry** | Portland State University | 1998
-Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+Certified Agile SCRUM Master | Pragmatic Marketing Level III
 
 ---
 

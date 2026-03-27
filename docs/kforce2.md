@@ -132,7 +132,7 @@ PM and analytics for $3B+ digital revenue channel (thermofisher.com, fishersci.c
 - Structured discovery sessions with VP, CIO, and C-suite stakeholders
 - KPI definition, dashboard scoping, and requirements documentation
 - Iterative stakeholder review cycles with documented outcomes
-- Agile/SAFe (Certified SCRUM Master, Certified SAFe); Jira, Confluence
+- Agile/SAFe (Certified SCRUM Master, SAFe Trained); Jira, Confluence
 
 ### Programming
 - VBA, SQL, Python, C/C++, C#, HTML, CSS, JavaScript
@@ -146,7 +146,7 @@ PM and analytics for $3B+ digital revenue channel (thermofisher.com, fishersci.c
 
 **B.S., Biochemistry/Chemistry** | Portland State University | 1998
 
-**Certifications:** Certified Agile SCRUM Master | Certified SAFe | Pragmatic Marketing Level III
+**Certifications:** Certified Agile SCRUM Master | SAFe Trained | Pragmatic Marketing Level III
 
 **Continuous Learning:** Power BI; Generative AI and LLMs; ML/AI; Optuna hyperparameter tuning
 
