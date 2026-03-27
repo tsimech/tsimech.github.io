@@ -58,16 +58,16 @@ setTimeout(function() {
   </div>
 </div>
 
-Results-driven Senior Product Manager with 16+ years of experience in eCommerce search, AI product delivery, and digital commerce platform leadership; Technical MBA with the depth to lead engineering, analytics, and ML teams without a translator.<br>
+Results-driven Senior Product Manager with 16+ years of experience in eCommerce site search, AI product delivery, and digital commerce platform leadership; Technical MBA with the depth to lead engineering, analytics, and ML teams without a translator.<br>
 Proven ability to own the full product lifecycle from 0-to-1 delivery through long-horizon platform strategy; builds cross-functional teams and secures executive investment to execute at scale.<br>
-Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and digital commerce platform leadership.
+Seeking senior PM roles at the intersection of eCommerce site search, agentic AI, and digital commerce platform leadership.
 
 ## CAREER HIGHLIGHTS
 
-- Generated $14M incremental revenue in 90 days through search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
+- Generated $14M incremental revenue in 90 days through site search relevance optimization; secured six-figure CIO investment for a follow-on 18-person team
 - Shipped production agentic AI assistant (multilingual, English/French) to enterprise scale; CEO named the product in Q2 2025 earnings call and company-wide Town Hall
 - Sole PM on a $3B+ digital commerce platform for 14 years; peak team of 30 across 6 functions with 95% decision authority and $1-2M annual budget
-- Built and scaled eCommerce search for a $3B+ platform cited by independent search experts as a benchmark implementation; 14 years, 10M+ products, 3 platform migrations
+- Built and scaled eCommerce site search for a $3B+ platform cited by independent search experts as a benchmark implementation; 14 years, 10M+ products, 3 platform migrations
 
 ## SKILLS
 
@@ -84,7 +84,7 @@ Seeking senior PM roles at the intersection of eCommerce search, agentic AI, and
   <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">OpenAI Agentic Framework (function calling)</td>
 </tr>
 <tr>
-  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">eCommerce Search Strategy</td>
+  <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">eCommerce Site Search Strategy</td>
   <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">Stakeholder &amp; Executive Alignment</td>
   <td style="padding:5px 10px; border:1px solid #ddd; vertical-align:top;">RAG Pipeline Design (SOLR + LLM + grounding)</td>
 </tr>
@@ -117,17 +117,17 @@ PM of record for enterprise eCommerce search and conversational AI at a global d
 ### THERMO FISHER SCIENTIFIC | Carlsbad, CA (Remote)
 **Sr. Product Manager, Search and Selection** | 2021 - June 2024
 
-Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com) across 10M+ product catalog with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
+Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.com); owned all on-site search across 10M+ products with 95% decision authority; directed 30 team members across 6 functions and a $1-2M annual budget.
 
-- Search implementation cited by independent search experts as a benchmark for eCommerce search at scale
-- Drove CTR +7.5%, Top-5 clicks +15%, search usage +13% (2023) through ML-driven relevance optimization at enterprise scale
+- Site search implementation cited by independent search experts as a benchmark for eCommerce site search at scale
+- Drove CTR +7.5%, Top-5 clicks +15%, site search usage +13% (2023) through ML-driven relevance optimization at enterprise scale
 - Directed 5 on/offshore Agile SCRUM dev teams; served as hiring manager with 3 direct reports; presented roadmaps at annual in-person global business unit meetings
 - Defined and drove delivery of query understanding pipeline: synonym management (Lucidworks Fusion), spell correction, ML autocomplete, customer-specific pricing and entitlements
-- Designed formal KPI definition framework: metric definitions, calculation methodology, glossary; published as org-level artifact across search and analytics teams
+- Designed formal KPI definition framework: metric definitions, calculation methodology, glossary; published as org-level artifact across site search and analytics teams
 
 **Product Manager, Search and Selection** | 2014 - 2021
 
-- Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
+- Awarded full product ownership of fishersci.com (~$1.5B channel) in addition to thermofisher.com; delivered multilingual site search and constructed human-judged golden evaluation sets for repeatable offline relevance measurement
 - Orchestrated full site search platform migrations (FAST to Endeca; Endeca to Lucidworks Fusion): vendor evaluation, pre-production A/B testing, and post-install SLA and performance specifications
 - Built null-results recovery for fishersci.com using supplemental data and targeted query broadening strategies
 
@@ -135,7 +135,7 @@ Sole PM on a $3B+ digital commerce revenue channel (thermofisher.com, fishersci.
 - Led site search platform integration (FAST) through corporate acquisition transition
 
 **Web Content Specialist / Business Analyst, Site Search** | 2010 - 2013
-- Built global synonym management process and search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly search metrics dashboards distributed to Directors, VPs, and business unit leadership
+- Built global synonym management process and site search platform emulator (FAST) reducing relevancy tuning from weeks to 30 minutes; created monthly site search metrics dashboards distributed to Directors, VPs, and business unit leadership
 
 ### SAFE LIFE CORPORATION | Del Mar, CA
 **Associate Director, Product Management & Business Development** | 2007 - 2010
