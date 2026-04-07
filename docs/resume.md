@@ -145,6 +145,17 @@ Sole Product Manager on a $3B+ digital commerce revenue channel (thermofisher.co
 **Research Associate II** | 1999 - 2003
 - Designed division-wide Product Development Database (VBA/SQL/ODBC); won Motorola Bravo Award; earned full corporate MBA sponsorship; received 3X Stock Option Awards
 
+---
+
+### PROJECTS
+
+**SearchReference | Personal Project | 2026**
+- Deploy a containerized full-stack search engineering demo on a Linux VPS (Docker Compose): Qdrant vector database, FastAPI Python search API, Next.js React frontend, and Nginx reverse proxy
+- Implement 9 search modes including BM25 keyword, dense vector, hybrid RRF, and RAG with LLM reranking; benchmark against real datasets (STaRK-Amazon, ESCi)
+- Infrastructure on my demo domain; Phase 2 in progress: data ingestion pipeline and search endpoint implementation
+
+---
+
 ## EDUCATION & CERTIFICATIONS
 
 **M.B.A.**, Arizona State University, W.P. Carey School of Business
