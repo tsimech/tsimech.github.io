@@ -1,6 +1,6 @@
 ---
 title: "Generic Resume"
-robots: noindex, nofollow
+robots: noindex
 ---
 <style>
 @media print {
